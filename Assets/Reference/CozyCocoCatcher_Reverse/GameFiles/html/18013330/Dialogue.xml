@@ -1,0 +1,26 @@
+<Dialogues>
+
+	<Dialogue id=Malachai>
+		<Line id='0'>Ah, so you came here at last.
+
+We've been wondering whether another foolhardy warrior, ever thirsty for glory, would pay us a visit.
+
+Stay awhile, stranger, and listen.</Line>
+		<Line id='1' Quest='A Lost Tome'>There is great evil lurking in the underbelly of this accursed cathedral. Dreadkeep, we call it. We saw many a hero enter that gate, never to return.
+
+I doubt I'd ever see you again, either.
+
+But, on the off chance that you make it back, I want you to bring me something.
+
+It's a large leatherbound tome, with a bookmark fashioned after a human tongue. A grisly image, I know.
+
+You don't strike me as a squeamish kind, though.</Line>
+	</Dialogue>
+
+	<Dialogue id="ARIANA">
+		<Line id='0'>If you think I'm going to stop you from descending into the catacombs, like the rest of those fools, you are mistaken.
+
+Your breath is yours to waste.</Line>
+	</Dialogue>
+
+</Dialogues>

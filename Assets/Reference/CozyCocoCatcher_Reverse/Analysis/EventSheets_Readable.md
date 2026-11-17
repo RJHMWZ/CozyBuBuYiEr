@@ -1,0 +1,932 @@
+# Construct 3 事件表可读索引
+
+> 本文件由 data.json + objRefTable.js 自动生成。方法名通过导出项目引用表的索引映射得到；参数仍保留原始序列化内容，避免错误猜测表达式语义。
+
+## eNodes
+
+- **引用事件表**：`eDebug`（disabled=False）
+- **事件组：Controls**（enabled_flag=True，disabled=False）
+  - 条件：`System` → `C3.Plugins.System.Cnds.IsGroupActive`；参数 `[[1,[0]]]`；表达式引用提示 `[]`
+  - **事件 #2**（disabled=False，uid=830964099708173）
+    - IF `Mouse` → `C3.Plugins.Mouse.Cnds.OnWheel`；参数 `[[3,1]]`；表达式引用提示 `[]`
+    - THEN `System` → `C3.Plugins.System.Acts.SetLayoutScale`；参数 `[[0,[1,[4,27]]]]`；表达式引用提示 `["C3.Plugins.System.Exps.layoutscale"]`
+  - **事件 #3**（disabled=False，uid=950749728655544）
+    - IF `Mouse` → `C3.Plugins.Mouse.Cnds.OnWheel`；参数 `[[3,0]]`；表达式引用提示 `[]`
+    - THEN `System` → `C3.Plugins.System.Acts.SetLayoutScale`；参数 `[[0,[2,[4,27]]]]`；表达式引用提示 `["C3.Plugins.System.Exps.layoutscale"]`
+  - **事件 #4**（disabled=False，uid=307491519968789）
+    - IF `Mouse` → `C3.Plugins.Mouse.Cnds.IsButtonDown`；参数 `[[3,2]]`；表达式引用提示 `[]`
+    - THEN `Camera` → `C3.Plugins.Sprite.Acts.SetPos`；参数 `[[0,[3,[2,37,false,0],[2,37,false,2],[1,1,30,false]]],[0,[3,[2,37,false,1],[2,37,false,3],[1,1,31,false]]]]`；表达式引用提示 `["C3.Plugins.Mouse.Exps.AbsoluteX","C3.Plugins.Mouse.Exps.AbsoluteY"]`
+  - **事件 #5**（disabled=False，uid=613423813242037）
+    - IF `Mouse` → `C3.Plugins.Mouse.Cnds.OnClick`；参数 `[[3,2],[3,0]]`；表达式引用提示 `[]`
+    - THEN `Camera` → `C3.Plugins.Sprite.Acts.SetInstanceVar`；参数 `[[10,0],[7,[4,[1,37,34,false]]]]`；表达式引用提示 `["C3.Plugins.Sprite.Exps.X"]`
+    - THEN `Camera` → `C3.Plugins.Sprite.Acts.SetInstanceVar`；参数 `[[10,1],[7,[4,[1,37,35,false]]]]`；表达式引用提示 `["C3.Plugins.Sprite.Exps.Y"]`
+    - THEN `Camera` → `C3.Plugins.Sprite.Acts.SetInstanceVar`；参数 `[[10,2],[7,[5,[1,1,30,false]]]]`；表达式引用提示 `["C3.Plugins.Mouse.Exps.AbsoluteX"]`
+    - THEN `Camera` → `C3.Plugins.Sprite.Acts.SetInstanceVar`；参数 `[[10,3],[7,[5,[1,1,31,false]]]]`；表达式引用提示 `["C3.Plugins.Mouse.Exps.AbsoluteY"]`
+  - **事件 #6**（disabled=False，uid=999248292417788）
+    - IF `Keyboard` → `C3.Plugins.Keyboard.Cnds.OnKey`；参数 `[[9,32]]`；表达式引用提示 `[]`
+    - THEN `Camera` → `C3.Behaviors.Tween.Acts.StopAllTweens`；参数 `null`；表达式引用提示 `[]`
+    - THEN `Camera` → `C3.Behaviors.Tween.Acts.TweenTwoProperties`；参数 `[[1,[6]],[3,0],[0,[7]],[0,[8]],[0,[9,[1,37,34,false],[1,37,35,false]]],[18,3],[3,0],[3,0],[3,0],[0,[10]]]`；表达式引用提示 `["C3.Plugins.Sprite.Exps.X","C3.Plugins.Sprite.Exps.Y"]`
+  - **事件 #7**（disabled=False，uid=423222864183421）
+    - IF `Mouse` → `C3.Plugins.Mouse.Cnds.OnRelease`；参数 `[[3,2]]`；表达式引用提示 `[]`
+    - THEN `Camera` → `C3.Behaviors.Tween.Acts.TweenTwoProperties`；参数 `[[1,[11]],[3,0],[0,[12,[2,37,false,0],[2,37,false,2],[1,1,30,false],[4,40]]],[0,[13,[2,37,false,1],[2,37,false,3],[1,1,31,false],[4,41]]],[0,[14]],[18,3],[3,0],[3,0],[3,0],[0,[10]]]`；表达式引用提示 `["C3.Plugins.Mouse.Exps.AbsoluteX","C3.Plugins.System.Exps.layoutwidth","C3.Plugins.Mouse.Exps.AbsoluteY","C3.Plugins.System.Exps.layoutheight"]`
+  - **事件 #8**（disabled=False，uid=172234763592665）
+    - IF `System` → `C3.Plugins.System.Cnds.OnLayoutStart`；参数 `null`；表达式引用提示 `[]`
+    - THEN `Custom:Transition` → `Transition (custom behavior/function call)`；参数 `[[1,[15]]]`；表达式引用提示 `[]`
+    - THEN `Mouse` → `C3.Plugins.Mouse.Acts.SetCursor2`；参数 `[[3,2]]`；表达式引用提示 `[]`
+    - THEN `Camera` → `C3.Plugins.Sprite.Acts.SetPos`；参数 `[[0,[16,[4,40]]],[0,[16,[4,41]]]]`；表达式引用提示 `["C3.Plugins.System.Exps.layoutwidth","C3.Plugins.System.Exps.layoutheight"]`
+    - THEN `System` → `C3.Plugins.System.Acts.SetFullscreenQuality`；参数 `[[3,1]]`；表达式引用提示 `[]`
+    - THEN `NodeParticles` → `C3.Plugins.Particles.Acts.FastForward`；参数 `[[0,[17]]]`；表达式引用提示 `[]`
+  - **事件 #9**（disabled=False，uid=777431464529994）
+    - IF `System` → `C3.Plugins.System.Cnds.EveryTick`；参数 `null`；表达式引用提示 `[]`
+    - THEN `Cursor` → `C3.Plugins.Sprite.Acts.SetPos`；参数 `[[0,[18,[1,1,47,false]]],[0,[18,[1,1,48,false]]]]`；表达式引用提示 `["C3.Plugins.Mouse.Exps.X","C3.Plugins.Mouse.Exps.Y"]`
+    - THEN `Cursor` → `C3.Plugins.Sprite.Acts.MoveToTop`；参数 `null`；表达式引用提示 `[]`
+    - THEN `TierBar` → `C3.Plugins.TiledBg.Acts.SetWidth`；参数 `[[0,[19,[3,528353018013296],[3,689939414217685],[1,85,51,false],[1,85,51,false]]]]`；表达式引用提示 `["C3.Plugins.TiledBg.Exps.ImageWidth"]`
+    - THEN `NodeBG` → `C3.Plugins.TiledBg.Acts.SetImageOffsetX`；参数 `[[0,[20,[1,84,53,false],[4,54]]]]`；表达式引用提示 `["C3.Plugins.TiledBg.Exps.ImageOffsetX","C3.Plugins.System.Exps.dt"]`
+    - THEN `NodeBG` → `C3.Plugins.TiledBg.Acts.SetImageOffsetY`；参数 `[[0,[20,[1,84,56,false],[4,54]]]]`；表达式引用提示 `["C3.Plugins.TiledBg.Exps.ImageOffsetY","C3.Plugins.System.Exps.dt"]`
+    - THEN `NodeSelect` → `C3.Plugins.Sprite.Acts.MoveToTop`；参数 `null`；表达式引用提示 `[]`
+  - **事件 #10**（disabled=True，uid=794248990945544）
+    - IF `Mouse` → `C3.Plugins.Mouse.Cnds.IsButtonDown`；参数 `[[3,0]]`；表达式引用提示 `[]`
+    - IF `Mouse` → `C3.Plugins.Mouse.Cnds.IsButtonDown`；参数 `[[3,2]]`；表达式引用提示 `[]`
+    - THEN `Cursor` → `C3.Plugins.Sprite.Acts.SetAnimFrame`；参数 `[[7,[10]]]`；表达式引用提示 `[]`
+  - **事件 #11**（disabled=False，uid=955203453316470）
+    - IF `System` → `C3.Plugins.System.Cnds.Else`；参数 `null`；表达式引用提示 `[]`
+    - THEN `Cursor` → `C3.Plugins.Sprite.Acts.SetAnimFrame`；参数 `[[7,[21]]]`；表达式引用提示 `[]`
+  - **事件 #12**（disabled=True，uid=848132243748389）
+    - IF `Keyboard` → `C3.Plugins.Keyboard.Cnds.IsKeyDown`；参数 `[[9,87]]`；表达式引用提示 `[]`
+    - IF `Keyboard` → `C3.Plugins.Keyboard.Cnds.IsKeyDown`；参数 `[[9,38]]`；表达式引用提示 `[]`
+    - **事件 #13**（disabled=False，uid=845799902184596）
+      - IF `Camera` → `C3.Plugins.Sprite.Cnds.CompareY`；参数 `[[8,4],[0,[22]]]`；表达式引用提示 `[]`
+      - THEN `Camera` → `C3.Behaviors.EightDir.Acts.SimulateControl`；参数 `[[3,2]]`；表达式引用提示 `[]`
+  - **事件 #14**（disabled=True，uid=197853298488137）
+    - IF `Keyboard` → `C3.Plugins.Keyboard.Cnds.IsKeyDown`；参数 `[[9,65]]`；表达式引用提示 `["C3.Plugins.System.Exps.find"]`
+    - IF `Keyboard` → `C3.Plugins.Keyboard.Cnds.IsKeyDown`；参数 `[[9,37]]`；表达式引用提示 `[]`
+    - **事件 #15**（disabled=False，uid=425295328584429）
+      - IF `Camera` → `C3.Plugins.Sprite.Cnds.CompareX`；参数 `[[8,4],[0,[23]]]`；表达式引用提示 `[]`
+      - THEN `Camera` → `C3.Behaviors.EightDir.Acts.SimulateControl`；参数 `[[3,0]]`；表达式引用提示 `[]`
+  - **事件 #16**（disabled=True，uid=715601074713595）
+    - IF `Keyboard` → `C3.Plugins.Keyboard.Cnds.IsKeyDown`；参数 `[[9,83]]`；表达式引用提示 `["C3.Plugins.System.Exps.tokenat"]`
+    - IF `Keyboard` → `C3.Plugins.Keyboard.Cnds.IsKeyDown`；参数 `[[9,40]]`；表达式引用提示 `["C3.Plugins.System.Exps.layoutwidth"]`
+    - **事件 #17**（disabled=False，uid=954494063382891）
+      - IF `Camera` → `C3.Plugins.Sprite.Cnds.CompareY`；参数 `[[8,2],[0,[24,[4,41]]]]`；表达式引用提示 `["C3.Plugins.System.Exps.layoutheight"]`
+      - THEN `Camera` → `C3.Behaviors.EightDir.Acts.SimulateControl`；参数 `[[3,3]]`；表达式引用提示 `[]`
+  - **事件 #18**（disabled=True，uid=748751909047467）
+    - IF `Keyboard` → `C3.Plugins.Keyboard.Cnds.IsKeyDown`；参数 `[[9,68]]`；表达式引用提示 `["C3.Plugins.System.Exps.int"]`
+    - IF `Keyboard` → `C3.Plugins.Keyboard.Cnds.IsKeyDown`；参数 `[[9,39]]`；表达式引用提示 `[]`
+    - **事件 #19**（disabled=False，uid=623233521100248）
+      - IF `Camera` → `C3.Plugins.Sprite.Cnds.CompareX`；参数 `[[8,2],[0,[25,[4,40]]]]`；表达式引用提示 `["C3.Plugins.System.Exps.layoutwidth"]`
+      - THEN `Camera` → `C3.Behaviors.EightDir.Acts.SimulateControl`；参数 `[[3,1]]`；表达式引用提示 `[]`
+- **变量** `Intro`：type=2 (boolean)，初始值=`True`，constant=False，static=False
+- **变量** `Ticket`：type=2 (boolean)，初始值=`False`，constant=False，static=False
+- **变量** `WorldTier`：type=0 (number)，初始值=`0`，constant=False，static=False
+- **变量** `WorldTierMax`：type=0 (number)，初始值=`70`，constant=False，static=False
+- **事件组：Resources**（enabled_flag=True，disabled=False）
+  - 条件：`System` → `C3.Plugins.System.Cnds.IsGroupActive`；参数 `[[1,[26]]]`；表达式引用提示 `[]`
+  - **事件 #21**（disabled=False，uid=982774509109884）
+    - IF [反向条件] `System` → `C3.Plugins.System.Cnds.ForEach`；参数 `[[4,8]]`；表达式引用提示 `[]`
+    - **事件 #22**（disabled=False，uid=597094870295652）
+      - IF `System` → `C3.Plugins.System.Cnds.Compare`；参数 `[[7,[27,[4,65],[2,8,true,0]]],[8,1],[7,[28]]]`；表达式引用提示 `["C3.Plugins.System.Exps.layoutscale","C3.Plugins.System.Exps.find"]`
+      - THEN `MainFont` → `C3.Plugins.Spritefont2.Acts.SetText`；参数 `[[7,[29,[1,6,67,false],[4,68],[2,8,true,0]]]]`；表达式引用提示 `["C3.Plugins.Arr.Exps.At","C3.Plugins.System.Exps.int"]`
+      - **事件 #23**（disabled=False，uid=905342658354259）
+        - IF `Resources` → `C3.Plugins.Arr.Cnds.CompareXY`；参数 `[[0,[30,[4,68],[2,8,true,0]]],[0,[21]],[8,5],[7,[31]]]`；表达式引用提示 `["C3.Plugins.Mouse.Exps.AbsoluteX","C3.Plugins.System.Exps.int","C3.Plugins.Mouse.Exps.AbsoluteY"]`
+        - THEN `MainFont` → `C3.Plugins.Spritefont2.Acts.SetText`；参数 `[[7,[32,[4,70],[1,6,67,false],[4,68],[2,8,true,0]]]]`；表达式引用提示 `["C3.Plugins.System.Exps.roundtodp","C3.Plugins.Arr.Exps.At","C3.Plugins.System.Exps.int"]`
+        - **事件 #24**（disabled=False，uid=482108463311683）
+          - IF `Resources` → `C3.Plugins.Arr.Cnds.CompareXY`；参数 `[[0,[30,[4,68],[2,8,true,0]]],[0,[21]],[8,5],[7,[33]]]`；表达式引用提示 `["C3.Plugins.Mouse.Exps.AbsoluteX","C3.Plugins.System.Exps.int"]`
+          - THEN `MainFont` → `C3.Plugins.Spritefont2.Acts.SetText`；参数 `[[7,[34,[4,70],[1,6,67,false],[4,68],[2,8,true,0]]]]`；表达式引用提示 `["C3.Plugins.Sprite.Exps.X","C3.Plugins.System.Exps.roundtodp","C3.Plugins.Arr.Exps.At","C3.Plugins.System.Exps.int"]`
+          - **事件 #25**（disabled=False，uid=714919931022126）
+            - IF `Resources` → `C3.Plugins.Arr.Cnds.CompareXY`；参数 `[[0,[30,[4,68],[2,8,true,0]]],[0,[21]],[8,5],[7,[35]]]`；表达式引用提示 `["C3.Plugins.Mouse.Exps.AbsoluteX","C3.Plugins.System.Exps.int","C3.Plugins.Sprite.Exps.Y"]`
+            - THEN `MainFont` → `C3.Plugins.Spritefont2.Acts.SetText`；参数 `[[7,[36,[4,70],[1,6,67,false],[4,68],[2,8,true,0]]]]`；表达式引用提示 `["C3.Plugins.System.Exps.roundtodp","C3.Plugins.Arr.Exps.At","C3.Plugins.System.Exps.int"]`
+  - **事件 #26**（disabled=False，uid=307549222975622）
+    - IF `System` → `C3.Plugins.System.Cnds.OnLayoutStart`；参数 `null`；表达式引用提示 `[]`
+    - THEN `NodeProgress` → `C3.Plugins.TiledBg.Acts.SetWidth`；参数 `[[0,[21]]]`；表达式引用提示 `[]`
+  - **事件 #27**（disabled=False，uid=715321380727131）
+    - IF `System` → `C3.Plugins.System.Cnds.CompareVar`；参数 `[[11,528353018013296],[8,5],[7,[37,[3,689939414217685]]]]`；表达式引用提示 `[]`
+    - THEN `System` → `C3.Plugins.System.Acts.SetBoolVar`；参数 `[[11,217671953053614],[3,1]]`；表达式引用提示 `[]`
+- **事件组：Nodes**（enabled_flag=True，disabled=False）
+  - 条件：`System` → `C3.Plugins.System.Cnds.IsGroupActive`；参数 `[[1,[38]]]`；表达式引用提示 `[]`
+  - **事件 #29**（disabled=False，uid=138002253889656）
+    - IF `Node` → `C3.Plugins.Sprite.Cnds.OnCreated`；参数 `null`；表达式引用提示 `[]`
+    - THEN `Node` → `C3.Plugins.Sprite.Acts.AddChild`；参数 `[[4,79],[16,true],[16,true],[16,true],[16,false],[16,false],[16,true],[16,false],[16,false],[16,true],[16,false]]`；表达式引用提示 `[]`
+    - THEN `NodeParticles` → `C3.Plugins.Particles.Acts.MoveToBottom`；参数 `null`；表达式引用提示 `[]`
+    - **事件 #30**（disabled=False，uid=699293762988771）
+      - IF `Node` → `C3.Plugins.Sprite.Cnds.IsBoolInstanceVarSet`；参数 `[[10,0]]`；表达式引用提示 `[]`
+      - THEN `Node` → `C3.Plugins.Sprite.Acts.SetVisible`；参数 `[[3,1]]`；表达式引用提示 `[]`
+    - **事件 #31**（disabled=False，uid=243495904344549）
+      - IF `System` → `C3.Plugins.System.Cnds.Else`；参数 `null`；表达式引用提示 `[]`
+      - THEN `Node` → `C3.Plugins.Sprite.Acts.SetVisible`；参数 `[[3,0]]`；表达式引用提示 `[]`
+    - **事件 #32**（disabled=False，uid=785858226865086）
+      - IF `Node` → `C3.Plugins.Sprite.Cnds.CompareInstanceVar`；参数 `[[10,8],[8,0],[7,[21]]]`；表达式引用提示 `[]`
+      - THEN `Node` → `C3.Plugins.Sprite.Acts.SetInstanceVar`；参数 `[[10,9],[7,[39]]]`；表达式引用提示 `[]`
+    - **事件 #33**（disabled=False，uid=764503776210138）
+      - IF `Node` → `C3.Plugins.Sprite.Cnds.CompareInstanceVar`；参数 `[[10,8],[8,0],[7,[10]]]`；表达式引用提示 `[]`
+      - THEN `Node` → `C3.Plugins.Sprite.Acts.SetInstanceVar`；参数 `[[10,9],[7,[40]]]`；表达式引用提示 `["C3.Plugins.System.Exps.layoutwidth"]`
+    - **事件 #34**（disabled=False，uid=104951704072462）
+      - IF `Node` → `C3.Plugins.Sprite.Cnds.CompareInstanceVar`；参数 `[[10,8],[8,0],[7,[41]]]`；表达式引用提示 `["C3.Plugins.System.Exps.layoutheight"]`
+      - THEN `Node` → `C3.Plugins.Sprite.Acts.SetInstanceVar`；参数 `[[10,9],[7,[42]]]`；表达式引用提示 `[]`
+    - **事件 #35**（disabled=False，uid=312450324991727）
+      - IF `<无条件 / 由父事件继承>`
+      - THEN `NodeParticles` → `C3.Plugins.Particles.Acts.SetDefaultColor`；参数 `[[0,[30,[4,80],[2,35,true,9]]]]`；表达式引用提示 `["C3.Plugins.Mouse.Exps.AbsoluteX","C3.Plugins.System.Exps.hexcolor","C3.Plugins.Sprite.Exps.Y"]`
+      - THEN `Node` → `C3.Plugins.Sprite.Acts.SetEffectParam`；参数 `[[1,[43]],[0,[10]],[0,[30,[4,80],[2,35,true,9]]]]`；表达式引用提示 `["C3.Plugins.Mouse.Exps.AbsoluteX","C3.Plugins.System.Exps.hexcolor","C3.Plugins.Sprite.Exps.Y"]`
+      - THEN `Node` → `C3.Plugins.Sprite.Acts.SetAnimFrame`；参数 `[[7,[44,[2,35,true,3]]]]`；表达式引用提示 `["C3.Plugins.Sprite.Exps.Y"]`
+    - **事件 #36**（disabled=False，uid=215606169737138）
+      - IF `Node` → `C3.Plugins.Sprite.Cnds.CompareInstanceVar`；参数 `[[10,3],[8,0],[7,[45]]]`；表达式引用提示 `[]`
+      - THEN `Node` → `C3.Plugins.Sprite.Acts.SetInstanceVar`；参数 `[[10,2],[7,[46]]]`；表达式引用提示 `[]`
+      - THEN `Node` → `C3.Plugins.Sprite.Acts.SetInstanceVar`；参数 `[[10,1],[7,[47]]]`；表达式引用提示 `["C3.Plugins.Mouse.Exps.X"]`
+    - **事件 #37**（disabled=False，uid=767794131274559）
+      - IF `Node` → `C3.Plugins.Sprite.Cnds.CompareInstanceVar`；参数 `[[10,3],[8,0],[7,[48]]]`；表达式引用提示 `["C3.Plugins.Mouse.Exps.Y"]`
+      - THEN `Node` → `C3.Plugins.Sprite.Acts.SetInstanceVar`；参数 `[[10,2],[7,[49]]]`；表达式引用提示 `[]`
+      - THEN `Node` → `C3.Plugins.Sprite.Acts.SetInstanceVar`；参数 `[[10,1],[7,[50]]]`；表达式引用提示 `[]`
+    - **事件 #38**（disabled=False，uid=549049726365870）
+      - IF `Node` → `C3.Plugins.Sprite.Cnds.CompareInstanceVar`；参数 `[[10,3],[8,0],[7,[51]]]`；表达式引用提示 `["C3.Plugins.TiledBg.Exps.ImageWidth"]`
+      - THEN `Node` → `C3.Plugins.Sprite.Acts.SetInstanceVar`；参数 `[[10,2],[7,[52]]]`；表达式引用提示 `[]`
+      - THEN `Node` → `C3.Plugins.Sprite.Acts.SetInstanceVar`；参数 `[[10,1],[7,[53]]]`；表达式引用提示 `["C3.Plugins.TiledBg.Exps.ImageOffsetX"]`
+    - **事件 #39**（disabled=False，uid=275587145516111）
+      - IF `Node` → `C3.Plugins.Sprite.Cnds.CompareInstanceVar`；参数 `[[10,3],[8,0],[7,[54]]]`；表达式引用提示 `["C3.Plugins.System.Exps.dt"]`
+      - THEN `Node` → `C3.Plugins.Sprite.Acts.SetInstanceVar`；参数 `[[10,2],[7,[55]]]`；表达式引用提示 `[]`
+      - THEN `Node` → `C3.Plugins.Sprite.Acts.SetInstanceVar`；参数 `[[10,1],[7,[56]]]`；表达式引用提示 `["C3.Plugins.TiledBg.Exps.ImageOffsetY"]`
+    - **事件 #40**（disabled=False，uid=211709294315919）
+      - IF `Node` → `C3.Plugins.Sprite.Cnds.CompareInstanceVar`；参数 `[[10,3],[8,0],[7,[57]]]`；表达式引用提示 `[]`
+      - THEN `Node` → `C3.Plugins.Sprite.Acts.SetInstanceVar`；参数 `[[10,2],[7,[58]]]`；表达式引用提示 `[]`
+      - THEN `Node` → `C3.Plugins.Sprite.Acts.SetInstanceVar`；参数 `[[10,1],[7,[59]]]`；表达式引用提示 `[]`
+    - **事件 #41**（disabled=False，uid=840402174778960）
+      - IF `Node` → `C3.Plugins.Sprite.Cnds.CompareInstanceVar`；参数 `[[10,3],[8,0],[7,[60]]]`；表达式引用提示 `[]`
+      - THEN `Node` → `C3.Plugins.Sprite.Acts.SetInstanceVar`；参数 `[[10,2],[7,[61]]]`；表达式引用提示 `[]`
+      - THEN `Node` → `C3.Plugins.Sprite.Acts.SetInstanceVar`；参数 `[[10,1],[7,[62]]]`；表达式引用提示 `[]`
+    - **事件 #42**（disabled=False，uid=356167280694502）
+      - IF `Node` → `C3.Plugins.Sprite.Cnds.CompareInstanceVar`；参数 `[[10,3],[8,0],[7,[63]]]`；表达式引用提示 `[]`
+      - THEN `Node` → `C3.Plugins.Sprite.Acts.SetInstanceVar`；参数 `[[10,2],[7,[64]]]`；表达式引用提示 `[]`
+      - THEN `Node` → `C3.Plugins.Sprite.Acts.SetInstanceVar`；参数 `[[10,1],[7,[65]]]`；表达式引用提示 `["C3.Plugins.System.Exps.find"]`
+    - **事件 #43**（disabled=False，uid=289248308561063）
+      - IF `Node` → `C3.Plugins.Sprite.Cnds.CompareInstanceVar`；参数 `[[10,3],[8,0],[7,[66]]]`；表达式引用提示 `[]`
+      - THEN `Node` → `C3.Plugins.Sprite.Acts.SetInstanceVar`；参数 `[[10,2],[7,[67]]]`；表达式引用提示 `["C3.Plugins.Arr.Exps.At"]`
+      - THEN `Node` → `C3.Plugins.Sprite.Acts.SetInstanceVar`；参数 `[[10,1],[7,[68]]]`；表达式引用提示 `["C3.Plugins.System.Exps.int"]`
+    - **事件 #44**（disabled=False，uid=560094834881585）
+      - IF `Node` → `C3.Plugins.Sprite.Cnds.CompareInstanceVar`；参数 `[[10,3],[8,0],[7,[69]]]`；表达式引用提示 `[]`
+      - THEN `Node` → `C3.Plugins.Sprite.Acts.SetInstanceVar`；参数 `[[10,2],[7,[70]]]`；表达式引用提示 `["C3.Plugins.System.Exps.roundtodp"]`
+      - THEN `Node` → `C3.Plugins.Sprite.Acts.SetInstanceVar`；参数 `[[10,1],[7,[71]]]`；表达式引用提示 `[]`
+  - **事件 #45**（disabled=False，uid=940128400549721）
+    - IF `Mouse` → `C3.Plugins.Mouse.Cnds.IsButtonDown`；参数 `[[3,0]]`；表达式引用提示 `[]`
+    - IF `Mouse` → `C3.Plugins.Mouse.Cnds.IsOverObject`；参数 `[[4,77]]`；表达式引用提示 `[]`
+    - IF `Node` → `C3.Plugins.Sprite.Cnds.IsBoolInstanceVarSet`；参数 `[[10,0]]`；表达式引用提示 `[]`
+    - IF `Node` → `C3.Plugins.Sprite.Cnds.CompareInstanceVar`；参数 `[[10,5],[8,2],[7,[44,[2,35,false,6]]]]`；表达式引用提示 `["C3.Plugins.Sprite.Exps.Y"]`
+    - IF `System` → `C3.Plugins.System.Cnds.Compare`；参数 `[[7,[72,[4,68],[4,83],[2,35,true,7],[2,35,false,5]]],[8,3],[7,[73,[1,6,67,false],[2,35,false,8]]]]`；表达式引用提示 `["C3.Plugins.System.Exps.int","C3.Plugins.System.Exps.tokenat","C3.Plugins.Sprite.Exps.Y","C3.Plugins.Arr.Exps.At"]`
+    - THEN `NodeProgress` → `C3.Plugins.TiledBg.Acts.SetWidth`；参数 `[[0,[74,[2,35,false,5],[2,35,false,6],[2,35,false,10],[1,80,51,false]]]]`；表达式引用提示 `["C3.Plugins.Sprite.Exps.Y","C3.Plugins.System.Exps.hexcolor","C3.Plugins.TiledBg.Exps.ImageWidth"]`
+    - **事件 #46**（disabled=False，uid=338997405128402）
+      - IF `Node` → `C3.Plugins.Sprite.Cnds.CompareInstanceVar`；参数 `[[10,10],[8,5],[7,[10]]]`；表达式引用提示 `[]`
+      - THEN `Node` → `C3.Plugins.Sprite.Acts.SetInstanceVar`；参数 `[[10,10],[7,[21]]]`；表达式引用提示 `[]`
+      - THEN `Audio` → `C3.Plugins.Audio.Acts.Play`；参数 `[[2,["unlock",false]],[3,0],[0,[21]],[0,[21]],[1,[75]]]`；表达式引用提示 `[]`
+      - THEN `System` → `C3.Plugins.System.Acts.AddVar`；参数 `[[11,528353018013296],[7,[10]]]`；表达式引用提示 `[]`
+      - THEN `Node` → `C3.Behaviors.Tween.Acts.StopAllTweens`；参数 `null`；表达式引用提示 `[]`
+      - THEN `Camera` → `C3.Behaviors.scrollto.Acts.Shake`；参数 `[[0,[76]],[0,[77]],[3,0]]`；表达式引用提示 `[]`
+      - THEN `Resources` → `C3.Plugins.Arr.Acts.SetXY`；参数 `[[0,[44,[2,35,false,8]]],[0,[21]],[7,[78,[1,6,67,false],[2,35,false,8],[4,68],[4,83],[2,35,true,7],[2,35,false,5]]]]`；表达式引用提示 `["C3.Plugins.Sprite.Exps.Y","C3.Plugins.Arr.Exps.At","C3.Plugins.System.Exps.int","C3.Plugins.System.Exps.tokenat"]`
+      - THEN `Dictionary` → `C3.Plugins.Dictionary.Acts.SetKey`；参数 `[[1,[44,[2,35,true,3]]],[7,[79,[1,3,89,false],[2,35,true,3],[4,68],[4,83],[2,35,true,4],[2,35,false,5]]]]`；表达式引用提示 `["C3.Plugins.Sprite.Exps.Y","C3.Plugins.Dictionary.Exps.Get","C3.Plugins.System.Exps.int","C3.Plugins.System.Exps.tokenat"]`
+      - THEN `Node` → `C3.Plugins.Sprite.Acts.SetInstanceVar`；参数 `[[10,5],[7,[80,[2,35,false,5]]]]`；表达式引用提示 `["C3.Plugins.System.Exps.hexcolor","C3.Plugins.Sprite.Exps.Y"]`
+      - THEN `Node` → `C3.Plugins.Sprite.Acts.SetAngle`；参数 `[[0,[81]]]`；表达式引用提示 `[]`
+      - THEN `Node` → `C3.Plugins.Sprite.Acts.SetSize`；参数 `[[0,[4,[1,35,92,false]]],[0,[4,[1,35,93,false]]]]`；表达式引用提示 `["C3.Plugins.Sprite.Exps.Y","C3.Plugins.Sprite.Exps.ImageWidth","C3.Plugins.Sprite.Exps.ImageHeight"]`
+      - THEN `Node` → `C3.Plugins.Sprite.Acts.SetEffectParam`；参数 `[[1,[82]],[0,[21]],[0,[83]]]`；表达式引用提示 `["C3.Plugins.System.Exps.tokenat"]`
+      - THEN `Node` → `C3.Behaviors.Tween.Acts.TweenOneProperty`；参数 `[[1,[84]],[3,6],[0,[21]],[0,[85]],[18,12],[3,0],[3,0],[3,0],[0,[10]]]`；表达式引用提示 `[]`
+      - THEN `Node` → `C3.Behaviors.Tween.Acts.TweenTwoProperties`；参数 `[[1,[84]],[3,1],[0,[86,[1,35,92,false]]],[0,[87,[1,35,93,false]]],[0,[88]],[18,3],[3,0],[3,0],[3,1],[0,[10]]]`；表达式引用提示 `["C3.Plugins.Sprite.Exps.Y","C3.Plugins.Sprite.Exps.ImageWidth","C3.Plugins.Sprite.Exps.ImageHeight"]`
+      - THEN `Node` → `C3.Behaviors.Tween.Acts.TweenValue`；参数 `[[1,[82]],[0,[89]],[0,[83]],[0,[14]],[18,0],[3,0],[3,0],[3,0],[0,[10]]]`；表达式引用提示 `["C3.Plugins.Dictionary.Exps.Get","C3.Plugins.System.Exps.tokenat"]`
+      - THEN `ItemInfo` → `C3.Plugins.NinePatch.Acts.SetAngle`；参数 `[[0,[90]]]`；表达式引用提示 `[]`
+      - THEN `ItemInfo` → `C3.Behaviors.Tween.Acts.TweenOneProperty`；参数 `[[1,[84]],[3,6],[0,[21]],[0,[85]],[18,6],[3,0],[3,0],[3,0],[0,[10]]]`；表达式引用提示 `[]`
+      - **事件 #47**（disabled=False，uid=947823857400360）
+        - IF `MainFont` → `C3.Plugins.Spritefont2.Cnds.CompareInstanceVar`；参数 `[[10,0],[8,0],[7,[91]]]`；表达式引用提示 `[]`
+        - THEN `MainFont` → `C3.Behaviors.Tween.Acts.TweenValue`；参数 `[[1,[92]],[0,[10]],[0,[93]],[0,[14]],[18,3],[3,0],[3,0],[3,1],[0,[10]]]`；表达式引用提示 `["C3.Plugins.Sprite.Exps.ImageWidth","C3.Plugins.Sprite.Exps.ImageHeight"]`
+        - THEN `MainFont` → `C3.Behaviors.Tween.Acts.TweenValue`；参数 `[[1,[82]],[0,[83]],[0,[89]],[0,[14]],[18,3],[3,0],[3,0],[3,1],[0,[10]]]`；表达式引用提示 `["C3.Plugins.System.Exps.tokenat","C3.Plugins.Dictionary.Exps.Get"]`
+      - **事件 #48**（disabled=False，uid=907784389287118）
+        - IF `Node` → `C3.Plugins.Sprite.Cnds.PickChildren`；参数 `[[4,92],[3,0]]`；表达式引用提示 `["C3.Plugins.Sprite.Exps.ImageWidth"]`
+        - **事件 #49**（disabled=False，uid=744917920790253）
+          - IF [反向条件] `System` → `C3.Plugins.System.Cnds.Repeat`；参数 `[[0,[4,[1,35,100,false]]]]`；表达式引用提示 `["C3.Plugins.Sprite.Exps.Y","C3.Plugins.Sprite.Exps.AllChildCount"]`
+          - **事件 #50**（disabled=False，uid=706899812963058）
+            - IF `Node` → `C3.Plugins.Sprite.Cnds.PickNthChild`；参数 `[[4,92],[3,0],[0,[5,[4,102]]]]`；表达式引用提示 `["C3.Plugins.Sprite.Exps.ImageWidth","C3.Plugins.System.Exps.loopindex"]`
+            - **事件 #51**（disabled=False，uid=330769945967734）
+              - IF `Nodes` → `C3.Plugins.Sprite.Cnds.IsBoolInstanceVarSet`；参数 `[[10,0]]`；表达式引用提示 `[]`
+              - THEN `Nodes` → `C3.Plugins.Sprite.Acts.SetBoolInstanceVar`；参数 `[[10,0],[3,1]]`；表达式引用提示 `[]`
+              - THEN `System` → `C3.Plugins.System.Acts.CreateObject`；参数 `[[4,78],[5,[38]],[0,[4,[1,35,34,false]]],[0,[4,[1,35,35,false]]],[16,false],[20,[84]]]`；表达式引用提示 `["C3.Plugins.Sprite.Exps.Y","C3.Plugins.Sprite.Exps.X"]`
+              - THEN `NodeLine` → `C3.Plugins.TiledBg.Acts.MoveToBottom`；参数 `null`；表达式引用提示 `[]`
+              - THEN `NodeLine` → `C3.Plugins.TiledBg.Acts.SetWidth`；参数 `[[0,[21]]]`；表达式引用提示 `[]`
+              - THEN `NodeLine` → `C3.Plugins.TiledBg.Acts.SetAngle`；参数 `[[0,[94,[1,35,34,false],[1,35,35,false],[1,92,34,false],[1,92,35,false]]]]`；表达式引用提示 `["C3.Plugins.Sprite.Exps.Y","C3.Plugins.Sprite.Exps.X","C3.Plugins.Sprite.Exps.ImageWidth"]`
+              - THEN `NodeLine` → `C3.Behaviors.Tween.Acts.TweenOneProperty`；参数 `[[1,[95]],[3,3],[0,[96,[1,35,34,false],[1,35,35,false],[1,92,34,false],[1,92,35,false]]],[0,[14]],[18,0],[3,0],[3,0],[3,0],[0,[10]]]`；表达式引用提示 `["C3.Plugins.Sprite.Exps.Y","C3.Plugins.Sprite.Exps.X","C3.Plugins.Sprite.Exps.ImageWidth"]`
+              - THEN `NodeLine` → `C3.Plugins.TiledBg.Acts.SetDefaultColor`；参数 `[[0,[97,[4,80],[2,92,true,9]]]]`；表达式引用提示 `["C3.Plugins.System.Exps.hexcolor","C3.Plugins.Sprite.Exps.ImageWidth"]`
+              - THEN `ItemInfo` → `C3.Behaviors.Tween.Acts.TweenValue`；参数 `[[1,[82]],[0,[89]],[0,[83]],[0,[98]],[18,3],[3,0],[3,0],[3,0],[0,[10]]]`；表达式引用提示 `["C3.Plugins.Dictionary.Exps.Get","C3.Plugins.System.Exps.tokenat"]`
+              - THEN `System` → `C3.Plugins.System.Acts.Wait`；参数 `[[0,[14]],[16,true]]`；表达式引用提示 `[]`
+              - THEN `Nodes` → `C3.Plugins.Sprite.Acts.SetVisible`；参数 `[[3,1]]`；表达式引用提示 `[]`
+              - THEN `Nodes` → `C3.Plugins.Sprite.Acts.SetAngle`；参数 `[[0,[81]]]`；表达式引用提示 `[]`
+              - THEN `Nodes` → `C3.Plugins.Sprite.Acts.SetSize`；参数 `[[0,[4,[1,92,92,false]]],[0,[4,[1,92,93,false]]]]`；表达式引用提示 `["C3.Plugins.Sprite.Exps.ImageWidth","C3.Plugins.Sprite.Exps.ImageHeight"]`
+              - THEN `Nodes` → `C3.Plugins.Sprite.Acts.SetEffectParam`；参数 `[[1,[82]],[0,[21]],[0,[83]]]`；表达式引用提示 `["C3.Plugins.System.Exps.tokenat"]`
+              - THEN `Nodes` → `C3.Behaviors.Tween.Acts.TweenOneProperty`；参数 `[[1,[84]],[3,6],[0,[21]],[0,[99]],[18,9],[3,0],[3,0],[3,0],[0,[10]]]`；表达式引用提示 `[]`
+              - THEN `Nodes` → `C3.Behaviors.Tween.Acts.TweenTwoProperties`；参数 `[[1,[84]],[3,1],[0,[86,[1,92,92,false]]],[0,[87,[1,92,93,false]]],[0,[88]],[18,3],[3,0],[3,0],[3,1],[0,[10]]]`；表达式引用提示 `["C3.Plugins.Sprite.Exps.ImageWidth","C3.Plugins.Sprite.Exps.ImageHeight"]`
+              - THEN `Nodes` → `C3.Behaviors.Tween.Acts.TweenValue`；参数 `[[1,[82]],[0,[100]],[0,[83]],[0,[14]],[18,0],[3,0],[3,0],[3,0],[0,[10]]]`；表达式引用提示 `["C3.Plugins.Sprite.Exps.AllChildCount","C3.Plugins.System.Exps.tokenat"]`
+              - THEN `Audio` → `C3.Plugins.Audio.Acts.Play`；参数 `[[2,["pop",false]],[3,0],[0,[21]],[0,[21]],[1,[84]]]`；表达式引用提示 `[]`
+      - **事件 #52**（disabled=False，uid=600758559405231）
+        - IF `Node` → `C3.Plugins.Sprite.Cnds.CompareInstanceVar`；参数 `[[10,5],[8,0],[7,[44,[2,35,false,6]]]]`；表达式引用提示 `["C3.Plugins.Sprite.Exps.Y"]`
+        - THEN `Camera` → `C3.Behaviors.scrollto.Acts.Shake`；参数 `[[0,[101]],[0,[77]],[3,0]]`；表达式引用提示 `[]`
+        - **事件 #53**（disabled=False，uid=916681996780734）
+          - IF `Node` → `C3.Plugins.Sprite.Cnds.PickParent`；参数 `[[4,92],[3,1]]`；表达式引用提示 `["C3.Plugins.Sprite.Exps.ImageWidth"]`
+          - **事件 #54**（disabled=False，uid=680932061479840）
+            - IF [反向条件] `System` → `C3.Plugins.System.Cnds.ForEach`；参数 `[[4,92]]`；表达式引用提示 `["C3.Plugins.Sprite.Exps.ImageWidth"]`
+            - THEN `System` → `C3.Plugins.System.Acts.Wait`；参数 `[[0,[102,[1,35,34,false],[1,35,35,false],[1,92,34,false],[1,92,35,false]]],[16,true]]`；表达式引用提示 `["C3.Plugins.System.Exps.loopindex","C3.Plugins.Sprite.Exps.Y","C3.Plugins.Sprite.Exps.X","C3.Plugins.Sprite.Exps.ImageWidth"]`
+            - THEN `Nodes` → `C3.Plugins.Sprite.Acts.SetAngle`；参数 `[[0,[81]]]`；表达式引用提示 `[]`
+            - THEN `Nodes` → `C3.Plugins.Sprite.Acts.SetSize`；参数 `[[0,[4,[1,92,92,false]]],[0,[4,[1,92,93,false]]]]`；表达式引用提示 `["C3.Plugins.Sprite.Exps.ImageWidth","C3.Plugins.Sprite.Exps.ImageHeight"]`
+            - THEN `Nodes` → `C3.Behaviors.Tween.Acts.TweenOneProperty`；参数 `[[1,[84]],[3,6],[0,[21]],[0,[99]],[18,9],[3,0],[3,0],[3,0],[0,[10]]]`；表达式引用提示 `[]`
+            - THEN `Nodes` → `C3.Behaviors.Tween.Acts.TweenTwoProperties`；参数 `[[1,[84]],[3,1],[0,[86,[1,92,92,false]]],[0,[87,[1,92,93,false]]],[0,[88]],[18,3],[3,0],[3,0],[3,1],[0,[10]]]`；表达式引用提示 `["C3.Plugins.Sprite.Exps.ImageWidth","C3.Plugins.Sprite.Exps.ImageHeight"]`
+    - **事件 #55**（disabled=False，uid=192672037646816）
+      - IF `System` → `C3.Plugins.System.Cnds.Every`；参数 `[[0,[103]]]`；表达式引用提示 `[]`
+      - THEN `Node` → `C3.Plugins.Sprite.Acts.SetInstanceVar`；参数 `[[10,10],[7,[104,[2,35,false,10]]]]`；表达式引用提示 `["C3.Plugins.Sprite.Exps.Y"]`
+    - **事件 #56**（disabled=False，uid=487024965169891）
+      - IF `System` → `C3.Plugins.System.Cnds.TriggerOnce`；参数 `null`；表达式引用提示 `[]`
+      - THEN `Audio` → `C3.Plugins.Audio.Acts.Play`；参数 `[[2,["progress",false]],[3,0],[0,[21]],[0,[21]],[1,[75]]]`；表达式引用提示 `[]`
+  - **事件 #57**（disabled=False，uid=524684019397301）
+    - IF `Node` → `C3.Behaviors.Tween.Cnds.IsPlaying`；参数 `[[1,[82]]]`；表达式引用提示 `[]`
+    - THEN `Node` → `C3.Plugins.Sprite.Acts.SetEffectParam`；参数 `[[1,[82]],[0,[21]],[0,[105,[0,35,"Tween",113,false]]]]`；表达式引用提示 `["C3.Plugins.Sprite.Exps.Y","C3.Behaviors.Tween.Exps.Value"]`
+  - **事件 #58**（disabled=False，uid=609690979310703）
+    - IF `Mouse` → `C3.Plugins.Mouse.Cnds.IsOverObject`；参数 `[[4,77]]`；表达式引用提示 `[]`
+    - IF `Node` → `C3.Plugins.Sprite.Cnds.IsBoolInstanceVarSet`；参数 `[[10,0]]`；表达式引用提示 `[]`
+    - THEN `ItemInfo` → `C3.Plugins.NinePatch.Acts.SetPos`；参数 `[[0,[106,[4,115],[1,35,34,false],[1,35,35,false],[4,115],[1,35,34,false],[1,35,35,false],[4,115],[1,35,34,false],[1,35,35,false],[4,115],[1,35,34,false],[1,35,35,false],[4,115],[1,35,34,false],[1,35,35,false]]],[0,[107,[4,116],[1,35,34,false],[1,35,35,false]]]]`；表达式引用提示 `["C3.Plugins.System.Exps.layertolayerx","C3.Plugins.Sprite.Exps.Y","C3.Plugins.Sprite.Exps.X","C3.Plugins.System.Exps.layertolayery"]`
+    - THEN `NodeText` → `C3.Plugins.Spritefont2.Acts.SetScale`；参数 `[[0,[108,[1,20,118,false]]]]`；表达式引用提示 `["C3.Plugins.NinePatch.Exps.Width"]`
+    - THEN `ItemInfo` → `C3.Plugins.NinePatch.Acts.SetVisible`；参数 `[[3,1]]`；表达式引用提示 `[]`
+    - THEN `ItemInfo` → `C3.Plugins.NinePatch.Acts.SetEffectParam`；参数 `[[1,[109]],[0,[10]],[0,[30,[4,80],[2,35,true,9]]]]`；表达式引用提示 `["C3.Plugins.Mouse.Exps.AbsoluteX","C3.Plugins.System.Exps.hexcolor","C3.Plugins.Sprite.Exps.Y"]`
+    - THEN `UpgradeButton` → `C3.Plugins.Sprite.Acts.SetDefaultColor`；参数 `[[0,[110,[2,35,false,5],[2,35,false,6],[4,80],[2,35,true,9],[4,80]]]]`；表达式引用提示 `["C3.Plugins.Sprite.Exps.Y","C3.Plugins.System.Exps.hexcolor"]`
+    - THEN `NodeSelect` → `C3.Plugins.Sprite.Acts.SetPos`；参数 `[[0,[4,[1,35,34,false]]],[0,[4,[1,35,35,false]]]]`；表达式引用提示 `["C3.Plugins.Sprite.Exps.Y","C3.Plugins.Sprite.Exps.X"]`
+    - THEN `NodeSelect` → `C3.Plugins.Sprite.Acts.SetVisible`；参数 `[[3,1]]`；表达式引用提示 `[]`
+    - **事件 #59**（disabled=False，uid=954192621490467）
+      - IF `Node` → `C3.Plugins.Sprite.Cnds.CompareInstanceVar`；参数 `[[10,5],[8,0],[7,[44,[2,35,false,6]]]]`；表达式引用提示 `["C3.Plugins.Sprite.Exps.Y"]`
+      - THEN `NodeProgress` → `C3.Plugins.TiledBg.Acts.SetWidth`；参数 `[[0,[21]]]`；表达式引用提示 `[]`
+    - **事件 #60**（disabled=False，uid=932813071088848）
+      - IF `NodeText` → `C3.Plugins.Spritefont2.Cnds.CompareInstanceVar`；参数 `[[10,0],[8,0],[7,[111]]]`；表达式引用提示 `[]`
+      - THEN `NodeText` → `C3.Plugins.Spritefont2.Acts.SetText`；参数 `[[7,[112,[4,122],[2,35,true,1],[2,35,false,5],[2,35,false,6],[4,123],[2,35,true,2],[4,83],[2,35,true,4],[2,35,false,5],[4,124],[2,35,true,4],[1,3,89,false],[2,35,true,3],[1,3,89,false],[2,35,true,3],[4,68],[4,83],[2,35,true,4],[2,35,false,5],[4,124],[2,35,true,4]]]]`；表达式引用提示 `["C3.Plugins.System.Exps.uppercase","C3.Plugins.Sprite.Exps.Y","C3.Plugins.System.Exps.replace","C3.Plugins.System.Exps.tokenat","C3.Plugins.System.Exps.tokencount","C3.Plugins.Dictionary.Exps.Get","C3.Plugins.System.Exps.int"]`
+    - **事件 #61**（disabled=False，uid=152738987458388）
+      - IF `NodeText` → `C3.Plugins.Spritefont2.Cnds.CompareInstanceVar`；参数 `[[10,0],[8,0],[7,[113]]]`；表达式引用提示 `["C3.Behaviors.Tween.Exps.Value"]`
+      - THEN `NodeText` → `C3.Plugins.Spritefont2.Acts.SetText`；参数 `[[7,[114,[2,35,false,5],[2,35,false,6],[4,83],[2,35,false,8],[4,83],[2,35,true,7],[2,35,false,5]]]]`；表达式引用提示 `["C3.Plugins.Sprite.Exps.Y","C3.Plugins.System.Exps.tokenat"]`
+    - **事件 #62**（disabled=False，uid=484346495923995）
+      - IF `System` → `C3.Plugins.System.Cnds.TriggerOnce`；参数 `null`；表达式引用提示 `[]`
+      - THEN `ItemInfo` → `C3.Plugins.NinePatch.Acts.SetAngle`；参数 `[[0,[115]]]`；表达式引用提示 `["C3.Plugins.System.Exps.layertolayerx"]`
+      - THEN `ItemInfo` → `C3.Behaviors.Tween.Acts.TweenOneProperty`；参数 `[[1,[84]],[3,6],[0,[21]],[0,[14]],[18,6],[3,0],[3,0],[3,0],[0,[10]]]`；表达式引用提示 `[]`
+      - THEN `Node` → `C3.Plugins.Sprite.Acts.SetAngle`；参数 `[[0,[81]]]`；表达式引用提示 `[]`
+      - THEN `Node` → `C3.Plugins.Sprite.Acts.SetSize`；参数 `[[0,[4,[1,35,92,false]]],[0,[4,[1,35,93,false]]]]`；表达式引用提示 `["C3.Plugins.Sprite.Exps.Y","C3.Plugins.Sprite.Exps.ImageWidth","C3.Plugins.Sprite.Exps.ImageHeight"]`
+      - THEN `Node` → `C3.Behaviors.Tween.Acts.TweenOneProperty`；参数 `[[1,[84]],[3,6],[0,[21]],[0,[85]],[18,6],[3,0],[3,0],[3,0],[0,[10]]]`；表达式引用提示 `[]`
+      - THEN `Node` → `C3.Behaviors.Tween.Acts.TweenTwoProperties`；参数 `[[1,[84]],[3,1],[0,[116,[1,35,92,false]]],[0,[117,[1,35,93,false]]],[0,[88]],[18,3],[3,0],[3,0],[3,1],[0,[10]]]`；表达式引用提示 `["C3.Plugins.System.Exps.layertolayery","C3.Plugins.Sprite.Exps.Y","C3.Plugins.Sprite.Exps.ImageWidth","C3.Plugins.Sprite.Exps.ImageHeight"]`
+  - **事件 #63**（disabled=False，uid=878267262194570）
+    - IF `System` → `C3.Plugins.System.Cnds.Else`；参数 `null`；表达式引用提示 `[]`
+    - THEN `ItemInfo` → `C3.Plugins.NinePatch.Acts.SetVisible`；参数 `[[3,0]]`；表达式引用提示 `[]`
+    - THEN `NodeSelect` → `C3.Plugins.Sprite.Acts.SetVisible`；参数 `[[3,0]]`；表达式引用提示 `[]`
+  - **事件 #64**（disabled=True，uid=199629885959941）
+    - IF `Mouse` → `C3.Plugins.Mouse.Cnds.OnRelease`；参数 `[[3,0]]`；表达式引用提示 `[]`
+    - IF `Mouse` → `C3.Plugins.Mouse.Cnds.IsOverObject`；参数 `[[4,77]]`；表达式引用提示 `[]`
+    - THEN `Node` → `C3.Plugins.Sprite.Acts.SetInstanceVar`；参数 `[[10,10],[7,[21]]]`；表达式引用提示 `[]`
+    - THEN `NodeProgress` → `C3.Plugins.TiledBg.Acts.SetWidth`；参数 `[[0,[21]]]`；表达式引用提示 `[]`
+  - **事件 #65**（disabled=False，uid=623386599120330）
+    - IF `ItemInfo` → `C3.Behaviors.Tween.Cnds.IsPlaying`；参数 `[[1,[82]]]`；表达式引用提示 `[]`
+    - THEN `ItemInfo` → `C3.Plugins.NinePatch.Acts.SetEffectParam`；参数 `[[1,[82]],[0,[21]],[0,[105,[0,20,"Tween",113,false]]]]`；表达式引用提示 `["C3.Behaviors.Tween.Exps.Value"]`
+    - THEN `NodeText` → `C3.Plugins.Spritefont2.Acts.SetEffectParam`；参数 `[[1,[118]],[0,[21]],[0,[105,[0,20,"Tween",113,false]]]]`；表达式引用提示 `["C3.Plugins.NinePatch.Exps.Width","C3.Behaviors.Tween.Exps.Value"]`
+    - THEN `NodeProgress` → `C3.Plugins.TiledBg.Acts.SetEffectParam`；参数 `[[1,[118]],[0,[21]],[0,[105,[0,20,"Tween",113,false]]]]`；表达式引用提示 `["C3.Plugins.NinePatch.Exps.Width","C3.Behaviors.Tween.Exps.Value"]`
+    - THEN `UpgradeButton` → `C3.Plugins.Sprite.Acts.SetEffectParam`；参数 `[[1,[118]],[0,[21]],[0,[105,[0,20,"Tween",113,false]]]]`；表达式引用提示 `["C3.Plugins.NinePatch.Exps.Width","C3.Behaviors.Tween.Exps.Value"]`
+    - THEN `Divider` → `C3.Plugins.Sprite.Acts.SetEffectParam`；参数 `[[1,[118]],[0,[21]],[0,[105,[0,20,"Tween",113,false]]]]`；表达式引用提示 `["C3.Plugins.NinePatch.Exps.Width","C3.Behaviors.Tween.Exps.Value"]`
+  - **事件 #66**（disabled=False，uid=385605499505705）
+    - IF [反向条件] `System` → `C3.Plugins.System.Cnds.ForEach`；参数 `[[4,35]]`；表达式引用提示 `["C3.Plugins.Sprite.Exps.Y"]`
+    - **事件 #67**（disabled=False，uid=131470646509124）
+      - IF `Node` → `C3.Plugins.Sprite.Cnds.CompareInstanceVar`；参数 `[[10,5],[8,0],[7,[44,[2,35,false,6]]]]`；表达式引用提示 `["C3.Plugins.Sprite.Exps.Y"]`
+      - THEN `NodeParticles` → `C3.Plugins.Particles.Acts.SetSpraying`；参数 `[[3,0]]`；表达式引用提示 `[]`
+- **事件组：World tier**（enabled_flag=True，disabled=False）
+  - 条件：`System` → `C3.Plugins.System.Cnds.IsGroupActive`；参数 `[[1,[119]]]`；表达式引用提示 `[]`
+  - **事件 #69**（disabled=False，uid=368122020293936）
+    - IF `MainFont` → `C3.Plugins.Spritefont2.Cnds.CompareInstanceVar`；参数 `[[10,0],[8,0],[7,[91]]]`；表达式引用提示 `[]`
+    - THEN `MainFont` → `C3.Plugins.Spritefont2.Acts.SetText`；参数 `[[7,[120,[3,528353018013296],[3,689939414217685]]]]`；表达式引用提示 `[]`
+  - **事件 #70**（disabled=False，uid=922877983139562）
+    - IF `MainFont` → `C3.Behaviors.Tween.Cnds.IsPlaying`；参数 `[[1,[92]]]`；表达式引用提示 `["C3.Plugins.Sprite.Exps.ImageWidth"]`
+    - THEN `MainFont` → `C3.Plugins.Spritefont2.Acts.SetScale`；参数 `[[0,[121,[0,8,"Tween",113,false]]]]`；表达式引用提示 `["C3.Behaviors.Tween.Exps.Value"]`
+  - **事件 #71**（disabled=False，uid=118747950882340）
+    - IF `MainFont` → `C3.Behaviors.Tween.Cnds.IsPlaying`；参数 `[[1,[82]]]`；表达式引用提示 `[]`
+    - THEN `MainFont` → `C3.Plugins.Spritefont2.Acts.SetEffectParam`；参数 `[[1,[118]],[0,[21]],[0,[105,[0,8,"Tween",113,false]]]]`；表达式引用提示 `["C3.Plugins.NinePatch.Exps.Width","C3.Behaviors.Tween.Exps.Value"]`
+
+## ePlayer
+
+- **引用事件表**：`eDebug`（disabled=False）
+- **变量** `Experience`：type=0 (number)，初始值=`0`，constant=False，static=False
+- **变量** `ExpNeeded`：type=0 (number)，初始值=`12`，constant=False，static=False
+- **变量** `MPRegen`：type=0 (number)，初始值=`4`，constant=False，static=False
+- **变量** `MoveSpeed`：type=0 (number)，初始值=`0`，constant=False，static=False
+- **事件组：Player controls**（enabled_flag=True，disabled=False）
+  - 条件：`System` → `C3.Plugins.System.Cnds.IsGroupActive`；参数 `[[1,[122]]]`；表达式引用提示 `["C3.Plugins.System.Exps.uppercase"]`
+  - **事件 #2**（disabled=True，uid=122780129832264）
+    - IF `Keyboard` → `C3.Plugins.Keyboard.Cnds.IsKeyDown`；参数 `[[9,39]]`；表达式引用提示 `[]`
+    - IF `Keyboard` → `C3.Plugins.Keyboard.Cnds.IsKeyDown`；参数 `[[9,68]]`；表达式引用提示 `["C3.Plugins.System.Exps.int"]`
+    - THEN `Player` → `C3.Behaviors.Platform.Acts.SimulateControl`；参数 `[[3,1]]`；表达式引用提示 `[]`
+    - THEN `Player` → `C3.Plugins.Sprite.Acts.SetInstanceVar`；参数 `[[10,3],[7,[123]]]`；表达式引用提示 `["C3.Plugins.System.Exps.replace"]`
+  - **事件 #3**（disabled=True，uid=277267062861552）
+    - IF `Keyboard` → `C3.Plugins.Keyboard.Cnds.IsKeyDown`；参数 `[[9,37]]`；表达式引用提示 `[]`
+    - IF `Keyboard` → `C3.Plugins.Keyboard.Cnds.IsKeyDown`；参数 `[[9,65]]`；表达式引用提示 `["C3.Plugins.System.Exps.find"]`
+    - THEN `Player` → `C3.Behaviors.Platform.Acts.SimulateControl`；参数 `[[3,0]]`；表达式引用提示 `[]`
+    - THEN `Player` → `C3.Plugins.Sprite.Acts.SetInstanceVar`；参数 `[[10,3],[7,[124]]]`；表达式引用提示 `["C3.Plugins.System.Exps.tokencount"]`
+  - **事件 #4**（disabled=True，uid=936666287462281）
+    - IF `Keyboard` → `C3.Plugins.Keyboard.Cnds.OnKey`；参数 `[[9,32]]`；表达式引用提示 `[]`
+    - IF `Keyboard` → `C3.Plugins.Keyboard.Cnds.OnKey`；参数 `[[9,90]]`；表达式引用提示 `[]`
+    - IF `Keyboard` → `C3.Plugins.Keyboard.Cnds.OnKey`；参数 `[[9,87]]`；表达式引用提示 `[]`
+    - THEN `Player` → `C3.Behaviors.Platform.Acts.SimulateControl`；参数 `[[3,2]]`；表达式引用提示 `[]`
+  - **事件 #5**（disabled=False，uid=529384137278683）
+    - IF `Player` → `C3.Plugins.Sprite.Cnds.OnCreated`；参数 `null`；表达式引用提示 `[]`
+    - THEN `PlayerSprite` → `C3.Plugins.Sprite.Acts.AddChild`；参数 `[[4,41],[16,false],[16,false],[16,false],[16,true],[16,false],[16,true],[16,false],[16,false],[16,false],[16,false]]`；表达式引用提示 `["C3.Plugins.System.Exps.layoutheight"]`
+    - THEN `ShakeBar` → `C3.Plugins.Sprite.Acts.SetPos`；参数 `[[0,[125,[1,40,34,false]]],[0,[126,[1,40,35,false]]]]`；表达式引用提示 `["C3.Plugins.System.Exps.layoutwidth","C3.Plugins.Sprite.Exps.X","C3.Plugins.Sprite.Exps.Y"]`
+    - THEN `ShakeProgress` → `C3.Plugins.TiledBg.Acts.SetPosToObject`；参数 `[[4,30],[7,[10]]]`；表达式引用提示 `["C3.Plugins.Mouse.Exps.AbsoluteX"]`
+    - THEN `ShakeProgress` → `C3.Plugins.TiledBg.Acts.SetWidth`；参数 `[[0,[21]]]`；表达式引用提示 `[]`
+    - THEN `Player` → `C3.Plugins.Sprite.Acts.AddChild`；参数 `[[4,30],[16,true],[16,true],[16,false],[16,false],[16,false],[16,false],[16,false],[16,false],[16,false],[16,false]]`；表达式引用提示 `["C3.Plugins.Mouse.Exps.AbsoluteX"]`
+    - THEN `Player` → `C3.Plugins.Sprite.Acts.AddChild`；参数 `[[4,31],[16,true],[16,true],[16,false],[16,false],[16,false],[16,false],[16,false],[16,false],[16,false],[16,false]]`；表达式引用提示 `["C3.Plugins.Mouse.Exps.AbsoluteY"]`
+  - **事件 #6**（disabled=False，uid=962694231682050）
+    - IF `System` → `C3.Plugins.System.Cnds.EveryTick`；参数 `null`；表达式引用提示 `[]`
+    - THEN `PlayerSprite` → `C3.Plugins.Sprite.Acts.SetPos`；参数 `[[0,[4,[1,40,34,false]]],[0,[4,[1,40,35,false]]]]`；表达式引用提示 `["C3.Plugins.System.Exps.layoutwidth","C3.Plugins.Sprite.Exps.X","C3.Plugins.Sprite.Exps.Y"]`
+    - THEN `PlayerEyes` → `C3.Plugins.Sprite.Acts.SetPosToObject`；参数 `[[4,42],[7,[127]]]`；表达式引用提示 `[]`
+    - THEN `PlayerEyes` → `C3.Plugins.Sprite.Acts.ZMoveToObject`；参数 `[[3,0],[4,42]]`；表达式引用提示 `[]`
+    - THEN `PlayerEyes` → `C3.Plugins.Sprite.Acts.SetAnim`；参数 `[[1,[44,[2,40,true,3]]],[3,1]]`；表达式引用提示 `["C3.Plugins.System.Exps.layoutwidth"]`
+    - THEN `Player` → `C3.Behaviors.Platform.Acts.SetMaxSpeed`；参数 `[[0,[128,[1,3,89,false]]]]`；表达式引用提示 `["C3.Plugins.Dictionary.Exps.Get"]`
+  - **事件 #7**（disabled=False，uid=604063302979412）
+    - IF `System` → `C3.Plugins.System.Cnds.Every`；参数 `[[0,[129,[4,134]]]]`；表达式引用提示 `["C3.Plugins.System.Exps.random"]`
+    - THEN `PlayerEyes` → `C3.Plugins.Sprite.Acts.SetVisible`；参数 `[[3,0]]`；表达式引用提示 `[]`
+    - THEN `System` → `C3.Plugins.System.Acts.Wait`；参数 `[[0,[88]],[16,true]]`；表达式引用提示 `[]`
+    - THEN `PlayerEyes` → `C3.Plugins.Sprite.Acts.SetVisible`；参数 `[[3,1]]`；表达式引用提示 `[]`
+  - **事件 #8**（disabled=False，uid=702117328058653）
+    - IF `Player` → `C3.Behaviors.Platform.Cnds.IsOnFloor`；参数 `null`；表达式引用提示 `[]`
+    - IF `Player` → `C3.Behaviors.Platform.Cnds.IsMoving`；参数 `null`；表达式引用提示 `[]`
+    - IF `System` → `C3.Plugins.System.Cnds.Every`；参数 `[[0,[130,[4,134]]]]`；表达式引用提示 `["C3.Plugins.System.Exps.random"]`
+    - THEN `System` → `C3.Plugins.System.Acts.CreateObject`；参数 `[[4,56],[5,[131]],[0,[132,[1,40,34,false],[4,134]]],[0,[133,[1,40,35,false]]],[16,false],[20,[84]]]`；表达式引用提示 `["C3.Plugins.TiledBg.Exps.ImageOffsetY","C3.Plugins.System.Exps.layoutwidth","C3.Plugins.Sprite.Exps.X","C3.Plugins.System.Exps.random","C3.Plugins.Sprite.Exps.Y"]`
+    - THEN `Dust` → `C3.Plugins.Sprite.Acts.ZMoveToObject`；参数 `[[3,1],[4,42]]`；表达式引用提示 `[]`
+  - **事件 #9**（disabled=False，uid=917752126451288）
+    - IF `Dust` → `C3.Plugins.Sprite.Cnds.OnCreated`；参数 `null`；表达式引用提示 `[]`
+    - THEN `Dust` → `C3.Behaviors.Tween.Acts.TweenOneProperty`；参数 `[[1,[84]],[3,1],[0,[134,[1,56,35,false],[4,134]]],[0,[135,[4,134]]],[18,3],[3,0],[3,0],[3,1],[0,[10]]]`；表达式引用提示 `["C3.Plugins.System.Exps.random","C3.Plugins.TiledBg.Exps.ImageOffsetY","C3.Plugins.Sprite.Exps.Y"]`
+    - THEN `Dust` → `C3.Behaviors.Tween.Acts.TweenTwoProperties`；参数 `[[1,[84]],[3,1],[0,[21]],[0,[21]],[0,[136,[4,134]]],[18,0],[3,1],[3,0],[3,0],[0,[10]]]`；表达式引用提示 `["C3.Plugins.System.Exps.random"]`
+  - **事件 #10**（disabled=False，uid=679695532977575）
+    - IF `Player` → `C3.Behaviors.Platform.Cnds.OnJump`；参数 `null`；表达式引用提示 `[]`
+    - THEN `PlayerSprite` → `C3.Plugins.Sprite.Acts.SetAnim`；参数 `[[1,[137,[2,40,true,3]]],[3,1]]`；表达式引用提示 `["C3.Plugins.System.Exps.layoutwidth"]`
+    - THEN `PlayerSprite` → `C3.Behaviors.Tween.Acts.StopTweens`；参数 `[[1,[138]]]`；表达式引用提示 `[]`
+    - THEN `PlayerSprite` → `C3.Plugins.Sprite.Acts.SetSize`；参数 `[[0,[139,[1,42,92,false],[1,42,139,false]]],[0,[4,[1,42,93,false]]]]`；表达式引用提示 `["C3.Plugins.Sprite.Exps.Width","C3.Plugins.Sprite.Exps.ImageWidth","C3.Plugins.Sprite.Exps.ImageHeight"]`
+    - THEN `PlayerSprite` → `C3.Behaviors.Tween.Acts.TweenOneProperty`；参数 `[[1,[140]],[3,4],[0,[86,[1,42,93,false]]],[0,[141]],[18,3],[3,0],[3,0],[3,1],[0,[10]]]`；表达式引用提示 `["C3.Plugins.Sprite.Exps.ImageHeight"]`
+    - THEN `Audio` → `C3.Plugins.Audio.Acts.Play`；参数 `[[2,["Jump",false]],[3,0],[0,[21]],[0,[21]],[1,[84]]]`；表达式引用提示 `[]`
+    - THEN `PlayerSprite` → `C3.Behaviors.Tween.Acts.TweenValue`；参数 `[[1,[138]],[0,[4,[1,42,92,false]]],[0,[87,[1,42,92,false]]],[0,[141]],[18,3],[3,0],[3,0],[3,1],[0,[10]]]`；表达式引用提示 `["C3.Plugins.Sprite.Exps.ImageWidth"]`
+  - **事件 #11**（disabled=False，uid=427175365559965）
+    - IF `Player` → `C3.Behaviors.Platform.Cnds.OnLand`；参数 `null`；表达式引用提示 `[]`
+    - THEN `PlayerSprite` → `C3.Behaviors.Tween.Acts.StopTweens`；参数 `[[1,[138]]]`；表达式引用提示 `[]`
+    - THEN `PlayerSprite` → `C3.Plugins.Sprite.Acts.SetSize`；参数 `[[0,[139,[1,42,92,false],[1,42,139,false]]],[0,[4,[1,42,93,false]]]]`；表达式引用提示 `["C3.Plugins.Sprite.Exps.Width","C3.Plugins.Sprite.Exps.ImageWidth","C3.Plugins.Sprite.Exps.ImageHeight"]`
+    - THEN `PlayerSprite` → `C3.Behaviors.Tween.Acts.TweenOneProperty`；参数 `[[1,[140]],[3,4],[0,[87,[1,42,93,false]]],[0,[141]],[18,3],[3,0],[3,0],[3,1],[0,[10]]]`；表达式引用提示 `["C3.Plugins.Sprite.Exps.ImageHeight"]`
+    - THEN `PlayerSprite` → `C3.Behaviors.Tween.Acts.TweenValue`；参数 `[[1,[138]],[0,[4,[1,42,92,false]]],[0,[86,[1,42,92,false]]],[0,[141]],[18,3],[3,0],[3,0],[3,1],[0,[10]]]`；表达式引用提示 `["C3.Plugins.Sprite.Exps.ImageWidth"]`
+  - **事件 #12**（disabled=False，uid=156231640653028）
+    - IF `PlayerSprite` → `C3.Behaviors.Tween.Cnds.IsPlaying`；参数 `[[1,[138]]]`；表达式引用提示 `[]`
+    - THEN `PlayerSprite` → `C3.Plugins.Sprite.Acts.SetWidth`；参数 `[[0,[142,[0,42,"Tween",113,false],[1,42,139,false]]]]`；表达式引用提示 `["C3.Behaviors.Tween.Exps.Value","C3.Plugins.Sprite.Exps.Width"]`
+  - **事件 #13**（disabled=False，uid=848504969665763）
+    - IF `Player` → `C3.Behaviors.Platform.Cnds.IsOnFloor`；参数 `null`；表达式引用提示 `[]`
+    - **事件 #14**（disabled=True，uid=622386369165584）
+      - IF `Player` → `C3.Behaviors.Platform.Cnds.IsMoving`；参数 `null`；表达式引用提示 `[]`
+      - IF `Player` → `C3.Behaviors.MoveTo.Cnds.IsMoving`；参数 `null`；表达式引用提示 `[]`
+      - THEN `PlayerSprite` → `C3.Plugins.Sprite.Acts.SetAnim`；参数 `[[1,[143,[2,40,true,3]]],[3,1]]`；表达式引用提示 `["C3.Plugins.System.Exps.layoutwidth"]`
+    - **事件 #15**（disabled=False，uid=627100199163182）
+      - IF `System` → `C3.Plugins.System.Cnds.Else`；参数 `null`；表达式引用提示 `[]`
+      - THEN `PlayerSprite` → `C3.Plugins.Sprite.Acts.SetAnim`；参数 `[[1,[144,[2,40,true,3]]],[3,1]]`；表达式引用提示 `["C3.Plugins.System.Exps.layoutwidth"]`
+  - **事件 #16**（disabled=False，uid=735267693543894）
+    - IF `System` → `C3.Plugins.System.Cnds.Else`；参数 `null`；表达式引用提示 `[]`
+    - THEN `PlayerSprite` → `C3.Plugins.Sprite.Acts.SetAnim`；参数 `[[1,[137,[2,40,true,3]]],[3,1]]`；表达式引用提示 `["C3.Plugins.System.Exps.layoutwidth"]`
+- **变量** `CurseTimer`：type=0 (number)，初始值=`45`，constant=False，static=False
+- **事件组：HUD**（enabled_flag=True，disabled=False）
+  - 条件：`System` → `C3.Plugins.System.Cnds.IsGroupActive`；参数 `[[1,[145]]]`；表达式引用提示 `[]`
+  - **事件 #19**（disabled=False，uid=781911227529952）
+    - IF `System` → `C3.Plugins.System.Cnds.EveryTick`；参数 `null`；表达式引用提示 `[]`
+    - THEN `ExpBar` → `C3.Plugins.TiledBg.Acts.SetWidth`；参数 `[[0,[146,[3,404587922161029],[3,251913035624792]]]]`；表达式引用提示 `[]`
+  - **事件 #20**（disabled=False，uid=590543783439297）
+    - IF `System` → `C3.Plugins.System.Cnds.CompareVar`；参数 `[[11,404587922161029],[8,5],[7,[37,[3,251913035624792]]]]`；表达式引用提示 `[]`
+    - THEN `System` → `C3.Plugins.System.Acts.SetVar`；参数 `[[11,404587922161029],[7,[147,[3,404587922161029],[3,251913035624792]]]]`；表达式引用提示 `[]`
+    - THEN `Resources` → `C3.Plugins.Arr.Acts.SetXY`；参数 `[[0,[41]],[0,[21]],[7,[148,[4,68],[1,6,67,false]]]]`；表达式引用提示 `["C3.Plugins.System.Exps.layoutheight","C3.Plugins.System.Exps.layoutname","C3.Plugins.System.Exps.int","C3.Plugins.Arr.Exps.At"]`
+    - THEN `System` → `C3.Plugins.System.Acts.CreateObject`；参数 `[[4,72],[5,[26]],[0,[4,[1,18,34,false]]],[0,[4,[1,18,35,false]]],[16,false],[20,[84]]]`；表达式引用提示 `["C3.Plugins.Sprite.Exps.X","C3.Plugins.Sprite.Exps.Y"]`
+  - **事件 #21**（disabled=False，uid=492004912033941）
+    - IF `Star` → `C3.Plugins.Sprite.Cnds.OnCreated`；参数 `null`；表达式引用提示 `[]`
+    - THEN `Star` → `C3.Behaviors.Tween.Acts.TweenOneProperty`；参数 `[[1,[84]],[3,0],[0,[149]],[0,[93]],[18,8],[3,1],[3,0],[3,0],[0,[10]]]`；表达式引用提示 `["C3.Plugins.Sprite.Exps.ImageHeight"]`
+    - THEN `Star` → `C3.Behaviors.Tween.Acts.TweenOneProperty`；参数 `[[1,[84]],[3,1],[0,[150]],[0,[93]],[18,3],[3,1],[3,0],[3,0],[0,[10]]]`；表达式引用提示 `["C3.Plugins.Sprite.Exps.ImageHeight"]`
+  - **事件 #22**（disabled=False，uid=722204974352997）
+    - IF `Star` → `C3.Plugins.Sprite.Cnds.IsOnScreen`；参数 `null`；表达式引用提示 `[]`
+    - IF `System` → `C3.Plugins.System.Cnds.Every`；参数 `[[0,[88]]]`；表达式引用提示 `[]`
+    - THEN `System` → `C3.Plugins.System.Acts.CreateObject`；参数 `[[4,73],[5,[145]],[0,[4,[1,72,34,false]]],[0,[4,[1,72,35,false]]],[16,false],[20,[84]]]`；表达式引用提示 `["C3.Plugins.Sprite.Exps.X","C3.Plugins.Sprite.Exps.Y"]`
+  - **事件 #23**（disabled=False，uid=112492628346590）
+    - IF `StarFollow` → `C3.Plugins.Sprite.Cnds.OnAnyAnimFinished`；参数 `null`；表达式引用提示 `[]`
+    - THEN `StarFollow` → `C3.Plugins.Sprite.Acts.Destroy`；参数 `null`；表达式引用提示 `[]`
+  - **事件 #24**（disabled=False，uid=525143562646348）
+    - IF `Star` → `C3.Plugins.Sprite.Cnds.OnDestroyed`；参数 `null`；表达式引用提示 `[]`
+    - THEN `System` → `C3.Plugins.System.Acts.CreateObject`；参数 `[[4,67],[5,[26]],[0,[4,[1,72,34,false]]],[0,[4,[1,72,35,false]]],[16,false],[20,[84]]]`；表达式引用提示 `["C3.Plugins.Arr.Exps.At","C3.Plugins.Sprite.Exps.X","C3.Plugins.Sprite.Exps.Y"]`
+    - THEN `ResourceGet` → `C3.Plugins.Sprite.Acts.SetAnim`；参数 `[[1,[151]],[3,1]]`；表达式引用提示 `[]`
+
+## eDebug
+
+- **事件 #1**（disabled=True，uid=344685169525416）
+  - IF `Keyboard` → `C3.Plugins.Keyboard.Cnds.OnKey`；参数 `[[9,69]]`；表达式引用提示 `[]`
+  - IF `Keyboard` → `C3.Plugins.Keyboard.Cnds.OnKey`；参数 `[[9,13]]`；表达式引用提示 `[]`
+  - **事件 #2**（disabled=False，uid=682523019579814）
+    - IF `System` → `C3.Plugins.System.Cnds.Compare`；参数 `[[7,[5,[4,148]]],[8,0],[7,[152]]]`；表达式引用提示 `["C3.Plugins.System.Exps.layoutname"]`
+    - THEN `System` → `C3.Plugins.System.Acts.GoToLayout`；参数 `[[6,"Game"]]`；表达式引用提示 `[]`
+  - **事件 #3**（disabled=False，uid=427378493382028）
+    - IF `System` → `C3.Plugins.System.Cnds.Compare`；参数 `[[7,[5,[4,148]]],[8,0],[7,[153]]]`；表达式引用提示 `["C3.Plugins.System.Exps.layoutname"]`
+    - IF `System` → `C3.Plugins.System.Cnds.CompareVar`；参数 `[[11,409162018949782],[8,1],[7,[154]]]`；表达式引用提示 `[]`
+    - IF `Player` → `C3.Plugins.Sprite.Cnds.IsOverlapping`；参数 `[[4,63]]`；表达式引用提示 `[]`
+    - THEN `System` → `C3.Plugins.System.Acts.GoToLayout`；参数 `[[6,"Skill Tree"]]`；表达式引用提示 `[]`
+- **事件 #4**（disabled=False，uid=961053779270741）
+  - IF `Keyboard` → `C3.Plugins.Keyboard.Cnds.OnKey`；参数 `[[9,80]]`；表达式引用提示 `["C3.Plugins.System.Exps.hexcolor"]`
+  - THEN `Resources` → `C3.Plugins.Arr.Acts.SetXY`；参数 `[[0,[21]],[0,[21]],[7,[155]]]`；表达式引用提示 `[]`
+  - THEN `Resources` → `C3.Plugins.Arr.Acts.SetXY`；参数 `[[0,[10]],[0,[21]],[7,[155]]]`；表达式引用提示 `[]`
+  - THEN `Resources` → `C3.Plugins.Arr.Acts.SetXY`；参数 `[[0,[41]],[0,[21]],[7,[155]]]`；表达式引用提示 `["C3.Plugins.System.Exps.layoutheight"]`
+- **事件 #5**（disabled=False，uid=239975144679066）
+  - IF `Dictionary` → `C3.Plugins.Dictionary.Cnds.HasKey`；参数 `[[1,[57]]]`；表达式引用提示 `[]`
+  - THEN `Dictionary` → `C3.Plugins.Dictionary.Acts.AddKey`；参数 `[[1,[57]],[7,[156]]]`；表达式引用提示 `[]`
+- **事件 #6**（disabled=False，uid=141665050263083）
+  - IF `Dictionary` → `C3.Plugins.Dictionary.Cnds.HasKey`；参数 `[[1,[63]]]`；表达式引用提示 `[]`
+  - THEN `Dictionary` → `C3.Plugins.Dictionary.Acts.AddKey`；参数 `[[1,[63]],[7,[90]]]`；表达式引用提示 `[]`
+- **事件 #7**（disabled=False，uid=162810890453705）
+  - IF `Dictionary` → `C3.Plugins.Dictionary.Cnds.HasKey`；参数 `[[1,[69]]]`；表达式引用提示 `[]`
+  - THEN `Dictionary` → `C3.Plugins.Dictionary.Acts.AddKey`；参数 `[[1,[69]],[7,[21]]]`；表达式引用提示 `[]`
+- **事件 #8**（disabled=False，uid=257017629627315）
+  - IF `Dictionary` → `C3.Plugins.Dictionary.Cnds.HasKey`；参数 `[[1,[66]]]`；表达式引用提示 `[]`
+  - THEN `Dictionary` → `C3.Plugins.Dictionary.Acts.AddKey`；参数 `[[1,[66]],[7,[157]]]`；表达式引用提示 `[]`
+- **事件 #9**（disabled=False，uid=358405408632801）
+  - IF `Dictionary` → `C3.Plugins.Dictionary.Cnds.HasKey`；参数 `[[1,[48]]]`；表达式引用提示 `["C3.Plugins.Mouse.Exps.Y"]`
+  - THEN `Dictionary` → `C3.Plugins.Dictionary.Acts.AddKey`；参数 `[[1,[48]],[7,[158]]]`；表达式引用提示 `["C3.Plugins.Mouse.Exps.Y","C3.Plugins.System.Exps.choose"]`
+- **事件 #10**（disabled=False，uid=170644464817730）
+  - IF `Dictionary` → `C3.Plugins.Dictionary.Cnds.HasKey`；参数 `[[1,[45]]]`；表达式引用提示 `[]`
+  - THEN `Dictionary` → `C3.Plugins.Dictionary.Acts.AddKey`；参数 `[[1,[45]],[7,[21]]]`；表达式引用提示 `[]`
+- **事件 #11**（disabled=False，uid=354214920825933）
+  - IF `Dictionary` → `C3.Plugins.Dictionary.Cnds.HasKey`；参数 `[[1,[60]]]`；表达式引用提示 `[]`
+  - THEN `Dictionary` → `C3.Plugins.Dictionary.Acts.AddKey`；参数 `[[1,[60]],[7,[17]]]`；表达式引用提示 `[]`
+- **事件 #12**（disabled=False，uid=888341438989685）
+  - IF `Dictionary` → `C3.Plugins.Dictionary.Cnds.HasKey`；参数 `[[1,[51]]]`；表达式引用提示 `["C3.Plugins.TiledBg.Exps.ImageWidth"]`
+  - THEN `Dictionary` → `C3.Plugins.Dictionary.Acts.AddKey`；参数 `[[1,[51]],[7,[10]]]`；表达式引用提示 `["C3.Plugins.TiledBg.Exps.ImageWidth"]`
+- **事件 #13**（disabled=False，uid=952860310364180）
+  - IF `Dictionary` → `C3.Plugins.Dictionary.Cnds.HasKey`；参数 `[[1,[54]]]`；表达式引用提示 `["C3.Plugins.System.Exps.dt"]`
+  - THEN `Dictionary` → `C3.Plugins.Dictionary.Acts.AddKey`；参数 `[[1,[54]],[7,[159]]]`；表达式引用提示 `["C3.Plugins.System.Exps.dt"]`
+
+## eGame
+
+- **引用事件表**：`ePlayer`（disabled=False）
+- **变量** `GameState`：type=1 (string)，初始值=`Play`，constant=False，static=False
+- **事件组：Level general**（enabled_flag=True，disabled=False）
+  - 条件：`System` → `C3.Plugins.System.Cnds.IsGroupActive`；参数 `[[1,[160]]]`；表达式引用提示 `[]`
+  - **事件 #2**（disabled=False，uid=863806351132861）
+    - IF `System` → `C3.Plugins.System.Cnds.OnLayoutStart`；参数 `null`；表达式引用提示 `[]`
+    - THEN `System` → `C3.Plugins.System.Acts.SetVar`；参数 `[[11,713155709008319],[7,[157]]]`；表达式引用提示 `[]`
+    - THEN `Custom:Transition` → `Transition (custom behavior/function call)`；参数 `[[1,[15]]]`；表达式引用提示 `[]`
+    - THEN `Player` → `C3.Behaviors.Platform.Acts.SetIgnoreInput`；参数 `[[3,0]]`；表达式引用提示 `[]`
+    - THEN `Player` → `C3.Behaviors.MoveTo.Acts.Stop`；参数 `null`；表达式引用提示 `[]`
+    - **事件 #3**（disabled=False，uid=320935483370340）
+      - IF [反向条件] `System` → `C3.Plugins.System.Cnds.ForEachOrdered`；参数 `[[4,58],[7,[4,[1,58,34,false]]],[3,0]]`；表达式引用提示 `["C3.Plugins.Sprite.Exps.X"]`
+      - THEN `Water` → `C3.Behaviors.Sin.Acts.SetPhase`；参数 `[[0,[161,[4,102]]]]`；表达式引用提示 `["C3.Plugins.System.Exps.loopindex"]`
+  - **事件 #4**（disabled=False，uid=341051874909793）
+    - IF `System` → `C3.Plugins.System.Cnds.EveryTick`；参数 `null`；表达式引用提示 `[]`
+    - THEN `SeaClouds` → `C3.Plugins.TiledBg.Acts.SetImageOffsetX`；参数 `[[0,[162,[1,69,53,false],[2,69,false,0],[4,54]]]]`；表达式引用提示 `["C3.Plugins.System.Exps.max","C3.Plugins.TiledBg.Exps.ImageOffsetX","C3.Plugins.System.Exps.dt"]`
+  - **事件 #5**（disabled=False，uid=206616685424156）
+    - IF `Bird` → `C3.Behaviors.MoveTo.Cnds.OnArrived`；参数 `null`；表达式引用提示 `[]`
+    - THEN `Bird` → `C3.Plugins.Sprite.Acts.Destroy`；参数 `null`；表达式引用提示 `[]`
+  - **事件 #6**（disabled=False，uid=264182618864297）
+    - IF `System` → `C3.Plugins.System.Cnds.Every`；参数 `[[0,[163,[4,134]]]]`；表达式引用提示 `["C3.Plugins.System.Exps.zeropad","C3.Plugins.System.Exps.random"]`
+    - **事件 #7**（disabled=False，uid=128987753854154）
+      - IF [反向条件] `System` → `C3.Plugins.System.Cnds.Repeat`；参数 `[[0,[164,[4,158]]]]`；表达式引用提示 `["C3.Plugins.System.Exps.choose"]`
+      - THEN `System` → `C3.Plugins.System.Acts.Wait`；参数 `[[0,[165,[4,134],[4,102]]],[16,true]]`；表达式引用提示 `["C3.Plugins.System.Exps.random","C3.Plugins.System.Exps.loopindex"]`
+      - THEN `System` → `C3.Plugins.System.Acts.CreateObject`；参数 `[[4,59],[5,[166]],[0,[167,[4,158],[4,40]]],[0,[168,[4,134]]],[16,false],[20,[84]]]`；表达式引用提示 `["C3.Behaviors.Orbit.Exps.Rotation","C3.Plugins.System.Exps.choose","C3.Plugins.System.Exps.layoutwidth","C3.Plugins.System.Exps.random"]`
+      - THEN `Bird` → `C3.Plugins.Sprite.Acts.SetWidth`；参数 `[[0,[139,[1,59,93,false],[1,59,34,false]]]]`；表达式引用提示 `["C3.Plugins.Sprite.Exps.Width","C3.Plugins.Sprite.Exps.ImageHeight","C3.Plugins.Sprite.Exps.X"]`
+      - THEN `Bird` → `C3.Behaviors.MoveTo.Acts.MoveToPosition`；参数 `[[0,[169,[1,59,34,false],[4,134],[1,59,34,false]]],[0,[170,[1,59,35,false],[4,158],[4,134]]],[3,0]]`；表达式引用提示 `["C3.Plugins.System.Exps.rgbex255","C3.Plugins.Sprite.Exps.X","C3.Plugins.System.Exps.random","C3.Plugins.Sprite.Exps.Y","C3.Plugins.System.Exps.choose"]`
+      - THEN `Bird` → `C3.Behaviors.MoveTo.Acts.SetMaxSpeed`；参数 `[[0,[171,[4,134]]]]`；表达式引用提示 `["C3.Plugins.System.Exps.random"]`
+  - **事件 #8**（disabled=False，uid=664586147498484）
+    - IF `System` → `C3.Plugins.System.Cnds.Every`；参数 `[[0,[10]]]`；表达式引用提示 `[]`
+    - IF `Clock` → `C3.Plugins.Sprite.Cnds.IsVisible`；参数 `null`；表达式引用提示 `[]`
+    - THEN `System` → `C3.Plugins.System.Acts.SetVar`；参数 `[[11,713155709008319],[7,[172,[4,162],[3,713155709008319]]]]`；表达式引用提示 `["C3.Plugins.System.Exps.max"]`
+    - **事件 #9**（disabled=False，uid=640832032693302）
+      - IF `System` → `C3.Plugins.System.Cnds.CompareVar`；参数 `[[11,713155709008319],[8,3],[7,[90]]]`；表达式引用提示 `[]`
+      - THEN `Audio` → `C3.Plugins.Audio.Acts.Play`；参数 `[[2,["tick",false]],[3,0],[0,[90]],[0,[21]],[1,[84]]]`；表达式引用提示 `[]`
+      - THEN `Timer` → `C3.Behaviors.Tween.Acts.TweenTwoProperties`；参数 `[[1,[84]],[3,2],[0,[173]],[0,[173]],[0,[174]],[18,3],[3,0],[3,0],[3,1],[0,[10]]]`；表达式引用提示 `[]`
+  - **事件 #10**（disabled=False，uid=498564686186193）
+    - IF `System` → `C3.Plugins.System.Cnds.EveryTick`；参数 `null`；表达式引用提示 `[]`
+    - THEN `Timer` → `C3.Plugins.Spritefont2.Acts.SetText`；参数 `[[7,[175,[4,163],[4,68],[3,713155709008319],[4,163],[3,713155709008319]]]]`；表达式引用提示 `["C3.Plugins.System.Exps.zeropad","C3.Plugins.System.Exps.int"]`
+    - THEN `Fence` → `C3.Plugins.Sprite.Acts.MoveToTop`；参数 `null`；表达式引用提示 `[]`
+  - **事件 #11**（disabled=False，uid=880069590617595）
+    - IF `Sun` → `C3.Behaviors.Orbit.Cnds.IsEnabled`；参数 `null`；表达式引用提示 `[]`
+    - IF `System` → `C3.Plugins.System.Cnds.CompareBetween`；参数 `[[0,[176,[0,74,"Orbit",166,false]]],[0,[177]],[0,[178]]]`；表达式引用提示 `["C3.Plugins.TiledBg.Exps.X","C3.Behaviors.Orbit.Exps.Rotation","C3.Plugins.TiledBg.Exps.Width","C3.Plugins.TiledBg.Exps.Y"]`
+    - THEN `Sun` → `C3.Behaviors.Orbit.Acts.SetOffsetAngle`；参数 `[[0,[179]]]`；表达式引用提示 `["C3.Plugins.Sprite.Exps.Height"]`
+- **事件 #12**（disabled=False，uid=329025029868089）
+  - IF [反向条件] `System` → `C3.Plugins.System.Cnds.ForEach`；参数 `[[4,7]]`；表达式引用提示 `[]`
+  - IF `NodeText` → `C3.Plugins.Spritefont2.Cnds.CompareInstanceVar`；参数 `[[10,0],[8,0],[7,[180]]]`；表达式引用提示 `[]`
+  - **事件 #13**（disabled=False，uid=700780096385996）
+    - IF `Mouse` → `C3.Plugins.Mouse.Cnds.IsOverObject`；参数 `[[4,7]]`；表达式引用提示 `[]`
+    - THEN `NodeText` → `C3.Plugins.Spritefont2.Acts.SetDefaultColor`；参数 `[[0,[181,[4,169]]]]`；表达式引用提示 `["C3.Plugins.System.Exps.rgbex255"]`
+  - **事件 #14**（disabled=False，uid=671701102593434）
+    - IF `System` → `C3.Plugins.System.Cnds.Else`；参数 `null`；表达式引用提示 `[]`
+    - THEN `NodeText` → `C3.Plugins.Spritefont2.Acts.SetDefaultColor`；参数 `[[0,[182,[4,169]]]]`；表达式引用提示 `["C3.Plugins.System.Exps.rgbex255"]`
+- **事件组：Signposts**（enabled_flag=True，disabled=False）
+  - 条件：`System` → `C3.Plugins.System.Cnds.IsGroupActive`；参数 `[[1,[183]]]`；表达式引用提示 `[]`
+  - **事件 #20**（disabled=False，uid=960504065472201）
+    - IF `Signpost` → `C3.Plugins.Sprite.Cnds.OnCreated`；参数 `null`；表达式引用提示 `[]`
+    - THEN `Message` → `C3.Plugins.Sprite.Acts.SetPosToObject`；参数 `[[4,44],[7,[10]]]`；表达式引用提示 `[]`
+    - THEN `Message` → `C3.Plugins.Sprite.Acts.SetAnim`；参数 `[[1,[44,[2,44,true,0]]],[3,1]]`；表达式引用提示 `[]`
+    - THEN `Signpost` → `C3.Plugins.Sprite.Acts.SetAnimFrame`；参数 `[[7,[184]]]`；表达式引用提示 `[]`
+    - THEN `Message` → `C3.Plugins.Sprite.Acts.SetOpacity`；参数 `[[0,[21]]]`；表达式引用提示 `[]`
+    - THEN `Message` → `C3.Plugins.Sprite.Acts.MoveToBottom`；参数 `null`；表达式引用提示 `[]`
+  - **事件 #21**（disabled=False，uid=369730978393378）
+    - IF `Player` → `C3.Plugins.Sprite.Cnds.OnCollision`；参数 `[[4,44]]`；表达式引用提示 `[]`
+    - THEN `Signpost` → `C3.Plugins.Sprite.Acts.SetAnimFrame`；参数 `[[7,[21]]]`；表达式引用提示 `[]`
+    - THEN `Signpost` → `C3.Plugins.Sprite.Acts.SetAnimSpeed`；参数 `[[0,[185]]]`；表达式引用提示 `["C3.Plugins.Sprite.Exps.ImagePointY"]`
+    - THEN `Signpost` → `C3.Plugins.Sprite.Acts.StartAnim`；参数 `[[3,0]]`；表达式引用提示 `[]`
+    - THEN `Message` → `C3.Plugins.Sprite.Acts.SetOpacity`；参数 `[[0,[83]]]`；表达式引用提示 `["C3.Plugins.System.Exps.tokenat"]`
+    - THEN `Message` → `C3.Plugins.Sprite.Acts.SetPosToObject`；参数 `[[4,44],[7,[10]]]`；表达式引用提示 `[]`
+    - THEN `Message` → `C3.Behaviors.Tween.Acts.StopTweens`；参数 `[[1,[186]]]`；表达式引用提示 `[]`
+    - THEN `Message` → `C3.Behaviors.Tween.Acts.TweenOneProperty`；参数 `[[1,[186]],[3,1],[0,[187,[1,22,35,false]]],[0,[188]],[18,3],[3,0],[3,0],[3,1],[0,[10]]]`；表达式引用提示 `["C3.Behaviors.Platform.Exps.JumpStrength","C3.Plugins.Sprite.Exps.Y"]`
+  - **事件 #22**（disabled=False，uid=574405217284936）
+    - IF `Player` → `C3.Plugins.Sprite.Cnds.IsOverlapping`；参数 `[[4,44]]`；表达式引用提示 `[]`
+    - THEN `Message` → `C3.Behaviors.Tween.Acts.StopTweens`；参数 `[[1,[189]]]`；表达式引用提示 `[]`
+    - THEN `Message` → `C3.Plugins.Sprite.Acts.SetOpacity`；参数 `[[0,[83]]]`；表达式引用提示 `["C3.Plugins.System.Exps.tokenat"]`
+  - **事件 #23**（disabled=False，uid=607921717887076）
+    - IF `System` → `C3.Plugins.System.Cnds.Else`；参数 `null`；表达式引用提示 `[]`
+    - THEN `Message` → `C3.Behaviors.Tween.Acts.TweenOneProperty`；参数 `[[1,[189]],[3,7],[0,[21]],[0,[190]],[18,3],[3,0],[3,0],[3,0],[0,[10]]]`；表达式引用提示 `["C3.Plugins.Sprite.Exps.AnimationFrameCount"]`
+- **事件组：Coconut tree**（enabled_flag=True，disabled=False）
+  - 条件：`System` → `C3.Plugins.System.Cnds.IsGroupActive`；参数 `[[1,[191]]]`；表达式引用提示 `["C3.Behaviors.Timer.Exps.Duration"]`
+  - **事件 #25**（disabled=False，uid=178680199080954）
+    - IF `Tree` → `C3.Plugins.Sprite.Cnds.OnCreated`；参数 `null`；表达式引用提示 `[]`
+    - THEN `TreeTop` → `C3.Plugins.Sprite.Acts.SetPosToObject`；参数 `[[4,43],[7,[10]]]`；表达式引用提示 `[]`
+    - THEN `Tree` → `C3.Plugins.Sprite.Acts.AddChild`；参数 `[[4,55],[16,true],[16,false],[16,false],[16,false],[16,false],[16,true],[16,false],[16,false],[16,false],[16,false]]`；表达式引用提示 `[]`
+    - THEN `TreeCooldown` → `C3.Plugins.Sprite.Acts.SetPosToObject`；参数 `[[4,55],[7,[10]]]`；表达式引用提示 `[]`
+    - THEN `CocoAmount` → `C3.Plugins.TiledBg.Acts.SetPosToObject`；参数 `[[4,43],[7,[41]]]`；表达式引用提示 `["C3.Plugins.System.Exps.layoutheight"]`
+    - THEN `Tree` → `C3.Plugins.Sprite.Acts.SetInstanceVar`；参数 `[[10,0],[7,[192,[1,3,89,false]]]]`；表达式引用提示 `["C3.Plugins.Dictionary.Exps.Get"]`
+    - THEN `CocoAmount` → `C3.Plugins.TiledBg.Acts.SetWidth`；参数 `[[0,[193,[2,43,false,0]]]]`；表达式引用提示 `[]`
+    - THEN `CocoBar` → `C3.Plugins.TiledBg.Acts.SetPos`；参数 `[[0,[194,[1,61,176,false],[1,61,177,false]]],[0,[4,[1,61,178,false]]]]`；表达式引用提示 `["C3.Plugins.TiledBg.Exps.X","C3.Plugins.TiledBg.Exps.Width","C3.Plugins.TiledBg.Exps.Y"]`
+    - THEN `CocoBar` → `C3.Plugins.TiledBg.Acts.SetWidth`；参数 `[[0,[193,[2,43,false,0]]]]`；表达式引用提示 `[]`
+  - **事件 #26**（disabled=False，uid=899252578948680）
+    - IF `Coconut` → `C3.Behaviors.Platform.Cnds.OnLand`；参数 `null`；表达式引用提示 `[]`
+    - THEN `Coconut` → `C3.Plugins.Sprite.Acts.SetSize`；参数 `[[0,[4,[1,38,92,false]]],[0,[4,[1,38,93,false]]]]`；表达式引用提示 `["C3.Plugins.Sprite.Exps.ImageWidth","C3.Plugins.Sprite.Exps.ImageHeight"]`
+    - THEN `Coconut` → `C3.Behaviors.Tween.Acts.TweenTwoProperties`；参数 `[[1,[84]],[3,1],[0,[86,[1,38,92,false]]],[0,[87,[1,38,93,false]]],[0,[174]],[18,3],[3,0],[3,0],[3,1],[0,[10]]]`；表达式引用提示 `["C3.Plugins.Sprite.Exps.ImageWidth","C3.Plugins.Sprite.Exps.ImageHeight"]`
+    - **事件 #27**（disabled=False，uid=436213075904172）
+      - IF `Coconut` → `C3.Plugins.Sprite.Cnds.IsBoolInstanceVarSet`；参数 `[[10,1]]`；表达式引用提示 `[]`
+      - THEN `Coconut` → `C3.Behaviors.Platform.Acts.SimulateControl`；参数 `[[3,2]]`；表达式引用提示 `[]`
+      - THEN `Audio` → `C3.Plugins.Audio.Acts.Play`；参数 `[[2,["coconut",false]],[3,0],[0,[21]],[0,[21]],[1,[84]]]`；表达式引用提示 `[]`
+      - THEN `Player` → `C3.Behaviors.scrollto.Acts.Shake`；参数 `[[0,[184]],[0,[77]],[3,0]]`；表达式引用提示 `[]`
+      - **事件 #28**（disabled=False，uid=301676650711475）
+        - IF [反向条件] `System` → `C3.Plugins.System.Cnds.Repeat`；参数 `[[0,[184]]]`；表达式引用提示 `[]`
+        - THEN `System` → `C3.Plugins.System.Acts.CreateObject`；参数 `[[4,64],[5,[131]],[0,[4,[1,38,34,false]]],[0,[194,[1,38,35,false],[1,38,179,false]]],[16,false],[20,[84]]]`；表达式引用提示 `["C3.Plugins.Sprite.Exps.X","C3.Plugins.Sprite.Exps.Y","C3.Plugins.Sprite.Exps.Height"]`
+        - THEN `ImpactSFX` → `C3.Plugins.Sprite.Acts.SetAngle`；参数 `[[0,[195,[4,102]]]]`；表达式引用提示 `["C3.Plugins.System.Exps.loopindex"]`
+        - THEN `ImpactSFX` → `C3.Behaviors.Tween.Acts.TweenTwoProperties`；参数 `[[1,[84]],[3,0],[0,[196,[1,64,34,false],[4,102]]],[0,[197,[1,64,35,false],[4,102]]],[0,[190]],[18,3],[3,1],[3,0],[3,0],[0,[10]]]`；表达式引用提示 `["C3.Plugins.Sprite.Exps.X","C3.Plugins.System.Exps.loopindex","C3.Plugins.Sprite.Exps.Y","C3.Plugins.Sprite.Exps.AnimationFrameCount"]`
+      - **事件 #29**（disabled=False，uid=421217178809696）
+        - IF `<无条件 / 由父事件继承>`
+        - THEN `System` → `C3.Plugins.System.Acts.Wait`；参数 `[[0,[88]],[16,true]]`；表达式引用提示 `[]`
+        - THEN `Coconut` → `C3.Plugins.Sprite.Acts.SetBoolInstanceVar`；参数 `[[10,1],[3,0]]`；表达式引用提示 `[]`
+  - **事件 #30**（disabled=False，uid=446926399839435）
+    - IF `Player` → `C3.Plugins.Sprite.Cnds.IsOverlapping`；参数 `[[4,43]]`；表达式引用提示 `[]`
+    - **事件 #31**（disabled=False，uid=802366926234645）
+      - IF `Tree` → `C3.Behaviors.Tween.Cnds.IsPlaying`；参数 `[[1,[63]]]`；表达式引用提示 `[]`
+      - IF `Tree` → `C3.Plugins.Sprite.Cnds.CompareInstanceVar`；参数 `[[10,0],[8,4],[7,[21]]]`；表达式引用提示 `[]`
+      - IF `Tree` → `C3.Behaviors.Timer.Cnds.IsTimerRunning`；参数 `[[1,[63]]]`；表达式引用提示 `[]`
+      - THEN `Tree` → `C3.Behaviors.Timer.Acts.StartTimer`；参数 `[[0,[98]],[3,0],[1,[63]]]`；表达式引用提示 `[]`
+      - THEN `ShakeBar` → `C3.Plugins.Sprite.Acts.SetVisible`；参数 `[[3,1]]`；表达式引用提示 `[]`
+      - THEN `ShakeProgress` → `C3.Plugins.TiledBg.Acts.SetVisible`；参数 `[[3,1]]`；表达式引用提示 `[]`
+      - THEN `Tree` → `C3.Behaviors.Tween.Acts.TweenOneProperty`；参数 `[[1,[63]],[3,0],[0,[198,[1,43,34,false]]],[0,[199]],[18,0],[3,0],[3,0],[3,1],[0,[158]]]`；表达式引用提示 `["C3.Plugins.Sprite.Exps.X","C3.Plugins.System.Exps.choose"]`
+      - THEN `Tree` → `C3.Plugins.Sprite.Acts.AddInstanceVar`；参数 `[[10,1],[7,[200,[1,3,89,false]]]]`；表达式引用提示 `["C3.Plugins.Dictionary.Exps.Get"]`
+      - THEN `ShakeProgress` → `C3.Plugins.TiledBg.Acts.SetWidth`；参数 `[[0,[201,[2,43,false,1],[1,31,51,false],[1,31,51,false]]]]`；表达式引用提示 `["C3.Plugins.Mouse.Exps.AbsoluteY","C3.Plugins.TiledBg.Exps.ImageWidth"]`
+      - **事件 #32**（disabled=False，uid=938377009913006）
+        - IF `Audio` → `C3.Plugins.Audio.Cnds.IsTagPlaying`；参数 `[[1,[202]]]`；表达式引用提示 `[]`
+        - THEN `Audio` → `C3.Plugins.Audio.Acts.Play`；参数 `[[2,["treeshake",false]],[3,0],[0,[21]],[0,[21]],[1,[202]]]`；表达式引用提示 `[]`
+    - **变量** `RNG`：type=0 (number)，初始值=`0`，constant=False，static=False
+    - **事件 #33**（disabled=False，uid=206499850082190）
+      - IF `Tree` → `C3.Plugins.Sprite.Cnds.CompareInstanceVar`；参数 `[[10,0],[8,4],[7,[21]]]`；表达式引用提示 `[]`
+      - IF `Tree` → `C3.Plugins.Sprite.Cnds.CompareInstanceVar`；参数 `[[10,1],[8,5],[7,[203]]]`；表达式引用提示 `[]`
+      - THEN `Tree` → `C3.Plugins.Sprite.Acts.SetInstanceVar`；参数 `[[10,1],[7,[21]]]`；表达式引用提示 `[]`
+      - THEN `System` → `C3.Plugins.System.Acts.CreateObject`；参数 `[[4,38],[5,[131]],[0,[4,[1,43,34,false]]],[0,[204,[1,43,185,false]]],[16,false],[20,[84]]]`；表达式引用提示 `["C3.Plugins.Sprite.Exps.X","C3.Plugins.Sprite.Exps.ImagePointY"]`
+      - THEN `Coconut` → `C3.Behaviors.Platform.Acts.SetVectorY`；参数 `[[0,[205,[0,38,"Platform",187,false],[4,134]]]]`；表达式引用提示 `["C3.Behaviors.Platform.Exps.JumpStrength","C3.Plugins.System.Exps.random"]`
+      - THEN `Coconut` → `C3.Plugins.Sprite.Acts.SetInstanceVar`；参数 `[[10,0],[7,[206,[4,158]]]]`；表达式引用提示 `["C3.Plugins.System.Exps.choose"]`
+      - THEN `Coconut` → `C3.Behaviors.Platform.Acts.SetMaxSpeed`；参数 `[[0,[207,[4,134]]]]`；表达式引用提示 `["C3.Plugins.System.Exps.random"]`
+      - THEN `Coconut` → `C3.Behaviors.Platform.Acts.SetJumpStrength`；参数 `[[0,[208,[4,134]]]]`；表达式引用提示 `["C3.Plugins.System.Exps.random"]`
+      - THEN `Tree` → `C3.Plugins.Sprite.Acts.SubInstanceVar`；参数 `[[10,0],[7,[10]]]`；表达式引用提示 `[]`
+      - THEN `CocoBar` → `C3.Plugins.TiledBg.Acts.SetPos`；参数 `[[0,[194,[1,61,176,false],[1,61,177,false]]],[0,[4,[1,61,178,false]]]]`；表达式引用提示 `["C3.Plugins.TiledBg.Exps.X","C3.Plugins.TiledBg.Exps.Width","C3.Plugins.TiledBg.Exps.Y"]`
+      - THEN `CocoBar` → `C3.Plugins.TiledBg.Acts.SetWidth`；参数 `[[0,[193,[2,43,false,0]]]]`；表达式引用提示 `[]`
+      - THEN `System` → `C3.Plugins.System.Acts.SetVar`；参数 `[[11,197539541394806],[7,[209,[4,134],[4,68],[1,3,89,false]]]]`；表达式引用提示 `["C3.Plugins.System.Exps.random","C3.Plugins.System.Exps.int","C3.Plugins.Dictionary.Exps.Get"]`
+      - **事件 #34**（disabled=False，uid=199074149918927）
+        - IF `System` → `C3.Plugins.System.Cnds.CompareVar`；参数 `[[11,197539541394806],[8,4],[7,[210]]]`；表达式引用提示 `[]`
+        - THEN `System` → `C3.Plugins.System.Acts.CreateObject`；参数 `[[4,38],[5,[131]],[0,[4,[1,43,34,false]]],[0,[204,[1,43,185,false]]],[16,false],[20,[84]]]`；表达式引用提示 `["C3.Plugins.Sprite.Exps.X","C3.Plugins.Sprite.Exps.ImagePointY"]`
+        - THEN `Coconut` → `C3.Behaviors.Platform.Acts.SetVectorY`；参数 `[[0,[205,[0,38,"Platform",187,false],[4,134]]]]`；表达式引用提示 `["C3.Behaviors.Platform.Exps.JumpStrength","C3.Plugins.System.Exps.random"]`
+        - THEN `Coconut` → `C3.Plugins.Sprite.Acts.SetInstanceVar`；参数 `[[10,0],[7,[206,[4,158]]]]`；表达式引用提示 `["C3.Plugins.System.Exps.choose"]`
+        - THEN `Coconut` → `C3.Behaviors.Platform.Acts.SetMaxSpeed`；参数 `[[0,[207,[4,134]]]]`；表达式引用提示 `["C3.Plugins.System.Exps.random"]`
+        - THEN `Coconut` → `C3.Behaviors.Platform.Acts.SetJumpStrength`；参数 `[[0,[208,[4,134]]]]`；表达式引用提示 `["C3.Plugins.System.Exps.random"]`
+      - **事件 #35**（disabled=False，uid=754448652305099）
+        - IF `Tree` → `C3.Plugins.Sprite.Cnds.CompareInstanceVar`；参数 `[[10,0],[8,3],[7,[21]]]`；表达式引用提示 `[]`
+        - THEN `TreeCooldown` → `C3.Plugins.Sprite.Acts.SetVisible`；参数 `[[3,1]]`；表达式引用提示 `[]`
+        - THEN `Tree` → `C3.Behaviors.Timer.Acts.StartTimer`；参数 `[[0,[211,[1,3,89,false]]],[3,0],[1,[212]]]`；表达式引用提示 `["C3.Plugins.Dictionary.Exps.Get"]`
+        - THEN `ShakeBar` → `C3.Plugins.Sprite.Acts.SetVisible`；参数 `[[3,0]]`；表达式引用提示 `[]`
+        - THEN `ShakeProgress` → `C3.Plugins.TiledBg.Acts.SetVisible`；参数 `[[3,0]]`；表达式引用提示 `[]`
+        - THEN `TreeCooldown` → `C3.Plugins.Sprite.Acts.SetAnimFrame`；参数 `[[7,[21]]]`；表达式引用提示 `[]`
+        - THEN `TreeCooldown` → `C3.Plugins.Sprite.Acts.StartAnim`；参数 `[[3,1]]`；表达式引用提示 `[]`
+        - THEN `TreeCooldown` → `C3.Plugins.Sprite.Acts.SetAnimSpeed`；参数 `[[0,[213,[1,76,190,false],[0,43,"Timer",191,false]]]]`；表达式引用提示 `["C3.Plugins.Sprite.Exps.AnimationFrameCount","C3.Behaviors.Timer.Exps.Duration"]`
+  - **事件 #36**（disabled=False，uid=937866990648965）
+    - IF `System` → `C3.Plugins.System.Cnds.Else`；参数 `null`；表达式引用提示 `[]`
+    - THEN `ShakeBar` → `C3.Plugins.Sprite.Acts.SetVisible`；参数 `[[3,0]]`；表达式引用提示 `[]`
+    - THEN `ShakeProgress` → `C3.Plugins.TiledBg.Acts.SetVisible`；参数 `[[3,0]]`；表达式引用提示 `[]`
+  - **事件 #37**（disabled=False，uid=788565719733192）
+    - IF `Coconut` → `C3.Behaviors.Platform.Cnds.IsOnFloor`；参数 `null`；表达式引用提示 `[]`
+    - **事件 #38**（disabled=False，uid=634224077902252）
+      - IF `Coconut` → `C3.Plugins.Sprite.Cnds.CompareInstanceVar`；参数 `[[10,0],[8,0],[7,[124]]]`；表达式引用提示 `["C3.Plugins.System.Exps.tokencount"]`
+      - THEN `Coconut` → `C3.Behaviors.Platform.Acts.SimulateControl`；参数 `[[3,0]]`；表达式引用提示 `[]`
+    - **事件 #39**（disabled=False，uid=762460146094649）
+      - IF `Coconut` → `C3.Plugins.Sprite.Cnds.CompareInstanceVar`；参数 `[[10,0],[8,0],[7,[123]]]`；表达式引用提示 `["C3.Plugins.System.Exps.replace"]`
+      - THEN `Coconut` → `C3.Behaviors.Platform.Acts.SimulateControl`；参数 `[[3,1]]`；表达式引用提示 `[]`
+  - **事件 #40**（disabled=False，uid=483101961638406）
+    - IF `Player` → `C3.Plugins.Sprite.Cnds.IsOverlapping`；参数 `[[4,38]]`；表达式引用提示 `[]`
+    - IF `Coconut` → `C3.Plugins.Sprite.Cnds.IsBoolInstanceVarSet`；参数 `[[10,1]]`；表达式引用提示 `[]`
+    - IF `Coconut` → `C3.Behaviors.Platform.Cnds.IsOnFloor`；参数 `null`；表达式引用提示 `[]`
+    - THEN `Coconut` → `C3.Plugins.Sprite.Acts.Destroy`；参数 `null`；表达式引用提示 `[]`
+    - THEN `Audio` → `C3.Plugins.Audio.Acts.Play`；参数 `[[2,["Sol",false]],[3,0],[0,[21]],[0,[21]],[1,[84]]]`；表达式引用提示 `[]`
+  - **事件 #41**（disabled=False，uid=787063886072337）
+    - IF `Coconut` → `C3.Plugins.Sprite.Cnds.OnDestroyed`；参数 `null`；表达式引用提示 `[]`
+    - THEN `Resources` → `C3.Plugins.Arr.Acts.SetXY`；参数 `[[0,[21]],[0,[21]],[7,[214,[4,68],[1,6,67,false]]]]`；表达式引用提示 `["C3.Plugins.System.Exps.int","C3.Plugins.Arr.Exps.At"]`
+    - THEN `System` → `C3.Plugins.System.Acts.AddVar`；参数 `[[11,404587922161029],[7,[215,[1,3,89,false]]]]`；表达式引用提示 `["C3.Plugins.Dictionary.Exps.Get"]`
+  - **事件 #42**（disabled=False，uid=254602111011499）
+    - IF `Tree` → `C3.Plugins.Sprite.Cnds.CompareInstanceVar`；参数 `[[10,0],[8,4],[7,[21]]]`；表达式引用提示 `[]`
+    - THEN `TreeCooldown` → `C3.Plugins.Sprite.Acts.SetVisible`；参数 `[[3,0]]`；表达式引用提示 `[]`
+  - **事件 #43**（disabled=False，uid=408182671612259）
+    - IF `Tree` → `C3.Plugins.Sprite.Cnds.CompareInstanceVar`；参数 `[[10,0],[8,3],[7,[21]]]`；表达式引用提示 `[]`
+    - THEN `TreeCooldown` → `C3.Plugins.Sprite.Acts.SetVisible`；参数 `[[3,1]]`；表达式引用提示 `[]`
+    - THEN `Tree` → `C3.Plugins.Sprite.Acts.SetDefaultColor`；参数 `[[0,[216,[4,169]]]]`；表达式引用提示 `["C3.Plugins.System.Exps.rgbex255"]`
+    - THEN `TreeTop` → `C3.Plugins.Sprite.Acts.SetDefaultColor`；参数 `[[0,[216,[4,169]]]]`；表达式引用提示 `["C3.Plugins.System.Exps.rgbex255"]`
+  - **事件 #44**（disabled=False，uid=929004206286251）
+    - IF `Tree` → `C3.Behaviors.Timer.Cnds.OnTimer`；参数 `[[1,[212]]]`；表达式引用提示 `[]`
+    - THEN `Tree` → `C3.Plugins.Sprite.Acts.SetInstanceVar`；参数 `[[10,0],[7,[192,[1,3,89,false]]]]`；表达式引用提示 `["C3.Plugins.Dictionary.Exps.Get"]`
+    - THEN `CocoAmount` → `C3.Plugins.TiledBg.Acts.SetWidth`；参数 `[[0,[193,[2,43,false,0]]]]`；表达式引用提示 `[]`
+    - THEN `TreeCooldown` → `C3.Plugins.Sprite.Acts.SetVisible`；参数 `[[3,0]]`；表达式引用提示 `[]`
+    - THEN `CocoBar` → `C3.Plugins.TiledBg.Acts.SetWidth`；参数 `[[0,[193,[2,43,false,0]]]]`；表达式引用提示 `[]`
+    - THEN `Tree` → `C3.Plugins.Sprite.Acts.SetDefaultColor`；参数 `[[0,[182,[4,169]]]]`；表达式引用提示 `["C3.Plugins.System.Exps.rgbex255"]`
+    - THEN `TreeTop` → `C3.Plugins.Sprite.Acts.SetDefaultColor`；参数 `[[0,[182,[4,169]]]]`；表达式引用提示 `["C3.Plugins.System.Exps.rgbex255"]`
+  - **事件 #45**（disabled=False，uid=284617519180716）
+    - IF `Player` → `C3.Plugins.Sprite.Cnds.IsOverlapping`；参数 `[[4,63]]`；表达式引用提示 `[]`
+    - IF `System` → `C3.Plugins.System.Cnds.CompareVar`；参数 `[[11,713155709008319],[8,3],[7,[21]]]`；表达式引用提示 `[]`
+    - IF `GameZone` → `C3.Plugins.Sprite.Cnds.IsCollisionEnabled`；参数 `null`；表达式引用提示 `[]`
+    - THEN `GameZone` → `C3.Plugins.Sprite.Acts.SetCollisions`；参数 `[[3,0]]`；表达式引用提示 `[]`
+    - THEN `Player` → `C3.Behaviors.Platform.Acts.SetIgnoreInput`；参数 `[[3,1]]`；表达式引用提示 `[]`
+    - THEN `System` → `C3.Plugins.System.Acts.Wait`；参数 `[[0,[85]],[16,true]]`；表达式引用提示 `[]`
+    - THEN `Player` → `C3.Behaviors.Tween.Acts.TweenOneProperty`；参数 `[[1,[84]],[3,0],[0,[217]],[0,[173]],[18,3],[3,0],[3,0],[3,0],[0,[10]]]`；表达式引用提示 `[]`
+    - THEN `Resources` → `C3.Plugins.Arr.Acts.SetXY`；参数 `[[0,[21]],[0,[21]],[7,[21]]]`；表达式引用提示 `[]`
+    - THEN `System` → `C3.Plugins.System.Acts.CreateObject`；参数 `[[4,26],[5,[66]],[0,[23]],[0,[218]],[16,false],[20,[84]]]`；表达式引用提示 `[]`
+  - **事件 #46**（disabled=False，uid=605896937538332）
+    - IF `CaughtMessage` → `C3.Plugins.Sprite.Cnds.OnCreated`；参数 `null`；表达式引用提示 `[]`
+    - THEN `Audio` → `C3.Plugins.Audio.Acts.Play`；参数 `[[2,["error",false]],[3,0],[0,[21]],[0,[21]],[1,[84]]]`；表达式引用提示 `[]`
+    - THEN `CaughtMessage` → `C3.Behaviors.Tween.Acts.TweenOneProperty`；参数 `[[1,[84]],[3,1],[0,[22]],[0,[219]],[18,9],[3,0],[3,0],[3,0],[0,[10]]]`；表达式引用提示 `[]`
+    - THEN `System` → `C3.Plugins.System.Acts.Wait`；参数 `[[0,[41]],[16,true]]`；表达式引用提示 `["C3.Plugins.System.Exps.layoutheight"]`
+    - THEN `CaughtMessage` → `C3.Plugins.Sprite.Acts.Destroy`；参数 `null`；表达式引用提示 `[]`
+    - THEN `GameZone` → `C3.Plugins.Sprite.Acts.SetCollisions`；参数 `[[3,1]]`；表达式引用提示 `[]`
+    - THEN `System` → `C3.Plugins.System.Acts.SetVar`；参数 `[[11,713155709008319],[7,[157]]]`；表达式引用提示 `[]`
+    - THEN `Player` → `C3.Behaviors.Platform.Acts.SetIgnoreInput`；参数 `[[3,0]]`；表达式引用提示 `[]`
+    - THEN `Player` → `C3.Plugins.Sprite.Acts.SetCollisions`；参数 `[[3,1]]`；表达式引用提示 `[]`
+- **变量** `Timer`：type=0 (number)，初始值=`30`，constant=False，static=False
+- **事件组：Chest**（enabled_flag=True，disabled=False）
+  - 条件：`System` → `C3.Plugins.System.Cnds.IsGroupActive`；参数 `[[1,[220]]]`；表达式引用提示 `[]`
+  - **事件 #48**（disabled=False，uid=560869069390048）
+    - IF `Player` → `C3.Plugins.Sprite.Cnds.IsOverlapping`；参数 `[[4,48]]`；表达式引用提示 `["C3.Plugins.Mouse.Exps.Y"]`
+    - THEN `ChestArrow` → `C3.Plugins.Sprite.Acts.SetVisible`；参数 `[[3,0]]`；表达式引用提示 `[]`
+    - **事件 #49**（disabled=False，uid=666697058223892）
+      - IF `Chest` → `C3.Plugins.Sprite.Cnds.CompareFrame`；参数 `[[8,0],[0,[21]]]`；表达式引用提示 `[]`
+      - THEN `Chest` → `C3.Plugins.Sprite.Acts.SetSize`；参数 `[[0,[4,[1,48,92,false]]],[0,[4,[1,48,93,false]]]]`；表达式引用提示 `["C3.Plugins.Mouse.Exps.Y","C3.Plugins.Sprite.Exps.ImageWidth","C3.Plugins.Sprite.Exps.ImageHeight"]`
+      - THEN `Chest` → `C3.Plugins.Sprite.Acts.SetAnimFrame`；参数 `[[7,[10]]]`；表达式引用提示 `[]`
+      - THEN `Chest` → `C3.Behaviors.Tween.Acts.TweenTwoProperties`；参数 `[[1,[84]],[3,1],[0,[87,[1,48,92,false]]],[0,[86,[1,48,93,false]]],[0,[141]],[18,3],[3,0],[3,0],[3,1],[0,[10]]]`；表达式引用提示 `["C3.Plugins.Mouse.Exps.Y","C3.Plugins.Sprite.Exps.ImageWidth","C3.Plugins.Sprite.Exps.ImageHeight"]`
+  - **事件 #50**（disabled=False，uid=645321601049509）
+    - IF `System` → `C3.Plugins.System.Cnds.Else`；参数 `null`；表达式引用提示 `[]`
+    - **事件 #51**（disabled=False，uid=474405880607679）
+      - IF `Chest` → `C3.Plugins.Sprite.Cnds.CompareFrame`；参数 `[[8,0],[0,[10]]]`；表达式引用提示 `[]`
+      - THEN `Chest` → `C3.Plugins.Sprite.Acts.SetSize`；参数 `[[0,[4,[1,48,92,false]]],[0,[4,[1,48,93,false]]]]`；表达式引用提示 `["C3.Plugins.Mouse.Exps.Y","C3.Plugins.Sprite.Exps.ImageWidth","C3.Plugins.Sprite.Exps.ImageHeight"]`
+      - THEN `Chest` → `C3.Plugins.Sprite.Acts.SetAnimFrame`；参数 `[[7,[21]]]`；表达式引用提示 `[]`
+      - THEN `Chest` → `C3.Behaviors.Tween.Acts.TweenTwoProperties`；参数 `[[1,[84]],[3,1],[0,[86,[1,48,92,false]]],[0,[87,[1,48,93,false]]],[0,[141]],[18,3],[3,0],[3,0],[3,1],[0,[10]]]`；表达式引用提示 `["C3.Plugins.Mouse.Exps.Y","C3.Plugins.Sprite.Exps.ImageWidth","C3.Plugins.Sprite.Exps.ImageHeight"]`
+    - **事件 #52**（disabled=False，uid=851108342257907）
+      - IF `Chest` → `C3.Plugins.Sprite.Cnds.CompareInstanceVar`；参数 `[[10,0],[8,4],[7,[21]]]`；表达式引用提示 `[]`
+      - THEN `ChestArrow` → `C3.Plugins.Sprite.Acts.SetVisible`；参数 `[[3,1]]`；表达式引用提示 `[]`
+  - **事件 #53**（disabled=False，uid=641073597271002）
+    - IF `Chest` → `C3.Plugins.Sprite.Cnds.CompareFrame`；参数 `[[8,0],[0,[10]]]`；表达式引用提示 `[]`
+    - IF `Chest` → `C3.Plugins.Sprite.Cnds.CompareInstanceVar`；参数 `[[10,0],[8,4],[7,[21]]]`；表达式引用提示 `[]`
+    - **事件 #54**（disabled=False，uid=430037694704041）
+      - IF `System` → `C3.Plugins.System.Cnds.Every`；参数 `[[0,[188]]]`；表达式引用提示 `[]`
+      - THEN `Resources` → `C3.Plugins.Arr.Acts.SetXY`；参数 `[[0,[10]],[0,[21]],[7,[221,[4,68],[1,6,67,false],[1,3,89,false]]]]`；表达式引用提示 `["C3.Plugins.System.Exps.int","C3.Plugins.Arr.Exps.At","C3.Plugins.Dictionary.Exps.Get"]`
+      - THEN `Chest` → `C3.Plugins.Sprite.Acts.SubInstanceVar`；参数 `[[10,0],[7,[10]]]`；表达式引用提示 `[]`
+      - THEN `System` → `C3.Plugins.System.Acts.CreateObject`；参数 `[[4,39],[5,[131]],[0,[4,[1,48,34,false]]],[0,[222,[1,48,35,false]]],[16,false],[20,[84]]]`；表达式引用提示 `["C3.Plugins.Mouse.Exps.Y","C3.Plugins.Sprite.Exps.X","C3.Plugins.Sprite.Exps.Y"]`
+      - THEN `Coin` → `C3.Behaviors.Tween.Acts.TweenOneProperty`；参数 `[[1,[84]],[3,1],[0,[223,[1,39,35,false]]],[0,[224]],[18,3],[3,1],[3,0],[3,0],[0,[10]]]`；表达式引用提示 `["C3.Plugins.Sprite.Exps.Y"]`
+      - **事件 #55**（disabled=False，uid=555925966951977）
+        - IF `Audio` → `C3.Plugins.Audio.Cnds.IsTagPlaying`；参数 `[[1,[225]]]`；表达式引用提示 `[]`
+        - THEN `Audio` → `C3.Plugins.Audio.Acts.Play`；参数 `[[2,["coin",false]],[3,0],[0,[21]],[0,[21]],[1,[84]]]`；表达式引用提示 `[]`
+  - **事件 #56**（disabled=False，uid=665744245994313）
+    - IF `Coin` → `C3.Plugins.Sprite.Cnds.OnDestroyed`；参数 `null`；表达式引用提示 `[]`
+    - THEN `System` → `C3.Plugins.System.Acts.CreateObject`；参数 `[[4,67],[5,[131]],[0,[4,[1,39,34,false]]],[0,[4,[1,39,35,false]]],[16,false],[20,[84]]]`；表达式引用提示 `["C3.Plugins.Arr.Exps.At","C3.Plugins.Sprite.Exps.X","C3.Plugins.Sprite.Exps.Y"]`
+  - **事件 #57**（disabled=False，uid=250604258637502）
+    - IF `ResourceGet` → `C3.Plugins.Sprite.Cnds.OnAnyAnimFinished`；参数 `null`；表达式引用提示 `[]`
+    - THEN `ResourceGet` → `C3.Plugins.Sprite.Acts.Destroy`；参数 `null`；表达式引用提示 `[]`
+- **事件组：Shop**（enabled_flag=True，disabled=False）
+  - 条件：`System` → `C3.Plugins.System.Cnds.IsGroupActive`；参数 `[[1,[226]]]`；表达式引用提示 `[]`
+  - **事件 #59**（disabled=False，uid=687118302833124）
+    - IF `Shop` → `C3.Plugins.Sprite.Cnds.CompareInstanceVar`；参数 `[[10,0],[8,4],[7,[21]]]`；表达式引用提示 `[]`
+    - THEN `MerchantProgress` → `C3.Plugins.Sprite.Acts.SetVisible`；参数 `[[3,1]]`；表达式引用提示 `[]`
+    - THEN `MerchantProgress` → `C3.Plugins.Sprite.Acts.SetAnim`；参数 `[[1,[227]],[3,1]]`；表达式引用提示 `[]`
+    - THEN `MerchantProgress` → `C3.Plugins.Sprite.Acts.SetAnimSpeed`；参数 `[[0,[228,[1,3,89,false]]]]`；表达式引用提示 `["C3.Plugins.Dictionary.Exps.Get"]`
+    - **事件 #60**（disabled=False，uid=733889955136975）
+      - IF `MerchantProgress` → `C3.Plugins.Sprite.Cnds.OnAnyAnimFinished`；参数 `null`；表达式引用提示 `[]`
+      - THEN `Shop` → `C3.Plugins.Sprite.Acts.SubInstanceVar`；参数 `[[10,0],[7,[10]]]`；表达式引用提示 `[]`
+      - THEN `MerchantProgress` → `C3.Plugins.Sprite.Acts.SetAnimFrame`；参数 `[[7,[21]]]`；表达式引用提示 `[]`
+      - THEN `MerchantProgress` → `C3.Plugins.Sprite.Acts.StartAnim`；参数 `[[3,0]]`；表达式引用提示 `[]`
+      - THEN `Chest` → `C3.Plugins.Sprite.Acts.AddInstanceVar`；参数 `[[10,0],[7,[10]]]`；表达式引用提示 `[]`
+      - THEN `MerchantProgress` → `C3.Plugins.Sprite.Acts.SetAnimSpeed`；参数 `[[0,[228,[1,3,89,false]]]]`；表达式引用提示 `["C3.Plugins.Dictionary.Exps.Get"]`
+  - **事件 #61**（disabled=False，uid=578931220301451）
+    - IF `System` → `C3.Plugins.System.Cnds.Else`；参数 `null`；表达式引用提示 `[]`
+    - THEN `MerchantProgress` → `C3.Plugins.Sprite.Acts.SetVisible`；参数 `[[3,0]]`；表达式引用提示 `[]`
+    - THEN `MerchantProgress` → `C3.Plugins.Sprite.Acts.SetAnimFrame`；参数 `[[7,[21]]]`；表达式引用提示 `[]`
+    - THEN `MerchantProgress` → `C3.Plugins.Sprite.Acts.StopAnim`；参数 `null`；表达式引用提示 `[]`
+  - **事件 #62**（disabled=False，uid=644027141121432）
+    - IF `MainFont` → `C3.Plugins.Spritefont2.Cnds.CompareInstanceVar`；参数 `[[10,0],[8,0],[7,[229]]]`；表达式引用提示 `[]`
+    - THEN `MainFont` → `C3.Plugins.Spritefont2.Acts.SetText`；参数 `[[7,[44,[2,53,false,0]]]]`；表达式引用提示 `["C3.Plugins.TiledBg.Exps.ImageOffsetX"]`
+  - **事件 #63**（disabled=False，uid=706364290085917）
+    - IF `Player` → `C3.Plugins.Sprite.Cnds.IsOverlapping`；参数 `[[4,53]]`；表达式引用提示 `["C3.Plugins.TiledBg.Exps.ImageOffsetX"]`
+    - IF `Resources` → `C3.Plugins.Arr.Cnds.CompareXY`；参数 `[[0,[21]],[0,[21]],[8,4],[7,[21]]]`；表达式引用提示 `[]`
+    - **事件 #64**（disabled=False，uid=243312402894542）
+      - IF `System` → `C3.Plugins.System.Cnds.Every`；参数 `[[0,[88]]]`；表达式引用提示 `[]`
+      - THEN `Resources` → `C3.Plugins.Arr.Acts.SetXY`；参数 `[[0,[21]],[0,[21]],[7,[230,[4,68],[1,6,67,false]]]]`；表达式引用提示 `["C3.Plugins.System.Exps.int","C3.Plugins.Arr.Exps.At"]`
+      - THEN `Shop` → `C3.Plugins.Sprite.Acts.AddInstanceVar`；参数 `[[10,0],[7,[10]]]`；表达式引用提示 `[]`
+- **事件组：Game HUD**（enabled_flag=True，disabled=False）
+  - 条件：`System` → `C3.Plugins.System.Cnds.IsGroupActive`；参数 `[[1,[231]]]`；表达式引用提示 `[]`
+  - **事件 #66**（disabled=False，uid=925785044029980）
+    - IF `Dictionary` → `C3.Plugins.Dictionary.Cnds.HasKey`；参数 `[[1,[60]]]`；表达式引用提示 `[]`
+    - THEN `Dictionary` → `C3.Plugins.Dictionary.Acts.AddKey`；参数 `[[1,[60]],[7,[158]]]`；表达式引用提示 `["C3.Plugins.System.Exps.choose"]`
+  - **事件 #67**（disabled=False，uid=313016446669321）
+    - IF [反向条件] `System` → `C3.Plugins.System.Cnds.ForEach`；参数 `[[4,8]]`；表达式引用提示 `[]`
+    - **事件 #68**（disabled=False，uid=771470019089281）
+      - IF `System` → `C3.Plugins.System.Cnds.Compare`；参数 `[[7,[27,[4,65],[2,8,true,0]]],[8,1],[7,[28]]]`；表达式引用提示 `["C3.Plugins.System.Exps.layoutscale","C3.Plugins.System.Exps.find"]`
+      - THEN `MainFont` → `C3.Plugins.Spritefont2.Acts.SetText`；参数 `[[7,[29,[1,6,67,false],[4,68],[2,8,true,0]]]]`；表达式引用提示 `["C3.Plugins.Arr.Exps.At","C3.Plugins.System.Exps.int"]`
+      - **事件 #69**（disabled=False，uid=638513030007114）
+        - IF `Resources` → `C3.Plugins.Arr.Cnds.CompareXY`；参数 `[[0,[30,[4,68],[2,8,true,0]]],[0,[21]],[8,5],[7,[31]]]`；表达式引用提示 `["C3.Plugins.Mouse.Exps.AbsoluteX","C3.Plugins.System.Exps.int","C3.Plugins.Mouse.Exps.AbsoluteY"]`
+        - THEN `MainFont` → `C3.Plugins.Spritefont2.Acts.SetText`；参数 `[[7,[32,[4,70],[1,6,67,false],[4,68],[2,8,true,0]]]]`；表达式引用提示 `["C3.Plugins.System.Exps.roundtodp","C3.Plugins.Arr.Exps.At","C3.Plugins.System.Exps.int"]`
+        - **事件 #70**（disabled=False，uid=539095413034726）
+          - IF `Resources` → `C3.Plugins.Arr.Cnds.CompareXY`；参数 `[[0,[30,[4,68],[2,8,true,0]]],[0,[21]],[8,5],[7,[33]]]`；表达式引用提示 `["C3.Plugins.Mouse.Exps.AbsoluteX","C3.Plugins.System.Exps.int"]`
+          - THEN `MainFont` → `C3.Plugins.Spritefont2.Acts.SetText`；参数 `[[7,[34,[4,70],[1,6,67,false],[4,68],[2,8,true,0]]]]`；表达式引用提示 `["C3.Plugins.Sprite.Exps.X","C3.Plugins.System.Exps.roundtodp","C3.Plugins.Arr.Exps.At","C3.Plugins.System.Exps.int"]`
+          - **事件 #71**（disabled=False，uid=755934515120115）
+            - IF `Resources` → `C3.Plugins.Arr.Cnds.CompareXY`；参数 `[[0,[30,[4,68],[2,8,true,0]]],[0,[21]],[8,5],[7,[35]]]`；表达式引用提示 `["C3.Plugins.Mouse.Exps.AbsoluteX","C3.Plugins.System.Exps.int","C3.Plugins.Sprite.Exps.Y"]`
+            - THEN `MainFont` → `C3.Plugins.Spritefont2.Acts.SetText`；参数 `[[7,[36,[4,70],[1,6,67,false],[4,68],[2,8,true,0]]]]`；表达式引用提示 `["C3.Plugins.System.Exps.roundtodp","C3.Plugins.Arr.Exps.At","C3.Plugins.System.Exps.int"]`
+  - **事件 #72**（disabled=False，uid=410085266032172）
+    - IF `Player` → `C3.Plugins.Sprite.Cnds.OnCollision`；参数 `[[4,63]]`；表达式引用提示 `[]`
+    - THEN `System` → `C3.Plugins.System.Acts.SetVar`；参数 `[[11,713155709008319],[7,[232,[1,3,89,false]]]]`；表达式引用提示 `["C3.Plugins.Dictionary.Exps.Get"]`
+    - THEN `Clock` → `C3.Plugins.Sprite.Acts.SetVisible`；参数 `[[3,1]]`；表达式引用提示 `[]`
+    - THEN `TipText` → `C3.Plugins.Spritefont2.Acts.SetVisible`；参数 `[[3,0]]`；表达式引用提示 `[]`
+  - **事件 #73**（disabled=False，uid=476024512092073）
+    - IF `Player` → `C3.Plugins.Sprite.Cnds.IsOverlapping`；参数 `[[4,63]]`；表达式引用提示 `[]`
+    - THEN `Clock` → `C3.Plugins.Sprite.Acts.SetVisible`；参数 `[[3,0]]`；表达式引用提示 `[]`
+    - THEN `TipText` → `C3.Plugins.Spritefont2.Acts.SetVisible`；参数 `[[3,1]]`；表达式引用提示 `[]`
+- **事件组：Captain**（enabled_flag=True，disabled=False）
+  - 条件：`System` → `C3.Plugins.System.Cnds.IsGroupActive`；参数 `[[1,[233]]]`；表达式引用提示 `[]`
+  - **事件 #75**（disabled=False，uid=775337051859633）
+    - IF `Player` → `C3.Plugins.Sprite.Cnds.OnCollision`；参数 `[[4,46]]`；表达式引用提示 `[]`
+    - THEN `CaptainMessage` → `C3.Plugins.Sprite.Acts.SetVisible`；参数 `[[3,1]]`；表达式引用提示 `[]`
+    - THEN `CaptainMessage` → `C3.Plugins.Sprite.Acts.SetY`；参数 `[[0,[234]]]`；表达式引用提示 `[]`
+    - THEN `CaptainMessage` → `C3.Behaviors.Tween.Acts.TweenOneProperty`；参数 `[[1,[84]],[3,1],[0,[235]],[0,[141]],[18,3],[3,0],[3,0],[3,1],[0,[10]]]`；表达式引用提示 `[]`
+    - THEN `Captain` → `C3.Plugins.Sprite.Acts.SetSize`；参数 `[[0,[4,[1,46,92,false]]],[0,[4,[1,46,93,false]]]]`；表达式引用提示 `["C3.Plugins.Sprite.Exps.ImageWidth","C3.Plugins.Sprite.Exps.ImageHeight"]`
+    - THEN `Captain` → `C3.Behaviors.Tween.Acts.TweenTwoProperties`；参数 `[[1,[84]],[3,1],[0,[86,[1,46,92,false]]],[0,[87,[1,46,93,false]]],[0,[141]],[18,3],[3,0],[3,0],[3,1],[0,[10]]]`；表达式引用提示 `["C3.Plugins.Sprite.Exps.ImageWidth","C3.Plugins.Sprite.Exps.ImageHeight"]`
+    - **事件 #76**（disabled=False，uid=874318325966552）
+      - IF `System` → `C3.Plugins.System.Cnds.CompareBoolVar`；参数 `[[11,217671953053614]]`；表达式引用提示 `[]`
+      - IF `System` → `C3.Plugins.System.Cnds.CompareVar`；参数 `[[11,409162018949782],[8,0],[7,[236]]]`；表达式引用提示 `[]`
+      - THEN `CaptainMessage` → `C3.Plugins.Sprite.Acts.SetAnimFrame`；参数 `[[7,[10]]]`；表达式引用提示 `[]`
+      - THEN `Player` → `C3.Behaviors.Platform.Acts.SetIgnoreInput`；参数 `[[3,1]]`；表达式引用提示 `[]`
+      - THEN `System` → `C3.Plugins.System.Acts.SetVar`；参数 `[[11,409162018949782],[7,[154]]]`；表达式引用提示 `[]`
+      - THEN `System` → `C3.Plugins.System.Acts.Wait`；参数 `[[0,[237]],[16,true]]`；表达式引用提示 `[]`
+      - THEN `Player` → `C3.Behaviors.MoveTo.Acts.MoveToPosition`；参数 `[[0,[4,[1,54,34,false]]],[0,[4,[1,54,35,false]]],[3,0]]`；表达式引用提示 `["C3.Plugins.System.Exps.dt","C3.Plugins.Sprite.Exps.X","C3.Plugins.Sprite.Exps.Y"]`
+      - THEN `System` → `C3.Plugins.System.Acts.Wait`；参数 `[[0,[98]],[16,true]]`；表达式引用提示 `[]`
+      - THEN `Custom:Transition` → `Transition (custom behavior/function call)`；参数 `[[1,[154]]]`；表达式引用提示 `[]`
+      - THEN `System` → `C3.Plugins.System.Acts.Wait`；参数 `[[0,[93]],[16,true]]`；表达式引用提示 `["C3.Plugins.Sprite.Exps.ImageHeight"]`
+      - THEN `System` → `C3.Plugins.System.Acts.GoToLayout`；参数 `[[6,"End"]]`；表达式引用提示 `[]`
+    - **事件 #77**（disabled=False，uid=717199537408908）
+      - IF `System` → `C3.Plugins.System.Cnds.Else`；参数 `null`；表达式引用提示 `[]`
+      - THEN `CaptainMessage` → `C3.Plugins.Sprite.Acts.SetAnimFrame`；参数 `[[7,[21]]]`；表达式引用提示 `[]`
+  - **事件 #78**（disabled=False，uid=652932984020704）
+    - IF `Player` → `C3.Plugins.Sprite.Cnds.IsOverlapping`；参数 `[[4,46]]`；表达式引用提示 `[]`
+    - THEN `CaptainMessage` → `C3.Plugins.Sprite.Acts.SetVisible`；参数 `[[3,0]]`；表达式引用提示 `[]`
+
+## eTitle
+
+- **事件 #1**（disabled=False，uid=675940524632258）
+  - IF `Tree` → `C3.Plugins.Sprite.Cnds.OnCreated`；参数 `null`；表达式引用提示 `[]`
+  - THEN `TreeTop` → `C3.Plugins.Sprite.Acts.SetPosToObject`；参数 `[[4,43],[7,[10]]]`；表达式引用提示 `[]`
+  - THEN `Tree` → `C3.Plugins.Sprite.Acts.AddChild`；参数 `[[4,55],[16,true],[16,false],[16,false],[16,false],[16,false],[16,true],[16,false],[16,false],[16,false],[16,false]]`；表达式引用提示 `[]`
+  - THEN `TreeCooldown` → `C3.Plugins.Sprite.Acts.SetVisible`；参数 `[[3,0]]`；表达式引用提示 `[]`
+  - THEN `CocoAmount` → `C3.Plugins.TiledBg.Acts.SetVisible`；参数 `[[3,0]]`；表达式引用提示 `[]`
+  - THEN `CocoBar` → `C3.Plugins.TiledBg.Acts.SetVisible`；参数 `[[3,0]]`；表达式引用提示 `[]`
+- **事件 #2**（disabled=False，uid=742098416052423）
+  - IF `System` → `C3.Plugins.System.Cnds.EveryTick`；参数 `null`；表达式引用提示 `[]`
+  - THEN `SeaClouds` → `C3.Plugins.TiledBg.Acts.SetImageOffsetX`；参数 `[[0,[162,[1,69,53,false],[2,69,false,0],[4,54]]]]`；表达式引用提示 `["C3.Plugins.System.Exps.max","C3.Plugins.TiledBg.Exps.ImageOffsetX","C3.Plugins.System.Exps.dt"]`
+  - THEN `Cursor` → `C3.Plugins.Sprite.Acts.SetPos`；参数 `[[0,[5,[1,1,47,false]]],[0,[5,[1,1,48,false]]]]`；表达式引用提示 `["C3.Plugins.Mouse.Exps.X","C3.Plugins.Mouse.Exps.Y"]`
+  - THEN `Cursor` → `C3.Plugins.Sprite.Acts.MoveToTop`；参数 `null`；表达式引用提示 `[]`
+- **行为块：Transition**
+  - **事件 #4**（disabled=False，uid=431153952805382）
+    - IF `System` → `C3.Plugins.System.Cnds.CompareVar`；参数 `[[11,234564532470919],[8,0],[7,[15]]]`；表达式引用提示 `[]`
+    - THEN `TransitionCircle` → `C3.Plugins.Sprite.Acts.SetSize`；参数 `[[0,[21]],[0,[21]]]`；表达式引用提示 `[]`
+    - THEN `TransitionCircle` → `C3.Behaviors.Tween.Acts.TweenTwoProperties`；参数 `[[1,[15]],[3,1],[0,[238]],[0,[238]],[0,[77]],[18,0],[3,0],[3,0],[3,0],[0,[10]]]`；表达式引用提示 `[]`
+  - **事件 #5**（disabled=False，uid=741076337445514）
+    - IF `System` → `C3.Plugins.System.Cnds.CompareVar`；参数 `[[11,234564532470919],[8,0],[7,[239]]]`；表达式引用提示 `[]`
+    - THEN `TransitionCircle` → `C3.Plugins.Sprite.Acts.SetSize`；参数 `[[0,[238]],[0,[238]]]`；表达式引用提示 `[]`
+    - THEN `TransitionCircle` → `C3.Behaviors.Tween.Acts.TweenTwoProperties`；参数 `[[1,[239]],[3,1],[0,[21]],[0,[21]],[0,[98]],[18,0],[3,0],[3,0],[3,0],[0,[10]]]`；表达式引用提示 `[]`
+  - **事件 #6**（disabled=False，uid=110279756031781）
+    - IF `System` → `C3.Plugins.System.Cnds.CompareVar`；参数 `[[11,234564532470919],[8,0],[7,[154]]]`；表达式引用提示 `[]`
+    - THEN `TransitionCircle` → `C3.Plugins.Sprite.Acts.SetSize`；参数 `[[0,[238]],[0,[238]]]`；表达式引用提示 `[]`
+    - THEN `TransitionCircle` → `C3.Behaviors.Tween.Acts.TweenTwoProperties`；参数 `[[1,[239]],[3,1],[0,[21]],[0,[21]],[0,[240]],[18,0],[3,0],[3,0],[3,0],[0,[10]]]`；表达式引用提示 `[]`
+- **事件 #7**（disabled=False，uid=180951733035269）
+  - IF `System` → `C3.Plugins.System.Cnds.OnLayoutStart`；参数 `null`；表达式引用提示 `[]`
+  - THEN `TransitionCircle` → `C3.Plugins.Sprite.Acts.SetSize`；参数 `[[0,[21]],[0,[21]]]`；表达式引用提示 `[]`
+  - THEN `Resources` → `C3.Plugins.Arr.Acts.SetX`；参数 `[[0,[21]],[7,[21]]]`；表达式引用提示 `[]`
+  - THEN `Resources` → `C3.Plugins.Arr.Acts.SetX`；参数 `[[0,[10]],[7,[83]]]`；表达式引用提示 `["C3.Plugins.System.Exps.tokenat"]`
+  - THEN `Resources` → `C3.Plugins.Arr.Acts.SetX`；参数 `[[0,[41]],[7,[21]]]`；表达式引用提示 `["C3.Plugins.System.Exps.layoutheight"]`
+  - THEN `Mouse` → `C3.Plugins.Mouse.Acts.SetCursor2`；参数 `[[3,2]]`；表达式引用提示 `[]`
+  - THEN `System` → `C3.Plugins.System.Acts.Wait`；参数 `[[0,[14]],[16,true]]`；表达式引用提示 `[]`
+  - THEN `Custom:Transition` → `Transition (custom behavior/function call)`；参数 `[[1,[15]]]`；表达式引用提示 `[]`
+  - THEN `System` → `C3.Plugins.System.Acts.Wait`；参数 `[[0,[10]],[16,true]]`；表达式引用提示 `[]`
+  - THEN `Audio` → `C3.Plugins.Audio.Acts.Play`；参数 `[[2,["music_for_videos-caribbean-beach-164232",true]],[3,1],[0,[241]],[0,[21]],[1,[242]]]`；表达式引用提示 `[]`
+  - **事件 #8**（disabled=False，uid=481453939917453）
+    - IF `LogoCoco` → `C3.Plugins.Sprite.Cnds.CompareInstanceVar`；参数 `[[10,0],[8,0],[7,[21]]]`；表达式引用提示 `[]`
+    - THEN `LogoCoco` → `C3.Behaviors.Tween.Acts.TweenOneProperty`；参数 `[[1,[243]],[3,1],[0,[244]],[0,[219]],[18,9],[3,0],[3,0],[3,0],[0,[10]]]`；表达式引用提示 `[]`
+    - THEN `System` → `C3.Plugins.System.Acts.Wait`；参数 `[[0,[14]],[16,true]]`；表达式引用提示 `[]`
+    - THEN `LogoCoco` → `C3.Behaviors.Tween.Acts.TweenTwoProperties`；参数 `[[1,[84]],[3,1],[0,[86,[1,91,92,false]]],[0,[87,[1,91,93,false]]],[0,[188]],[18,3],[3,0],[3,0],[3,1],[0,[10]]]`；表达式引用提示 `["C3.Plugins.Sprite.Exps.ImageWidth","C3.Plugins.Sprite.Exps.ImageHeight"]`
+    - THEN `GameTitle` → `C3.Behaviors.Tween.Acts.TweenTwoProperties`；参数 `[[1,[84]],[3,1],[0,[245,[1,90,92,false]]],[0,[246,[1,90,93,false]]],[0,[188]],[18,3],[3,0],[3,0],[3,1],[0,[10]]]`；表达式引用提示 `["C3.Plugins.Sprite.Exps.ImageWidth","C3.Plugins.Sprite.Exps.ImageHeight"]`
+    - THEN `GameTitle` → `C3.Behaviors.Tween.Acts.TweenOneProperty`；参数 `[[1,[84]],[3,1],[0,[198,[1,90,35,false]]],[0,[88]],[18,3],[3,0],[3,0],[3,1],[0,[10]]]`；表达式引用提示 `["C3.Plugins.Sprite.Exps.Y"]`
+    - THEN `System` → `C3.Plugins.System.Acts.Wait`；参数 `[[0,[85]],[16,true]]`；表达式引用提示 `[]`
+    - THEN `LogoCoco` → `C3.Plugins.Sprite.Acts.SetPosToObject`；参数 `[[4,90],[7,[10]]]`；表达式引用提示 `[]`
+    - THEN `GameTitle` → `C3.Plugins.Sprite.Acts.AddChild`；参数 `[[4,91],[16,true],[16,true],[16,false],[16,false],[16,false],[16,true],[16,true],[16,false],[16,false],[16,false]]`；表达式引用提示 `[]`
+  - **事件 #9**（disabled=False，uid=935089899894987）
+    - IF `LogoCoco` → `C3.Plugins.Sprite.Cnds.CompareInstanceVar`；参数 `[[10,0],[8,0],[7,[10]]]`；表达式引用提示 `[]`
+    - THEN `System` → `C3.Plugins.System.Acts.Wait`；参数 `[[0,[77]],[16,true]]`；表达式引用提示 `[]`
+    - THEN `LogoCoco` → `C3.Behaviors.Tween.Acts.TweenOneProperty`；参数 `[[1,[243]],[3,1],[0,[247]],[0,[219]],[18,9],[3,0],[3,0],[3,0],[0,[10]]]`；表达式引用提示 `[]`
+    - THEN `System` → `C3.Plugins.System.Acts.Wait`；参数 `[[0,[14]],[16,true]]`；表达式引用提示 `[]`
+    - THEN `LogoCoco` → `C3.Behaviors.Tween.Acts.TweenTwoProperties`；参数 `[[1,[84]],[3,1],[0,[86,[1,91,92,false]]],[0,[87,[1,91,93,false]]],[0,[188]],[18,3],[3,0],[3,0],[3,1],[0,[10]]]`；表达式引用提示 `["C3.Plugins.Sprite.Exps.ImageWidth","C3.Plugins.Sprite.Exps.ImageHeight"]`
+    - THEN `GameTitle` → `C3.Behaviors.Tween.Acts.TweenTwoProperties`；参数 `[[1,[84]],[3,1],[0,[245,[1,90,92,false]]],[0,[246,[1,90,93,false]]],[0,[188]],[18,3],[3,0],[3,0],[3,1],[0,[10]]]`；表达式引用提示 `["C3.Plugins.Sprite.Exps.ImageWidth","C3.Plugins.Sprite.Exps.ImageHeight"]`
+    - THEN `GameTitle` → `C3.Behaviors.Tween.Acts.TweenOneProperty`；参数 `[[1,[84]],[3,1],[0,[198,[1,90,35,false]]],[0,[88]],[18,3],[3,0],[3,0],[3,1],[0,[10]]]`；表达式引用提示 `["C3.Plugins.Sprite.Exps.Y"]`
+    - THEN `System` → `C3.Plugins.System.Acts.Wait`；参数 `[[0,[85]],[16,true]]`；表达式引用提示 `[]`
+    - THEN `LogoCoco` → `C3.Plugins.Sprite.Acts.SetPosToObject`；参数 `[[4,90],[7,[41]]]`；表达式引用提示 `["C3.Plugins.System.Exps.layoutheight"]`
+    - THEN `GameTitle` → `C3.Plugins.Sprite.Acts.AddChild`；参数 `[[4,91],[16,true],[16,true],[16,false],[16,false],[16,false],[16,true],[16,true],[16,false],[16,false],[16,false]]`；表达式引用提示 `[]`
+    - THEN `GameTitle` → `C3.Behaviors.Sin.Acts.SetEnabled`；参数 `[[3,1]]`；表达式引用提示 `[]`
+    - THEN `GameTitle` → `C3.Behaviors.Sin.Acts.SetEnabled`；参数 `[[3,1]]`；表达式引用提示 `[]`
+    - THEN `GameTitle` → `C3.Behaviors.Sin.Acts.SetEnabled`；参数 `[[3,1]]`；表达式引用提示 `[]`
+    - THEN `ClickAnywhere` → `C3.Plugins.Sprite.Acts.SetVisible`；参数 `[[3,1]]`；表达式引用提示 `[]`
+- **事件 #10**（disabled=False，uid=511113368955092）
+  - IF `Mouse` → `C3.Plugins.Mouse.Cnds.IsButtonDown`；参数 `[[3,0]]`；表达式引用提示 `[]`
+  - THEN `Cursor` → `C3.Plugins.Sprite.Acts.SetAnimFrame`；参数 `[[7,[10]]]`；表达式引用提示 `[]`
+- **事件 #11**（disabled=False，uid=878639857207792）
+  - IF `System` → `C3.Plugins.System.Cnds.Else`；参数 `null`；表达式引用提示 `[]`
+  - THEN `Cursor` → `C3.Plugins.Sprite.Acts.SetAnimFrame`；参数 `[[7,[21]]]`；表达式引用提示 `[]`
+- **事件 #12**（disabled=False，uid=515074167582202）
+  - IF `Mouse` → `C3.Plugins.Mouse.Cnds.OnClick`；参数 `[[3,0],[3,0]]`；表达式引用提示 `[]`
+  - **事件 #13**（disabled=False，uid=151431248905145）
+    - IF `ClickAnywhere` → `C3.Plugins.Sprite.Cnds.IsCollisionEnabled`；参数 `null`；表达式引用提示 `[]`
+    - IF `ClickAnywhere` → `C3.Plugins.Sprite.Cnds.IsVisible`；参数 `null`；表达式引用提示 `[]`
+    - THEN `ClickAnywhere` → `C3.Plugins.Sprite.Acts.SetCollisions`；参数 `[[3,0]]`；表达式引用提示 `[]`
+    - THEN `ClickAnywhere` → `C3.Behaviors.Sin.Acts.SetPeriod`；参数 `[[0,[190]]]`；表达式引用提示 `["C3.Plugins.Sprite.Exps.AnimationFrameCount"]`
+    - THEN `Audio` → `C3.Plugins.Audio.Acts.Play`；参数 `[[2,["press-start",false]],[3,0],[0,[21]],[0,[21]],[1,[84]]]`；表达式引用提示 `[]`
+    - THEN `System` → `C3.Plugins.System.Acts.Wait`；参数 `[[0,[10]],[16,true]]`；表达式引用提示 `[]`
+    - THEN `Custom:Transition` → `Transition (custom behavior/function call)`；参数 `[[1,[239]]]`；表达式引用提示 `[]`
+    - THEN `Audio` → `C3.Plugins.Audio.Acts.FadeVolume`；参数 `[[1,[242]],[0,[248]],[0,[10]],[3,0]]`；表达式引用提示 `[]`
+    - THEN `System` → `C3.Plugins.System.Acts.Wait`；参数 `[[0,[10]],[16,true]]`；表达式引用提示 `[]`
+    - THEN `Audio` → `C3.Plugins.Audio.Acts.Play`；参数 `[[2,["alex-morgan-reggae-island-vibes-537451",true]],[3,1],[0,[241]],[0,[21]],[1,[242]]]`；表达式引用提示 `[]`
+    - THEN `System` → `C3.Plugins.System.Acts.GoToLayout`；参数 `[[6,"Skill Tree"]]`；表达式引用提示 `[]`
+
+## eIntro
+
+- **事件 #1**（disabled=False，uid=864343332090942）
+  - IF `FeatureKreepLogo` → `C3.Plugins.Sprite.Cnds.OnAnimFinished`；参数 `[[1,[227]]]`；表达式引用提示 `[]`
+  - THEN `System` → `C3.Plugins.System.Acts.Wait`；参数 `[[0,[190]],[16,true]]`；表达式引用提示 `["C3.Plugins.Sprite.Exps.AnimationFrameCount"]`
+  - THEN `FeatureKreep` → `C3.Behaviors.Tween.Acts.TweenOneProperty`；参数 `[[1,[84]],[3,0],[0,[249]],[0,[219]],[18,3],[3,0],[3,0],[3,0],[0,[10]]]`；表达式引用提示 `[]`
+  - THEN `FeatureKreepLogo` → `C3.Behaviors.Tween.Acts.TweenOneProperty`；参数 `[[1,[84]],[3,0],[0,[179]],[0,[219]],[18,3],[3,0],[3,0],[3,0],[0,[10]]]`；表达式引用提示 `["C3.Plugins.Sprite.Exps.Height"]`
+  - THEN `System` → `C3.Plugins.System.Acts.Wait`；参数 `[[0,[173]],[16,true]]`；表达式引用提示 `[]`
+  - THEN `FeatureKreep` → `C3.Plugins.Sprite.Acts.SetVisible`；参数 `[[3,0]]`；表达式引用提示 `[]`
+  - THEN `FeatureKreepLogo` → `C3.Plugins.Sprite.Acts.SetVisible`；参数 `[[3,0]]`；表达式引用提示 `[]`
+  - THEN `System` → `C3.Plugins.System.Acts.Wait`；参数 `[[0,[98]],[16,true]]`；表达式引用提示 `[]`
+  - THEN `MainFont` → `C3.Plugins.Spritefont2.Acts.SetVisible`；参数 `[[3,1]]`；表达式引用提示 `[]`
+  - THEN `System` → `C3.Plugins.System.Acts.Wait`；参数 `[[0,[158]],[16,true]]`；表达式引用提示 `["C3.Plugins.System.Exps.choose"]`
+  - THEN `MainFont` → `C3.Plugins.Spritefont2.Acts.SetVisible`；参数 `[[3,0]]`；表达式引用提示 `[]`
+  - THEN `System` → `C3.Plugins.System.Acts.Wait`；参数 `[[0,[98]],[16,true]]`；表达式引用提示 `[]`
+  - THEN `System` → `C3.Plugins.System.Acts.GoToLayout`；参数 `[[6,"Title"]]`；表达式引用提示 `[]`
+- **事件 #2**（disabled=False，uid=354520109616814）
+  - IF `System` → `C3.Plugins.System.Cnds.OnLayoutStart`；参数 `null`；表达式引用提示 `[]`
+  - THEN `Mouse` → `C3.Plugins.Mouse.Acts.SetCursor2`；参数 `[[3,2]]`；表达式引用提示 `[]`
+- **事件 #3**（disabled=False，uid=234589571479488）
+  - IF `Keyboard` → `C3.Plugins.Keyboard.Cnds.OnKey`；参数 `[[9,13]]`；表达式引用提示 `[]`
+  - THEN `System` → `C3.Plugins.System.Acts.GoToLayout`；参数 `[[6,"Title"]]`；表达式引用提示 `[]`
+
+## eEnd
+
+- **事件 #1**（disabled=False，uid=719767135505427）
+  - IF `System` → `C3.Plugins.System.Cnds.OnLayoutStart`；参数 `null`；表达式引用提示 `[]`
+  - THEN `TransitionCircle` → `C3.Plugins.Sprite.Acts.SetSize`；参数 `[[0,[21]],[0,[21]]]`；表达式引用提示 `[]`
+  - THEN `ThankYou` → `C3.Plugins.Sprite.Acts.SetSize`；参数 `[[0,[21]],[0,[21]]]`；表达式引用提示 `[]`
+  - THEN `System` → `C3.Plugins.System.Acts.Wait`；参数 `[[0,[98]],[16,true]]`；表达式引用提示 `[]`
+  - THEN `Custom:Transition` → `Transition (custom behavior/function call)`；参数 `[[1,[15]]]`；表达式引用提示 `[]`
+  - THEN `System` → `C3.Plugins.System.Acts.Wait`；参数 `[[0,[250]],[16,true]]`；表达式引用提示 `[]`
+  - THEN `ThankYou` → `C3.Behaviors.Tween.Acts.TweenTwoProperties`；参数 `[[1,[84]],[3,1],[0,[4,[1,33,92,false]]],[0,[4,[1,33,93,false]]],[0,[98]],[18,9],[3,0],[3,0],[3,0],[0,[10]]]`；表达式引用提示 `["C3.Plugins.Sprite.Exps.ImageWidth","C3.Plugins.Sprite.Exps.ImageHeight"]`
+- **事件 #2**（disabled=False，uid=492282382428428）
+  - IF `System` → `C3.Plugins.System.Cnds.EveryTick`；参数 `null`；表达式引用提示 `[]`
+  - THEN `SeaClouds` → `C3.Plugins.TiledBg.Acts.SetImageOffsetX`；参数 `[[0,[162,[1,69,53,false],[2,69,false,0],[4,54]]]]`；表达式引用提示 `["C3.Plugins.System.Exps.max","C3.Plugins.TiledBg.Exps.ImageOffsetX","C3.Plugins.System.Exps.dt"]`
+- **事件 #3**（disabled=False，uid=133757963214847）
+  - IF `Bird` → `C3.Behaviors.MoveTo.Cnds.OnArrived`；参数 `null`；表达式引用提示 `[]`
+  - THEN `Bird` → `C3.Plugins.Sprite.Acts.Destroy`；参数 `null`；表达式引用提示 `[]`
+- **事件 #4**（disabled=False，uid=693703719992839）
+  - IF `System` → `C3.Plugins.System.Cnds.Every`；参数 `[[0,[129,[4,134]]]]`；表达式引用提示 `["C3.Plugins.System.Exps.random"]`
+  - **事件 #5**（disabled=False，uid=966111650386747）
+    - IF [反向条件] `System` → `C3.Plugins.System.Cnds.Repeat`；参数 `[[0,[164,[4,158]]]]`；表达式引用提示 `["C3.Plugins.System.Exps.choose"]`
+    - THEN `System` → `C3.Plugins.System.Acts.Wait`；参数 `[[0,[165,[4,134],[4,102]]],[16,true]]`；表达式引用提示 `["C3.Plugins.System.Exps.random","C3.Plugins.System.Exps.loopindex"]`
+    - THEN `System` → `C3.Plugins.System.Acts.CreateObject`；参数 `[[4,59],[5,[166]],[0,[167,[4,158],[4,40]]],[0,[168,[4,134]]],[16,false],[20,[84]]]`；表达式引用提示 `["C3.Behaviors.Orbit.Exps.Rotation","C3.Plugins.System.Exps.choose","C3.Plugins.System.Exps.layoutwidth","C3.Plugins.System.Exps.random"]`
+    - THEN `Bird` → `C3.Plugins.Sprite.Acts.SetWidth`；参数 `[[0,[139,[1,59,93,false],[1,59,34,false]]]]`；表达式引用提示 `["C3.Plugins.Sprite.Exps.Width","C3.Plugins.Sprite.Exps.ImageHeight","C3.Plugins.Sprite.Exps.X"]`
+    - THEN `Bird` → `C3.Behaviors.MoveTo.Acts.MoveToPosition`；参数 `[[0,[169,[1,59,34,false],[4,134],[1,59,34,false]]],[0,[170,[1,59,35,false],[4,158],[4,134]]],[3,0]]`；表达式引用提示 `["C3.Plugins.System.Exps.rgbex255","C3.Plugins.Sprite.Exps.X","C3.Plugins.System.Exps.random","C3.Plugins.Sprite.Exps.Y","C3.Plugins.System.Exps.choose"]`
+    - THEN `Bird` → `C3.Behaviors.MoveTo.Acts.SetMaxSpeed`；参数 `[[0,[171,[4,134]]]]`；表达式引用提示 `["C3.Plugins.System.Exps.random"]`
+- **事件 #6**（disabled=False，uid=845293397130572）
+  - IF `Tree` → `C3.Plugins.Sprite.Cnds.OnCreated`；参数 `null`；表达式引用提示 `[]`
+  - THEN `TreeTop` → `C3.Plugins.Sprite.Acts.SetPosToObject`；参数 `[[4,43],[7,[10]]]`；表达式引用提示 `[]`
+  - THEN `Tree` → `C3.Plugins.Sprite.Acts.AddChild`；参数 `[[4,55],[16,true],[16,false],[16,false],[16,false],[16,false],[16,true],[16,false],[16,false],[16,false],[16,false]]`；表达式引用提示 `[]`
+  - THEN `TreeCooldown` → `C3.Plugins.Sprite.Acts.SetVisible`；参数 `[[3,0]]`；表达式引用提示 `[]`
+  - THEN `CocoAmount` → `C3.Plugins.TiledBg.Acts.SetVisible`；参数 `[[3,0]]`；表达式引用提示 `[]`
+  - THEN `CocoBar` → `C3.Plugins.TiledBg.Acts.SetVisible`；参数 `[[3,0]]`；表达式引用提示 `[]`

@@ -1,0 +1,1027 @@
+[
+  {
+    "index": 0,
+    "symbol": "C3.Plugins.Keyboard",
+    "short_name": "Keyboard"
+  },
+  {
+    "index": 1,
+    "symbol": "C3.Plugins.Mouse",
+    "short_name": "Mouse"
+  },
+  {
+    "index": 2,
+    "symbol": "C3.Plugins.Audio",
+    "short_name": "Audio"
+  },
+  {
+    "index": 3,
+    "symbol": "C3.Plugins.Dictionary",
+    "short_name": "Dictionary"
+  },
+  {
+    "index": 4,
+    "symbol": "C3.Plugins.AJAX",
+    "short_name": "AJAX"
+  },
+  {
+    "index": 5,
+    "symbol": "C3.Plugins.XML",
+    "short_name": "XML"
+  },
+  {
+    "index": 6,
+    "symbol": "C3.Plugins.Arr",
+    "short_name": "Arr"
+  },
+  {
+    "index": 7,
+    "symbol": "C3.Plugins.Spritefont2",
+    "short_name": "Spritefont2"
+  },
+  {
+    "index": 8,
+    "symbol": "C3.Behaviors.Tween",
+    "short_name": "Tween"
+  },
+  {
+    "index": 9,
+    "symbol": "C3.Behaviors.Persist",
+    "short_name": "Persist"
+  },
+  {
+    "index": 10,
+    "symbol": "C3.Plugins.Sprite",
+    "short_name": "Sprite"
+  },
+  {
+    "index": 11,
+    "symbol": "C3.Plugins.TiledBg",
+    "short_name": "TiledBg"
+  },
+  {
+    "index": 12,
+    "symbol": "C3.Plugins.NinePatch",
+    "short_name": "NinePatch"
+  },
+  {
+    "index": 13,
+    "symbol": "C3.Behaviors.Sin",
+    "short_name": "Sin"
+  },
+  {
+    "index": 14,
+    "symbol": "C3.Behaviors.scrollto",
+    "short_name": "scrollto"
+  },
+  {
+    "index": 15,
+    "symbol": "C3.Behaviors.MoveTo",
+    "short_name": "MoveTo"
+  },
+  {
+    "index": 16,
+    "symbol": "C3.Behaviors.EightDir",
+    "short_name": "EightDir"
+  },
+  {
+    "index": 17,
+    "symbol": "C3.Behaviors.Platform",
+    "short_name": "Platform"
+  },
+  {
+    "index": 18,
+    "symbol": "C3.Behaviors.Timer",
+    "short_name": "Timer"
+  },
+  {
+    "index": 19,
+    "symbol": "C3.Behaviors.bound",
+    "short_name": "bound"
+  },
+  {
+    "index": 20,
+    "symbol": "C3.Behaviors.solid",
+    "short_name": "solid"
+  },
+  {
+    "index": 21,
+    "symbol": "C3.Plugins.Particles",
+    "short_name": "Particles"
+  },
+  {
+    "index": 22,
+    "symbol": "C3.Behaviors.Orbit",
+    "short_name": "Orbit"
+  },
+  {
+    "index": 23,
+    "symbol": "C3.Plugins.Tilemap",
+    "short_name": "Tilemap"
+  },
+  {
+    "index": 24,
+    "symbol": "C3.Plugins.System.Cnds.IsGroupActive",
+    "short_name": "System.Cnds.IsGroupActive"
+  },
+  {
+    "index": 25,
+    "symbol": "C3.Plugins.Mouse.Cnds.OnWheel",
+    "short_name": "Mouse.Cnds.OnWheel"
+  },
+  {
+    "index": 26,
+    "symbol": "C3.Plugins.System.Acts.SetLayoutScale",
+    "short_name": "System.Acts.SetLayoutScale"
+  },
+  {
+    "index": 27,
+    "symbol": "C3.Plugins.System.Exps.layoutscale",
+    "short_name": "System.Exps.layoutscale"
+  },
+  {
+    "index": 28,
+    "symbol": "C3.Plugins.Mouse.Cnds.IsButtonDown",
+    "short_name": "Mouse.Cnds.IsButtonDown"
+  },
+  {
+    "index": 29,
+    "symbol": "C3.Plugins.Sprite.Acts.SetPos",
+    "short_name": "Sprite.Acts.SetPos"
+  },
+  {
+    "index": 30,
+    "symbol": "C3.Plugins.Mouse.Exps.AbsoluteX",
+    "short_name": "Mouse.Exps.AbsoluteX"
+  },
+  {
+    "index": 31,
+    "symbol": "C3.Plugins.Mouse.Exps.AbsoluteY",
+    "short_name": "Mouse.Exps.AbsoluteY"
+  },
+  {
+    "index": 32,
+    "symbol": "C3.Plugins.Mouse.Cnds.OnClick",
+    "short_name": "Mouse.Cnds.OnClick"
+  },
+  {
+    "index": 33,
+    "symbol": "C3.Plugins.Sprite.Acts.SetInstanceVar",
+    "short_name": "Sprite.Acts.SetInstanceVar"
+  },
+  {
+    "index": 34,
+    "symbol": "C3.Plugins.Sprite.Exps.X",
+    "short_name": "Sprite.Exps.X"
+  },
+  {
+    "index": 35,
+    "symbol": "C3.Plugins.Sprite.Exps.Y",
+    "short_name": "Sprite.Exps.Y"
+  },
+  {
+    "index": 36,
+    "symbol": "C3.Plugins.Keyboard.Cnds.OnKey",
+    "short_name": "Keyboard.Cnds.OnKey"
+  },
+  {
+    "index": 37,
+    "symbol": "C3.Behaviors.Tween.Acts.StopAllTweens",
+    "short_name": "Tween.Acts.StopAllTweens"
+  },
+  {
+    "index": 38,
+    "symbol": "C3.Behaviors.Tween.Acts.TweenTwoProperties",
+    "short_name": "Tween.Acts.TweenTwoProperties"
+  },
+  {
+    "index": 39,
+    "symbol": "C3.Plugins.Mouse.Cnds.OnRelease",
+    "short_name": "Mouse.Cnds.OnRelease"
+  },
+  {
+    "index": 40,
+    "symbol": "C3.Plugins.System.Exps.layoutwidth",
+    "short_name": "System.Exps.layoutwidth"
+  },
+  {
+    "index": 41,
+    "symbol": "C3.Plugins.System.Exps.layoutheight",
+    "short_name": "System.Exps.layoutheight"
+  },
+  {
+    "index": 42,
+    "symbol": "C3.Plugins.System.Cnds.OnLayoutStart",
+    "short_name": "System.Cnds.OnLayoutStart"
+  },
+  {
+    "index": 43,
+    "symbol": "C3.Plugins.Mouse.Acts.SetCursor2",
+    "short_name": "Mouse.Acts.SetCursor2"
+  },
+  {
+    "index": 44,
+    "symbol": "C3.Plugins.System.Acts.SetFullscreenQuality",
+    "short_name": "System.Acts.SetFullscreenQuality"
+  },
+  {
+    "index": 45,
+    "symbol": "C3.Plugins.Particles.Acts.FastForward",
+    "short_name": "Particles.Acts.FastForward"
+  },
+  {
+    "index": 46,
+    "symbol": "C3.Plugins.System.Cnds.EveryTick",
+    "short_name": "System.Cnds.EveryTick"
+  },
+  {
+    "index": 47,
+    "symbol": "C3.Plugins.Mouse.Exps.X",
+    "short_name": "Mouse.Exps.X"
+  },
+  {
+    "index": 48,
+    "symbol": "C3.Plugins.Mouse.Exps.Y",
+    "short_name": "Mouse.Exps.Y"
+  },
+  {
+    "index": 49,
+    "symbol": "C3.Plugins.Sprite.Acts.MoveToTop",
+    "short_name": "Sprite.Acts.MoveToTop"
+  },
+  {
+    "index": 50,
+    "symbol": "C3.Plugins.TiledBg.Acts.SetWidth",
+    "short_name": "TiledBg.Acts.SetWidth"
+  },
+  {
+    "index": 51,
+    "symbol": "C3.Plugins.TiledBg.Exps.ImageWidth",
+    "short_name": "TiledBg.Exps.ImageWidth"
+  },
+  {
+    "index": 52,
+    "symbol": "C3.Plugins.TiledBg.Acts.SetImageOffsetX",
+    "short_name": "TiledBg.Acts.SetImageOffsetX"
+  },
+  {
+    "index": 53,
+    "symbol": "C3.Plugins.TiledBg.Exps.ImageOffsetX",
+    "short_name": "TiledBg.Exps.ImageOffsetX"
+  },
+  {
+    "index": 54,
+    "symbol": "C3.Plugins.System.Exps.dt",
+    "short_name": "System.Exps.dt"
+  },
+  {
+    "index": 55,
+    "symbol": "C3.Plugins.TiledBg.Acts.SetImageOffsetY",
+    "short_name": "TiledBg.Acts.SetImageOffsetY"
+  },
+  {
+    "index": 56,
+    "symbol": "C3.Plugins.TiledBg.Exps.ImageOffsetY",
+    "short_name": "TiledBg.Exps.ImageOffsetY"
+  },
+  {
+    "index": 57,
+    "symbol": "C3.Plugins.Sprite.Acts.SetAnimFrame",
+    "short_name": "Sprite.Acts.SetAnimFrame"
+  },
+  {
+    "index": 58,
+    "symbol": "C3.Plugins.System.Cnds.Else",
+    "short_name": "System.Cnds.Else"
+  },
+  {
+    "index": 59,
+    "symbol": "C3.Plugins.Keyboard.Cnds.IsKeyDown",
+    "short_name": "Keyboard.Cnds.IsKeyDown"
+  },
+  {
+    "index": 60,
+    "symbol": "C3.Plugins.Sprite.Cnds.CompareY",
+    "short_name": "Sprite.Cnds.CompareY"
+  },
+  {
+    "index": 61,
+    "symbol": "C3.Behaviors.EightDir.Acts.SimulateControl",
+    "short_name": "EightDir.Acts.SimulateControl"
+  },
+  {
+    "index": 62,
+    "symbol": "C3.Plugins.Sprite.Cnds.CompareX",
+    "short_name": "Sprite.Cnds.CompareX"
+  },
+  {
+    "index": 63,
+    "symbol": "C3.Plugins.System.Cnds.ForEach",
+    "short_name": "System.Cnds.ForEach"
+  },
+  {
+    "index": 64,
+    "symbol": "C3.Plugins.System.Cnds.Compare",
+    "short_name": "System.Cnds.Compare"
+  },
+  {
+    "index": 65,
+    "symbol": "C3.Plugins.System.Exps.find",
+    "short_name": "System.Exps.find"
+  },
+  {
+    "index": 66,
+    "symbol": "C3.Plugins.Spritefont2.Acts.SetText",
+    "short_name": "Spritefont2.Acts.SetText"
+  },
+  {
+    "index": 67,
+    "symbol": "C3.Plugins.Arr.Exps.At",
+    "short_name": "Arr.Exps.At"
+  },
+  {
+    "index": 68,
+    "symbol": "C3.Plugins.System.Exps.int",
+    "short_name": "System.Exps.int"
+  },
+  {
+    "index": 69,
+    "symbol": "C3.Plugins.Arr.Cnds.CompareXY",
+    "short_name": "Arr.Cnds.CompareXY"
+  },
+  {
+    "index": 70,
+    "symbol": "C3.Plugins.System.Exps.roundtodp",
+    "short_name": "System.Exps.roundtodp"
+  },
+  {
+    "index": 71,
+    "symbol": "C3.Plugins.System.Cnds.CompareVar",
+    "short_name": "System.Cnds.CompareVar"
+  },
+  {
+    "index": 72,
+    "symbol": "C3.Plugins.System.Acts.SetBoolVar",
+    "short_name": "System.Acts.SetBoolVar"
+  },
+  {
+    "index": 73,
+    "symbol": "C3.Plugins.Sprite.Cnds.OnCreated",
+    "short_name": "Sprite.Cnds.OnCreated"
+  },
+  {
+    "index": 74,
+    "symbol": "C3.Plugins.Sprite.Acts.AddChild",
+    "short_name": "Sprite.Acts.AddChild"
+  },
+  {
+    "index": 75,
+    "symbol": "C3.Plugins.Particles.Acts.MoveToBottom",
+    "short_name": "Particles.Acts.MoveToBottom"
+  },
+  {
+    "index": 76,
+    "symbol": "C3.Plugins.Sprite.Cnds.IsBoolInstanceVarSet",
+    "short_name": "Sprite.Cnds.IsBoolInstanceVarSet"
+  },
+  {
+    "index": 77,
+    "symbol": "C3.Plugins.Sprite.Acts.SetVisible",
+    "short_name": "Sprite.Acts.SetVisible"
+  },
+  {
+    "index": 78,
+    "symbol": "C3.Plugins.Sprite.Cnds.CompareInstanceVar",
+    "short_name": "Sprite.Cnds.CompareInstanceVar"
+  },
+  {
+    "index": 79,
+    "symbol": "C3.Plugins.Particles.Acts.SetDefaultColor",
+    "short_name": "Particles.Acts.SetDefaultColor"
+  },
+  {
+    "index": 80,
+    "symbol": "C3.Plugins.System.Exps.hexcolor",
+    "short_name": "System.Exps.hexcolor"
+  },
+  {
+    "index": 81,
+    "symbol": "C3.Plugins.Sprite.Acts.SetEffectParam",
+    "short_name": "Sprite.Acts.SetEffectParam"
+  },
+  {
+    "index": 82,
+    "symbol": "C3.Plugins.Mouse.Cnds.IsOverObject",
+    "short_name": "Mouse.Cnds.IsOverObject"
+  },
+  {
+    "index": 83,
+    "symbol": "C3.Plugins.System.Exps.tokenat",
+    "short_name": "System.Exps.tokenat"
+  },
+  {
+    "index": 84,
+    "symbol": "C3.Plugins.Audio.Acts.Play",
+    "short_name": "Audio.Acts.Play"
+  },
+  {
+    "index": 85,
+    "symbol": "C3.Plugins.System.Acts.AddVar",
+    "short_name": "System.Acts.AddVar"
+  },
+  {
+    "index": 86,
+    "symbol": "C3.Behaviors.scrollto.Acts.Shake",
+    "short_name": "scrollto.Acts.Shake"
+  },
+  {
+    "index": 87,
+    "symbol": "C3.Plugins.Arr.Acts.SetXY",
+    "short_name": "Arr.Acts.SetXY"
+  },
+  {
+    "index": 88,
+    "symbol": "C3.Plugins.Dictionary.Acts.SetKey",
+    "short_name": "Dictionary.Acts.SetKey"
+  },
+  {
+    "index": 89,
+    "symbol": "C3.Plugins.Dictionary.Exps.Get",
+    "short_name": "Dictionary.Exps.Get"
+  },
+  {
+    "index": 90,
+    "symbol": "C3.Plugins.Sprite.Acts.SetAngle",
+    "short_name": "Sprite.Acts.SetAngle"
+  },
+  {
+    "index": 91,
+    "symbol": "C3.Plugins.Sprite.Acts.SetSize",
+    "short_name": "Sprite.Acts.SetSize"
+  },
+  {
+    "index": 92,
+    "symbol": "C3.Plugins.Sprite.Exps.ImageWidth",
+    "short_name": "Sprite.Exps.ImageWidth"
+  },
+  {
+    "index": 93,
+    "symbol": "C3.Plugins.Sprite.Exps.ImageHeight",
+    "short_name": "Sprite.Exps.ImageHeight"
+  },
+  {
+    "index": 94,
+    "symbol": "C3.Behaviors.Tween.Acts.TweenOneProperty",
+    "short_name": "Tween.Acts.TweenOneProperty"
+  },
+  {
+    "index": 95,
+    "symbol": "C3.Behaviors.Tween.Acts.TweenValue",
+    "short_name": "Tween.Acts.TweenValue"
+  },
+  {
+    "index": 96,
+    "symbol": "C3.Plugins.NinePatch.Acts.SetAngle",
+    "short_name": "NinePatch.Acts.SetAngle"
+  },
+  {
+    "index": 97,
+    "symbol": "C3.Plugins.Spritefont2.Cnds.CompareInstanceVar",
+    "short_name": "Spritefont2.Cnds.CompareInstanceVar"
+  },
+  {
+    "index": 98,
+    "symbol": "C3.Plugins.Sprite.Cnds.PickChildren",
+    "short_name": "Sprite.Cnds.PickChildren"
+  },
+  {
+    "index": 99,
+    "symbol": "C3.Plugins.System.Cnds.Repeat",
+    "short_name": "System.Cnds.Repeat"
+  },
+  {
+    "index": 100,
+    "symbol": "C3.Plugins.Sprite.Exps.AllChildCount",
+    "short_name": "Sprite.Exps.AllChildCount"
+  },
+  {
+    "index": 101,
+    "symbol": "C3.Plugins.Sprite.Cnds.PickNthChild",
+    "short_name": "Sprite.Cnds.PickNthChild"
+  },
+  {
+    "index": 102,
+    "symbol": "C3.Plugins.System.Exps.loopindex",
+    "short_name": "System.Exps.loopindex"
+  },
+  {
+    "index": 103,
+    "symbol": "C3.Plugins.Sprite.Acts.SetBoolInstanceVar",
+    "short_name": "Sprite.Acts.SetBoolInstanceVar"
+  },
+  {
+    "index": 104,
+    "symbol": "C3.Plugins.System.Acts.CreateObject",
+    "short_name": "System.Acts.CreateObject"
+  },
+  {
+    "index": 105,
+    "symbol": "C3.Plugins.TiledBg.Acts.MoveToBottom",
+    "short_name": "TiledBg.Acts.MoveToBottom"
+  },
+  {
+    "index": 106,
+    "symbol": "C3.Plugins.TiledBg.Acts.SetAngle",
+    "short_name": "TiledBg.Acts.SetAngle"
+  },
+  {
+    "index": 107,
+    "symbol": "C3.Plugins.TiledBg.Acts.SetDefaultColor",
+    "short_name": "TiledBg.Acts.SetDefaultColor"
+  },
+  {
+    "index": 108,
+    "symbol": "C3.Plugins.System.Acts.Wait",
+    "short_name": "System.Acts.Wait"
+  },
+  {
+    "index": 109,
+    "symbol": "C3.Plugins.Sprite.Cnds.PickParent",
+    "short_name": "Sprite.Cnds.PickParent"
+  },
+  {
+    "index": 110,
+    "symbol": "C3.Plugins.System.Cnds.Every",
+    "short_name": "System.Cnds.Every"
+  },
+  {
+    "index": 111,
+    "symbol": "C3.Plugins.System.Cnds.TriggerOnce",
+    "short_name": "System.Cnds.TriggerOnce"
+  },
+  {
+    "index": 112,
+    "symbol": "C3.Behaviors.Tween.Cnds.IsPlaying",
+    "short_name": "Tween.Cnds.IsPlaying"
+  },
+  {
+    "index": 113,
+    "symbol": "C3.Behaviors.Tween.Exps.Value",
+    "short_name": "Tween.Exps.Value"
+  },
+  {
+    "index": 114,
+    "symbol": "C3.Plugins.NinePatch.Acts.SetPos",
+    "short_name": "NinePatch.Acts.SetPos"
+  },
+  {
+    "index": 115,
+    "symbol": "C3.Plugins.System.Exps.layertolayerx",
+    "short_name": "System.Exps.layertolayerx"
+  },
+  {
+    "index": 116,
+    "symbol": "C3.Plugins.System.Exps.layertolayery",
+    "short_name": "System.Exps.layertolayery"
+  },
+  {
+    "index": 117,
+    "symbol": "C3.Plugins.Spritefont2.Acts.SetScale",
+    "short_name": "Spritefont2.Acts.SetScale"
+  },
+  {
+    "index": 118,
+    "symbol": "C3.Plugins.NinePatch.Exps.Width",
+    "short_name": "NinePatch.Exps.Width"
+  },
+  {
+    "index": 119,
+    "symbol": "C3.Plugins.NinePatch.Acts.SetVisible",
+    "short_name": "NinePatch.Acts.SetVisible"
+  },
+  {
+    "index": 120,
+    "symbol": "C3.Plugins.NinePatch.Acts.SetEffectParam",
+    "short_name": "NinePatch.Acts.SetEffectParam"
+  },
+  {
+    "index": 121,
+    "symbol": "C3.Plugins.Sprite.Acts.SetDefaultColor",
+    "short_name": "Sprite.Acts.SetDefaultColor"
+  },
+  {
+    "index": 122,
+    "symbol": "C3.Plugins.System.Exps.uppercase",
+    "short_name": "System.Exps.uppercase"
+  },
+  {
+    "index": 123,
+    "symbol": "C3.Plugins.System.Exps.replace",
+    "short_name": "System.Exps.replace"
+  },
+  {
+    "index": 124,
+    "symbol": "C3.Plugins.System.Exps.tokencount",
+    "short_name": "System.Exps.tokencount"
+  },
+  {
+    "index": 125,
+    "symbol": "C3.Plugins.Spritefont2.Acts.SetEffectParam",
+    "short_name": "Spritefont2.Acts.SetEffectParam"
+  },
+  {
+    "index": 126,
+    "symbol": "C3.Plugins.TiledBg.Acts.SetEffectParam",
+    "short_name": "TiledBg.Acts.SetEffectParam"
+  },
+  {
+    "index": 127,
+    "symbol": "C3.Plugins.Particles.Acts.SetSpraying",
+    "short_name": "Particles.Acts.SetSpraying"
+  },
+  {
+    "index": 128,
+    "symbol": "C3.Behaviors.Platform.Acts.SimulateControl",
+    "short_name": "Platform.Acts.SimulateControl"
+  },
+  {
+    "index": 129,
+    "symbol": "C3.Plugins.TiledBg.Acts.SetPosToObject",
+    "short_name": "TiledBg.Acts.SetPosToObject"
+  },
+  {
+    "index": 130,
+    "symbol": "C3.Plugins.Sprite.Acts.SetPosToObject",
+    "short_name": "Sprite.Acts.SetPosToObject"
+  },
+  {
+    "index": 131,
+    "symbol": "C3.Plugins.Sprite.Acts.ZMoveToObject",
+    "short_name": "Sprite.Acts.ZMoveToObject"
+  },
+  {
+    "index": 132,
+    "symbol": "C3.Plugins.Sprite.Acts.SetAnim",
+    "short_name": "Sprite.Acts.SetAnim"
+  },
+  {
+    "index": 133,
+    "symbol": "C3.Behaviors.Platform.Acts.SetMaxSpeed",
+    "short_name": "Platform.Acts.SetMaxSpeed"
+  },
+  {
+    "index": 134,
+    "symbol": "C3.Plugins.System.Exps.random",
+    "short_name": "System.Exps.random"
+  },
+  {
+    "index": 135,
+    "symbol": "C3.Behaviors.Platform.Cnds.IsOnFloor",
+    "short_name": "Platform.Cnds.IsOnFloor"
+  },
+  {
+    "index": 136,
+    "symbol": "C3.Behaviors.Platform.Cnds.IsMoving",
+    "short_name": "Platform.Cnds.IsMoving"
+  },
+  {
+    "index": 137,
+    "symbol": "C3.Behaviors.Platform.Cnds.OnJump",
+    "short_name": "Platform.Cnds.OnJump"
+  },
+  {
+    "index": 138,
+    "symbol": "C3.Behaviors.Tween.Acts.StopTweens",
+    "short_name": "Tween.Acts.StopTweens"
+  },
+  {
+    "index": 139,
+    "symbol": "C3.Plugins.Sprite.Exps.Width",
+    "short_name": "Sprite.Exps.Width"
+  },
+  {
+    "index": 140,
+    "symbol": "C3.Behaviors.Platform.Cnds.OnLand",
+    "short_name": "Platform.Cnds.OnLand"
+  },
+  {
+    "index": 141,
+    "symbol": "C3.Plugins.Sprite.Acts.SetWidth",
+    "short_name": "Sprite.Acts.SetWidth"
+  },
+  {
+    "index": 142,
+    "symbol": "C3.Behaviors.MoveTo.Cnds.IsMoving",
+    "short_name": "MoveTo.Cnds.IsMoving"
+  },
+  {
+    "index": 143,
+    "symbol": "C3.Plugins.System.Acts.SetVar",
+    "short_name": "System.Acts.SetVar"
+  },
+  {
+    "index": 144,
+    "symbol": "C3.Plugins.Sprite.Cnds.IsOnScreen",
+    "short_name": "Sprite.Cnds.IsOnScreen"
+  },
+  {
+    "index": 145,
+    "symbol": "C3.Plugins.Sprite.Cnds.OnAnyAnimFinished",
+    "short_name": "Sprite.Cnds.OnAnyAnimFinished"
+  },
+  {
+    "index": 146,
+    "symbol": "C3.Plugins.Sprite.Acts.Destroy",
+    "short_name": "Sprite.Acts.Destroy"
+  },
+  {
+    "index": 147,
+    "symbol": "C3.Plugins.Sprite.Cnds.OnDestroyed",
+    "short_name": "Sprite.Cnds.OnDestroyed"
+  },
+  {
+    "index": 148,
+    "symbol": "C3.Plugins.System.Exps.layoutname",
+    "short_name": "System.Exps.layoutname"
+  },
+  {
+    "index": 149,
+    "symbol": "C3.Plugins.System.Acts.GoToLayout",
+    "short_name": "System.Acts.GoToLayout"
+  },
+  {
+    "index": 150,
+    "symbol": "C3.Plugins.Sprite.Cnds.IsOverlapping",
+    "short_name": "Sprite.Cnds.IsOverlapping"
+  },
+  {
+    "index": 151,
+    "symbol": "C3.Plugins.Dictionary.Cnds.HasKey",
+    "short_name": "Dictionary.Cnds.HasKey"
+  },
+  {
+    "index": 152,
+    "symbol": "C3.Plugins.Dictionary.Acts.AddKey",
+    "short_name": "Dictionary.Acts.AddKey"
+  },
+  {
+    "index": 153,
+    "symbol": "C3.Behaviors.Platform.Acts.SetIgnoreInput",
+    "short_name": "Platform.Acts.SetIgnoreInput"
+  },
+  {
+    "index": 154,
+    "symbol": "C3.Behaviors.MoveTo.Acts.Stop",
+    "short_name": "MoveTo.Acts.Stop"
+  },
+  {
+    "index": 155,
+    "symbol": "C3.Plugins.System.Cnds.ForEachOrdered",
+    "short_name": "System.Cnds.ForEachOrdered"
+  },
+  {
+    "index": 156,
+    "symbol": "C3.Behaviors.Sin.Acts.SetPhase",
+    "short_name": "Sin.Acts.SetPhase"
+  },
+  {
+    "index": 157,
+    "symbol": "C3.Behaviors.MoveTo.Cnds.OnArrived",
+    "short_name": "MoveTo.Cnds.OnArrived"
+  },
+  {
+    "index": 158,
+    "symbol": "C3.Plugins.System.Exps.choose",
+    "short_name": "System.Exps.choose"
+  },
+  {
+    "index": 159,
+    "symbol": "C3.Behaviors.MoveTo.Acts.MoveToPosition",
+    "short_name": "MoveTo.Acts.MoveToPosition"
+  },
+  {
+    "index": 160,
+    "symbol": "C3.Behaviors.MoveTo.Acts.SetMaxSpeed",
+    "short_name": "MoveTo.Acts.SetMaxSpeed"
+  },
+  {
+    "index": 161,
+    "symbol": "C3.Plugins.Sprite.Cnds.IsVisible",
+    "short_name": "Sprite.Cnds.IsVisible"
+  },
+  {
+    "index": 162,
+    "symbol": "C3.Plugins.System.Exps.max",
+    "short_name": "System.Exps.max"
+  },
+  {
+    "index": 163,
+    "symbol": "C3.Plugins.System.Exps.zeropad",
+    "short_name": "System.Exps.zeropad"
+  },
+  {
+    "index": 164,
+    "symbol": "C3.Behaviors.Orbit.Cnds.IsEnabled",
+    "short_name": "Orbit.Cnds.IsEnabled"
+  },
+  {
+    "index": 165,
+    "symbol": "C3.Plugins.System.Cnds.CompareBetween",
+    "short_name": "System.Cnds.CompareBetween"
+  },
+  {
+    "index": 166,
+    "symbol": "C3.Behaviors.Orbit.Exps.Rotation",
+    "short_name": "Orbit.Exps.Rotation"
+  },
+  {
+    "index": 167,
+    "symbol": "C3.Behaviors.Orbit.Acts.SetOffsetAngle",
+    "short_name": "Orbit.Acts.SetOffsetAngle"
+  },
+  {
+    "index": 168,
+    "symbol": "C3.Plugins.Spritefont2.Acts.SetDefaultColor",
+    "short_name": "Spritefont2.Acts.SetDefaultColor"
+  },
+  {
+    "index": 169,
+    "symbol": "C3.Plugins.System.Exps.rgbex255",
+    "short_name": "System.Exps.rgbex255"
+  },
+  {
+    "index": 170,
+    "symbol": "C3.Plugins.Sprite.Acts.SetOpacity",
+    "short_name": "Sprite.Acts.SetOpacity"
+  },
+  {
+    "index": 171,
+    "symbol": "C3.Plugins.Sprite.Acts.MoveToBottom",
+    "short_name": "Sprite.Acts.MoveToBottom"
+  },
+  {
+    "index": 172,
+    "symbol": "C3.Plugins.Sprite.Cnds.OnCollision",
+    "short_name": "Sprite.Cnds.OnCollision"
+  },
+  {
+    "index": 173,
+    "symbol": "C3.Plugins.Sprite.Acts.SetAnimSpeed",
+    "short_name": "Sprite.Acts.SetAnimSpeed"
+  },
+  {
+    "index": 174,
+    "symbol": "C3.Plugins.Sprite.Acts.StartAnim",
+    "short_name": "Sprite.Acts.StartAnim"
+  },
+  {
+    "index": 175,
+    "symbol": "C3.Plugins.TiledBg.Acts.SetPos",
+    "short_name": "TiledBg.Acts.SetPos"
+  },
+  {
+    "index": 176,
+    "symbol": "C3.Plugins.TiledBg.Exps.X",
+    "short_name": "TiledBg.Exps.X"
+  },
+  {
+    "index": 177,
+    "symbol": "C3.Plugins.TiledBg.Exps.Width",
+    "short_name": "TiledBg.Exps.Width"
+  },
+  {
+    "index": 178,
+    "symbol": "C3.Plugins.TiledBg.Exps.Y",
+    "short_name": "TiledBg.Exps.Y"
+  },
+  {
+    "index": 179,
+    "symbol": "C3.Plugins.Sprite.Exps.Height",
+    "short_name": "Sprite.Exps.Height"
+  },
+  {
+    "index": 180,
+    "symbol": "C3.Behaviors.Timer.Cnds.IsTimerRunning",
+    "short_name": "Timer.Cnds.IsTimerRunning"
+  },
+  {
+    "index": 181,
+    "symbol": "C3.Behaviors.Timer.Acts.StartTimer",
+    "short_name": "Timer.Acts.StartTimer"
+  },
+  {
+    "index": 182,
+    "symbol": "C3.Plugins.TiledBg.Acts.SetVisible",
+    "short_name": "TiledBg.Acts.SetVisible"
+  },
+  {
+    "index": 183,
+    "symbol": "C3.Plugins.Sprite.Acts.AddInstanceVar",
+    "short_name": "Sprite.Acts.AddInstanceVar"
+  },
+  {
+    "index": 184,
+    "symbol": "C3.Plugins.Audio.Cnds.IsTagPlaying",
+    "short_name": "Audio.Cnds.IsTagPlaying"
+  },
+  {
+    "index": 185,
+    "symbol": "C3.Plugins.Sprite.Exps.ImagePointY",
+    "short_name": "Sprite.Exps.ImagePointY"
+  },
+  {
+    "index": 186,
+    "symbol": "C3.Behaviors.Platform.Acts.SetVectorY",
+    "short_name": "Platform.Acts.SetVectorY"
+  },
+  {
+    "index": 187,
+    "symbol": "C3.Behaviors.Platform.Exps.JumpStrength",
+    "short_name": "Platform.Exps.JumpStrength"
+  },
+  {
+    "index": 188,
+    "symbol": "C3.Behaviors.Platform.Acts.SetJumpStrength",
+    "short_name": "Platform.Acts.SetJumpStrength"
+  },
+  {
+    "index": 189,
+    "symbol": "C3.Plugins.Sprite.Acts.SubInstanceVar",
+    "short_name": "Sprite.Acts.SubInstanceVar"
+  },
+  {
+    "index": 190,
+    "symbol": "C3.Plugins.Sprite.Exps.AnimationFrameCount",
+    "short_name": "Sprite.Exps.AnimationFrameCount"
+  },
+  {
+    "index": 191,
+    "symbol": "C3.Behaviors.Timer.Exps.Duration",
+    "short_name": "Timer.Exps.Duration"
+  },
+  {
+    "index": 192,
+    "symbol": "C3.Behaviors.Timer.Cnds.OnTimer",
+    "short_name": "Timer.Cnds.OnTimer"
+  },
+  {
+    "index": 193,
+    "symbol": "C3.Plugins.Sprite.Cnds.IsCollisionEnabled",
+    "short_name": "Sprite.Cnds.IsCollisionEnabled"
+  },
+  {
+    "index": 194,
+    "symbol": "C3.Plugins.Sprite.Acts.SetCollisions",
+    "short_name": "Sprite.Acts.SetCollisions"
+  },
+  {
+    "index": 195,
+    "symbol": "C3.Plugins.Sprite.Cnds.CompareFrame",
+    "short_name": "Sprite.Cnds.CompareFrame"
+  },
+  {
+    "index": 196,
+    "symbol": "C3.Plugins.Sprite.Acts.StopAnim",
+    "short_name": "Sprite.Acts.StopAnim"
+  },
+  {
+    "index": 197,
+    "symbol": "C3.Plugins.Spritefont2.Acts.SetVisible",
+    "short_name": "Spritefont2.Acts.SetVisible"
+  },
+  {
+    "index": 198,
+    "symbol": "C3.Plugins.Sprite.Acts.SetY",
+    "short_name": "Sprite.Acts.SetY"
+  },
+  {
+    "index": 199,
+    "symbol": "C3.Plugins.System.Cnds.CompareBoolVar",
+    "short_name": "System.Cnds.CompareBoolVar"
+  },
+  {
+    "index": 200,
+    "symbol": "C3.Plugins.Arr.Acts.SetX",
+    "short_name": "Arr.Acts.SetX"
+  },
+  {
+    "index": 201,
+    "symbol": "C3.Behaviors.Sin.Acts.SetEnabled",
+    "short_name": "Sin.Acts.SetEnabled"
+  },
+  {
+    "index": 202,
+    "symbol": "C3.Behaviors.Sin.Acts.SetPeriod",
+    "short_name": "Sin.Acts.SetPeriod"
+  },
+  {
+    "index": 203,
+    "symbol": "C3.Plugins.Audio.Acts.FadeVolume",
+    "short_name": "Audio.Acts.FadeVolume"
+  },
+  {
+    "index": 204,
+    "symbol": "C3.Plugins.Sprite.Cnds.OnAnimFinished",
+    "short_name": "Sprite.Cnds.OnAnimFinished"
+  }
+]

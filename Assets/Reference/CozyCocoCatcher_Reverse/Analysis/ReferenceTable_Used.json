@@ -1,0 +1,806 @@
+[
+  {
+    "index": 24,
+    "symbol": "C3.Plugins.System.Cnds.IsGroupActive",
+    "short_name": "System.Cnds.IsGroupActive",
+    "usage_count": 13
+  },
+  {
+    "index": 25,
+    "symbol": "C3.Plugins.Mouse.Cnds.OnWheel",
+    "short_name": "Mouse.Cnds.OnWheel",
+    "usage_count": 2
+  },
+  {
+    "index": 26,
+    "symbol": "C3.Plugins.System.Acts.SetLayoutScale",
+    "short_name": "System.Acts.SetLayoutScale",
+    "usage_count": 2
+  },
+  {
+    "index": 28,
+    "symbol": "C3.Plugins.Mouse.Cnds.IsButtonDown",
+    "short_name": "Mouse.Cnds.IsButtonDown",
+    "usage_count": 5
+  },
+  {
+    "index": 29,
+    "symbol": "C3.Plugins.Sprite.Acts.SetPos",
+    "short_name": "Sprite.Acts.SetPos",
+    "usage_count": 7
+  },
+  {
+    "index": 32,
+    "symbol": "C3.Plugins.Mouse.Cnds.OnClick",
+    "short_name": "Mouse.Cnds.OnClick",
+    "usage_count": 2
+  },
+  {
+    "index": 33,
+    "symbol": "C3.Plugins.Sprite.Acts.SetInstanceVar",
+    "short_name": "Sprite.Acts.SetInstanceVar",
+    "usage_count": 36
+  },
+  {
+    "index": 36,
+    "symbol": "C3.Plugins.Keyboard.Cnds.OnKey",
+    "short_name": "Keyboard.Cnds.OnKey",
+    "usage_count": 8
+  },
+  {
+    "index": 37,
+    "symbol": "C3.Behaviors.Tween.Acts.StopAllTweens",
+    "short_name": "Tween.Acts.StopAllTweens",
+    "usage_count": 2
+  },
+  {
+    "index": 38,
+    "symbol": "C3.Behaviors.Tween.Acts.TweenTwoProperties",
+    "short_name": "Tween.Acts.TweenTwoProperties",
+    "usage_count": 21
+  },
+  {
+    "index": 39,
+    "symbol": "C3.Plugins.Mouse.Cnds.OnRelease",
+    "short_name": "Mouse.Cnds.OnRelease",
+    "usage_count": 2
+  },
+  {
+    "index": 42,
+    "symbol": "C3.Plugins.System.Cnds.OnLayoutStart",
+    "short_name": "System.Cnds.OnLayoutStart",
+    "usage_count": 6
+  },
+  {
+    "index": 43,
+    "symbol": "C3.Plugins.Mouse.Acts.SetCursor2",
+    "short_name": "Mouse.Acts.SetCursor2",
+    "usage_count": 3
+  },
+  {
+    "index": 44,
+    "symbol": "C3.Plugins.System.Acts.SetFullscreenQuality",
+    "short_name": "System.Acts.SetFullscreenQuality",
+    "usage_count": 1
+  },
+  {
+    "index": 45,
+    "symbol": "C3.Plugins.Particles.Acts.FastForward",
+    "short_name": "Particles.Acts.FastForward",
+    "usage_count": 1
+  },
+  {
+    "index": 46,
+    "symbol": "C3.Plugins.System.Cnds.EveryTick",
+    "short_name": "System.Cnds.EveryTick",
+    "usage_count": 7
+  },
+  {
+    "index": 49,
+    "symbol": "C3.Plugins.Sprite.Acts.MoveToTop",
+    "short_name": "Sprite.Acts.MoveToTop",
+    "usage_count": 4
+  },
+  {
+    "index": 50,
+    "symbol": "C3.Plugins.TiledBg.Acts.SetWidth",
+    "short_name": "TiledBg.Acts.SetWidth",
+    "usage_count": 14
+  },
+  {
+    "index": 52,
+    "symbol": "C3.Plugins.TiledBg.Acts.SetImageOffsetX",
+    "short_name": "TiledBg.Acts.SetImageOffsetX",
+    "usage_count": 4
+  },
+  {
+    "index": 55,
+    "symbol": "C3.Plugins.TiledBg.Acts.SetImageOffsetY",
+    "short_name": "TiledBg.Acts.SetImageOffsetY",
+    "usage_count": 1
+  },
+  {
+    "index": 57,
+    "symbol": "C3.Plugins.Sprite.Acts.SetAnimFrame",
+    "short_name": "Sprite.Acts.SetAnimFrame",
+    "usage_count": 14
+  },
+  {
+    "index": 58,
+    "symbol": "C3.Plugins.System.Cnds.Else",
+    "short_name": "System.Cnds.Else",
+    "usage_count": 12
+  },
+  {
+    "index": 59,
+    "symbol": "C3.Plugins.Keyboard.Cnds.IsKeyDown",
+    "short_name": "Keyboard.Cnds.IsKeyDown",
+    "usage_count": 12
+  },
+  {
+    "index": 60,
+    "symbol": "C3.Plugins.Sprite.Cnds.CompareY",
+    "short_name": "Sprite.Cnds.CompareY",
+    "usage_count": 2
+  },
+  {
+    "index": 61,
+    "symbol": "C3.Behaviors.EightDir.Acts.SimulateControl",
+    "short_name": "EightDir.Acts.SimulateControl",
+    "usage_count": 4
+  },
+  {
+    "index": 62,
+    "symbol": "C3.Plugins.Sprite.Cnds.CompareX",
+    "short_name": "Sprite.Cnds.CompareX",
+    "usage_count": 2
+  },
+  {
+    "index": 63,
+    "symbol": "C3.Plugins.System.Cnds.ForEach",
+    "short_name": "System.Cnds.ForEach",
+    "usage_count": 5
+  },
+  {
+    "index": 64,
+    "symbol": "C3.Plugins.System.Cnds.Compare",
+    "short_name": "System.Cnds.Compare",
+    "usage_count": 5
+  },
+  {
+    "index": 66,
+    "symbol": "C3.Plugins.Spritefont2.Acts.SetText",
+    "short_name": "Spritefont2.Acts.SetText",
+    "usage_count": 13
+  },
+  {
+    "index": 69,
+    "symbol": "C3.Plugins.Arr.Cnds.CompareXY",
+    "short_name": "Arr.Cnds.CompareXY",
+    "usage_count": 7
+  },
+  {
+    "index": 71,
+    "symbol": "C3.Plugins.System.Cnds.CompareVar",
+    "short_name": "System.Cnds.CompareVar",
+    "usage_count": 10
+  },
+  {
+    "index": 72,
+    "symbol": "C3.Plugins.System.Acts.SetBoolVar",
+    "short_name": "System.Acts.SetBoolVar",
+    "usage_count": 1
+  },
+  {
+    "index": 73,
+    "symbol": "C3.Plugins.Sprite.Cnds.OnCreated",
+    "short_name": "Sprite.Cnds.OnCreated",
+    "usage_count": 9
+  },
+  {
+    "index": 74,
+    "symbol": "C3.Plugins.Sprite.Acts.AddChild",
+    "short_name": "Sprite.Acts.AddChild",
+    "usage_count": 9
+  },
+  {
+    "index": 75,
+    "symbol": "C3.Plugins.Particles.Acts.MoveToBottom",
+    "short_name": "Particles.Acts.MoveToBottom",
+    "usage_count": 1
+  },
+  {
+    "index": 76,
+    "symbol": "C3.Plugins.Sprite.Cnds.IsBoolInstanceVarSet",
+    "short_name": "Sprite.Cnds.IsBoolInstanceVarSet",
+    "usage_count": 6
+  },
+  {
+    "index": 77,
+    "symbol": "C3.Plugins.Sprite.Acts.SetVisible",
+    "short_name": "Sprite.Acts.SetVisible",
+    "usage_count": 27
+  },
+  {
+    "index": 78,
+    "symbol": "C3.Plugins.Sprite.Cnds.CompareInstanceVar",
+    "short_name": "Sprite.Cnds.CompareInstanceVar",
+    "usage_count": 30
+  },
+  {
+    "index": 79,
+    "symbol": "C3.Plugins.Particles.Acts.SetDefaultColor",
+    "short_name": "Particles.Acts.SetDefaultColor",
+    "usage_count": 1
+  },
+  {
+    "index": 81,
+    "symbol": "C3.Plugins.Sprite.Acts.SetEffectParam",
+    "short_name": "Sprite.Acts.SetEffectParam",
+    "usage_count": 6
+  },
+  {
+    "index": 82,
+    "symbol": "C3.Plugins.Mouse.Cnds.IsOverObject",
+    "short_name": "Mouse.Cnds.IsOverObject",
+    "usage_count": 4
+  },
+  {
+    "index": 84,
+    "symbol": "C3.Plugins.Audio.Acts.Play",
+    "short_name": "Audio.Acts.Play",
+    "usage_count": 13
+  },
+  {
+    "index": 85,
+    "symbol": "C3.Plugins.System.Acts.AddVar",
+    "short_name": "System.Acts.AddVar",
+    "usage_count": 2
+  },
+  {
+    "index": 86,
+    "symbol": "C3.Behaviors.scrollto.Acts.Shake",
+    "short_name": "scrollto.Acts.Shake",
+    "usage_count": 3
+  },
+  {
+    "index": 87,
+    "symbol": "C3.Plugins.Arr.Acts.SetXY",
+    "short_name": "Arr.Acts.SetXY",
+    "usage_count": 9
+  },
+  {
+    "index": 88,
+    "symbol": "C3.Plugins.Dictionary.Acts.SetKey",
+    "short_name": "Dictionary.Acts.SetKey",
+    "usage_count": 1
+  },
+  {
+    "index": 90,
+    "symbol": "C3.Plugins.Sprite.Acts.SetAngle",
+    "short_name": "Sprite.Acts.SetAngle",
+    "usage_count": 5
+  },
+  {
+    "index": 91,
+    "symbol": "C3.Plugins.Sprite.Acts.SetSize",
+    "short_name": "Sprite.Acts.SetSize",
+    "usage_count": 16
+  },
+  {
+    "index": 94,
+    "symbol": "C3.Behaviors.Tween.Acts.TweenOneProperty",
+    "short_name": "Tween.Acts.TweenOneProperty",
+    "usage_count": 25
+  },
+  {
+    "index": 95,
+    "symbol": "C3.Behaviors.Tween.Acts.TweenValue",
+    "short_name": "Tween.Acts.TweenValue",
+    "usage_count": 7
+  },
+  {
+    "index": 96,
+    "symbol": "C3.Plugins.NinePatch.Acts.SetAngle",
+    "short_name": "NinePatch.Acts.SetAngle",
+    "usage_count": 2
+  },
+  {
+    "index": 97,
+    "symbol": "C3.Plugins.Spritefont2.Cnds.CompareInstanceVar",
+    "short_name": "Spritefont2.Cnds.CompareInstanceVar",
+    "usage_count": 6
+  },
+  {
+    "index": 98,
+    "symbol": "C3.Plugins.Sprite.Cnds.PickChildren",
+    "short_name": "Sprite.Cnds.PickChildren",
+    "usage_count": 1
+  },
+  {
+    "index": 99,
+    "symbol": "C3.Plugins.System.Cnds.Repeat",
+    "short_name": "System.Cnds.Repeat",
+    "usage_count": 4
+  },
+  {
+    "index": 101,
+    "symbol": "C3.Plugins.Sprite.Cnds.PickNthChild",
+    "short_name": "Sprite.Cnds.PickNthChild",
+    "usage_count": 1
+  },
+  {
+    "index": 103,
+    "symbol": "C3.Plugins.Sprite.Acts.SetBoolInstanceVar",
+    "short_name": "Sprite.Acts.SetBoolInstanceVar",
+    "usage_count": 2
+  },
+  {
+    "index": 104,
+    "symbol": "C3.Plugins.System.Acts.CreateObject",
+    "short_name": "System.Acts.CreateObject",
+    "usage_count": 13
+  },
+  {
+    "index": 105,
+    "symbol": "C3.Plugins.TiledBg.Acts.MoveToBottom",
+    "short_name": "TiledBg.Acts.MoveToBottom",
+    "usage_count": 1
+  },
+  {
+    "index": 106,
+    "symbol": "C3.Plugins.TiledBg.Acts.SetAngle",
+    "short_name": "TiledBg.Acts.SetAngle",
+    "usage_count": 1
+  },
+  {
+    "index": 107,
+    "symbol": "C3.Plugins.TiledBg.Acts.SetDefaultColor",
+    "short_name": "TiledBg.Acts.SetDefaultColor",
+    "usage_count": 1
+  },
+  {
+    "index": 108,
+    "symbol": "C3.Plugins.System.Acts.Wait",
+    "short_name": "System.Acts.Wait",
+    "usage_count": 27
+  },
+  {
+    "index": 109,
+    "symbol": "C3.Plugins.Sprite.Cnds.PickParent",
+    "short_name": "Sprite.Cnds.PickParent",
+    "usage_count": 1
+  },
+  {
+    "index": 110,
+    "symbol": "C3.Plugins.System.Cnds.Every",
+    "short_name": "System.Cnds.Every",
+    "usage_count": 9
+  },
+  {
+    "index": 111,
+    "symbol": "C3.Plugins.System.Cnds.TriggerOnce",
+    "short_name": "System.Cnds.TriggerOnce",
+    "usage_count": 2
+  },
+  {
+    "index": 112,
+    "symbol": "C3.Behaviors.Tween.Cnds.IsPlaying",
+    "short_name": "Tween.Cnds.IsPlaying",
+    "usage_count": 6
+  },
+  {
+    "index": 114,
+    "symbol": "C3.Plugins.NinePatch.Acts.SetPos",
+    "short_name": "NinePatch.Acts.SetPos",
+    "usage_count": 1
+  },
+  {
+    "index": 117,
+    "symbol": "C3.Plugins.Spritefont2.Acts.SetScale",
+    "short_name": "Spritefont2.Acts.SetScale",
+    "usage_count": 2
+  },
+  {
+    "index": 119,
+    "symbol": "C3.Plugins.NinePatch.Acts.SetVisible",
+    "short_name": "NinePatch.Acts.SetVisible",
+    "usage_count": 2
+  },
+  {
+    "index": 120,
+    "symbol": "C3.Plugins.NinePatch.Acts.SetEffectParam",
+    "short_name": "NinePatch.Acts.SetEffectParam",
+    "usage_count": 2
+  },
+  {
+    "index": 121,
+    "symbol": "C3.Plugins.Sprite.Acts.SetDefaultColor",
+    "short_name": "Sprite.Acts.SetDefaultColor",
+    "usage_count": 5
+  },
+  {
+    "index": 125,
+    "symbol": "C3.Plugins.Spritefont2.Acts.SetEffectParam",
+    "short_name": "Spritefont2.Acts.SetEffectParam",
+    "usage_count": 2
+  },
+  {
+    "index": 126,
+    "symbol": "C3.Plugins.TiledBg.Acts.SetEffectParam",
+    "short_name": "TiledBg.Acts.SetEffectParam",
+    "usage_count": 1
+  },
+  {
+    "index": 127,
+    "symbol": "C3.Plugins.Particles.Acts.SetSpraying",
+    "short_name": "Particles.Acts.SetSpraying",
+    "usage_count": 1
+  },
+  {
+    "index": 128,
+    "symbol": "C3.Behaviors.Platform.Acts.SimulateControl",
+    "short_name": "Platform.Acts.SimulateControl",
+    "usage_count": 6
+  },
+  {
+    "index": 129,
+    "symbol": "C3.Plugins.TiledBg.Acts.SetPosToObject",
+    "short_name": "TiledBg.Acts.SetPosToObject",
+    "usage_count": 2
+  },
+  {
+    "index": 130,
+    "symbol": "C3.Plugins.Sprite.Acts.SetPosToObject",
+    "short_name": "Sprite.Acts.SetPosToObject",
+    "usage_count": 9
+  },
+  {
+    "index": 131,
+    "symbol": "C3.Plugins.Sprite.Acts.ZMoveToObject",
+    "short_name": "Sprite.Acts.ZMoveToObject",
+    "usage_count": 2
+  },
+  {
+    "index": 132,
+    "symbol": "C3.Plugins.Sprite.Acts.SetAnim",
+    "short_name": "Sprite.Acts.SetAnim",
+    "usage_count": 8
+  },
+  {
+    "index": 133,
+    "symbol": "C3.Behaviors.Platform.Acts.SetMaxSpeed",
+    "short_name": "Platform.Acts.SetMaxSpeed",
+    "usage_count": 3
+  },
+  {
+    "index": 135,
+    "symbol": "C3.Behaviors.Platform.Cnds.IsOnFloor",
+    "short_name": "Platform.Cnds.IsOnFloor",
+    "usage_count": 4
+  },
+  {
+    "index": 136,
+    "symbol": "C3.Behaviors.Platform.Cnds.IsMoving",
+    "short_name": "Platform.Cnds.IsMoving",
+    "usage_count": 2
+  },
+  {
+    "index": 137,
+    "symbol": "C3.Behaviors.Platform.Cnds.OnJump",
+    "short_name": "Platform.Cnds.OnJump",
+    "usage_count": 1
+  },
+  {
+    "index": 138,
+    "symbol": "C3.Behaviors.Tween.Acts.StopTweens",
+    "short_name": "Tween.Acts.StopTweens",
+    "usage_count": 4
+  },
+  {
+    "index": 140,
+    "symbol": "C3.Behaviors.Platform.Cnds.OnLand",
+    "short_name": "Platform.Cnds.OnLand",
+    "usage_count": 2
+  },
+  {
+    "index": 141,
+    "symbol": "C3.Plugins.Sprite.Acts.SetWidth",
+    "short_name": "Sprite.Acts.SetWidth",
+    "usage_count": 3
+  },
+  {
+    "index": 142,
+    "symbol": "C3.Behaviors.MoveTo.Cnds.IsMoving",
+    "short_name": "MoveTo.Cnds.IsMoving",
+    "usage_count": 1
+  },
+  {
+    "index": 143,
+    "symbol": "C3.Plugins.System.Acts.SetVar",
+    "short_name": "System.Acts.SetVar",
+    "usage_count": 7
+  },
+  {
+    "index": 144,
+    "symbol": "C3.Plugins.Sprite.Cnds.IsOnScreen",
+    "short_name": "Sprite.Cnds.IsOnScreen",
+    "usage_count": 1
+  },
+  {
+    "index": 145,
+    "symbol": "C3.Plugins.Sprite.Cnds.OnAnyAnimFinished",
+    "short_name": "Sprite.Cnds.OnAnyAnimFinished",
+    "usage_count": 3
+  },
+  {
+    "index": 146,
+    "symbol": "C3.Plugins.Sprite.Acts.Destroy",
+    "short_name": "Sprite.Acts.Destroy",
+    "usage_count": 6
+  },
+  {
+    "index": 147,
+    "symbol": "C3.Plugins.Sprite.Cnds.OnDestroyed",
+    "short_name": "Sprite.Cnds.OnDestroyed",
+    "usage_count": 3
+  },
+  {
+    "index": 149,
+    "symbol": "C3.Plugins.System.Acts.GoToLayout",
+    "short_name": "System.Acts.GoToLayout",
+    "usage_count": 6
+  },
+  {
+    "index": 150,
+    "symbol": "C3.Plugins.Sprite.Cnds.IsOverlapping",
+    "short_name": "Sprite.Cnds.IsOverlapping",
+    "usage_count": 9
+  },
+  {
+    "index": 151,
+    "symbol": "C3.Plugins.Dictionary.Cnds.HasKey",
+    "short_name": "Dictionary.Cnds.HasKey",
+    "usage_count": 10
+  },
+  {
+    "index": 152,
+    "symbol": "C3.Plugins.Dictionary.Acts.AddKey",
+    "short_name": "Dictionary.Acts.AddKey",
+    "usage_count": 10
+  },
+  {
+    "index": 153,
+    "symbol": "C3.Behaviors.Platform.Acts.SetIgnoreInput",
+    "short_name": "Platform.Acts.SetIgnoreInput",
+    "usage_count": 4
+  },
+  {
+    "index": 154,
+    "symbol": "C3.Behaviors.MoveTo.Acts.Stop",
+    "short_name": "MoveTo.Acts.Stop",
+    "usage_count": 1
+  },
+  {
+    "index": 155,
+    "symbol": "C3.Plugins.System.Cnds.ForEachOrdered",
+    "short_name": "System.Cnds.ForEachOrdered",
+    "usage_count": 1
+  },
+  {
+    "index": 156,
+    "symbol": "C3.Behaviors.Sin.Acts.SetPhase",
+    "short_name": "Sin.Acts.SetPhase",
+    "usage_count": 1
+  },
+  {
+    "index": 157,
+    "symbol": "C3.Behaviors.MoveTo.Cnds.OnArrived",
+    "short_name": "MoveTo.Cnds.OnArrived",
+    "usage_count": 2
+  },
+  {
+    "index": 159,
+    "symbol": "C3.Behaviors.MoveTo.Acts.MoveToPosition",
+    "short_name": "MoveTo.Acts.MoveToPosition",
+    "usage_count": 3
+  },
+  {
+    "index": 160,
+    "symbol": "C3.Behaviors.MoveTo.Acts.SetMaxSpeed",
+    "short_name": "MoveTo.Acts.SetMaxSpeed",
+    "usage_count": 2
+  },
+  {
+    "index": 161,
+    "symbol": "C3.Plugins.Sprite.Cnds.IsVisible",
+    "short_name": "Sprite.Cnds.IsVisible",
+    "usage_count": 2
+  },
+  {
+    "index": 164,
+    "symbol": "C3.Behaviors.Orbit.Cnds.IsEnabled",
+    "short_name": "Orbit.Cnds.IsEnabled",
+    "usage_count": 1
+  },
+  {
+    "index": 165,
+    "symbol": "C3.Plugins.System.Cnds.CompareBetween",
+    "short_name": "System.Cnds.CompareBetween",
+    "usage_count": 1
+  },
+  {
+    "index": 167,
+    "symbol": "C3.Behaviors.Orbit.Acts.SetOffsetAngle",
+    "short_name": "Orbit.Acts.SetOffsetAngle",
+    "usage_count": 1
+  },
+  {
+    "index": 168,
+    "symbol": "C3.Plugins.Spritefont2.Acts.SetDefaultColor",
+    "short_name": "Spritefont2.Acts.SetDefaultColor",
+    "usage_count": 2
+  },
+  {
+    "index": 170,
+    "symbol": "C3.Plugins.Sprite.Acts.SetOpacity",
+    "short_name": "Sprite.Acts.SetOpacity",
+    "usage_count": 3
+  },
+  {
+    "index": 171,
+    "symbol": "C3.Plugins.Sprite.Acts.MoveToBottom",
+    "short_name": "Sprite.Acts.MoveToBottom",
+    "usage_count": 1
+  },
+  {
+    "index": 172,
+    "symbol": "C3.Plugins.Sprite.Cnds.OnCollision",
+    "short_name": "Sprite.Cnds.OnCollision",
+    "usage_count": 3
+  },
+  {
+    "index": 173,
+    "symbol": "C3.Plugins.Sprite.Acts.SetAnimSpeed",
+    "short_name": "Sprite.Acts.SetAnimSpeed",
+    "usage_count": 4
+  },
+  {
+    "index": 174,
+    "symbol": "C3.Plugins.Sprite.Acts.StartAnim",
+    "short_name": "Sprite.Acts.StartAnim",
+    "usage_count": 3
+  },
+  {
+    "index": 175,
+    "symbol": "C3.Plugins.TiledBg.Acts.SetPos",
+    "short_name": "TiledBg.Acts.SetPos",
+    "usage_count": 2
+  },
+  {
+    "index": 180,
+    "symbol": "C3.Behaviors.Timer.Cnds.IsTimerRunning",
+    "short_name": "Timer.Cnds.IsTimerRunning",
+    "usage_count": 1
+  },
+  {
+    "index": 181,
+    "symbol": "C3.Behaviors.Timer.Acts.StartTimer",
+    "short_name": "Timer.Acts.StartTimer",
+    "usage_count": 2
+  },
+  {
+    "index": 182,
+    "symbol": "C3.Plugins.TiledBg.Acts.SetVisible",
+    "short_name": "TiledBg.Acts.SetVisible",
+    "usage_count": 7
+  },
+  {
+    "index": 183,
+    "symbol": "C3.Plugins.Sprite.Acts.AddInstanceVar",
+    "short_name": "Sprite.Acts.AddInstanceVar",
+    "usage_count": 3
+  },
+  {
+    "index": 184,
+    "symbol": "C3.Plugins.Audio.Cnds.IsTagPlaying",
+    "short_name": "Audio.Cnds.IsTagPlaying",
+    "usage_count": 2
+  },
+  {
+    "index": 186,
+    "symbol": "C3.Behaviors.Platform.Acts.SetVectorY",
+    "short_name": "Platform.Acts.SetVectorY",
+    "usage_count": 2
+  },
+  {
+    "index": 188,
+    "symbol": "C3.Behaviors.Platform.Acts.SetJumpStrength",
+    "short_name": "Platform.Acts.SetJumpStrength",
+    "usage_count": 2
+  },
+  {
+    "index": 189,
+    "symbol": "C3.Plugins.Sprite.Acts.SubInstanceVar",
+    "short_name": "Sprite.Acts.SubInstanceVar",
+    "usage_count": 3
+  },
+  {
+    "index": 192,
+    "symbol": "C3.Behaviors.Timer.Cnds.OnTimer",
+    "short_name": "Timer.Cnds.OnTimer",
+    "usage_count": 1
+  },
+  {
+    "index": 193,
+    "symbol": "C3.Plugins.Sprite.Cnds.IsCollisionEnabled",
+    "short_name": "Sprite.Cnds.IsCollisionEnabled",
+    "usage_count": 2
+  },
+  {
+    "index": 194,
+    "symbol": "C3.Plugins.Sprite.Acts.SetCollisions",
+    "short_name": "Sprite.Acts.SetCollisions",
+    "usage_count": 4
+  },
+  {
+    "index": 195,
+    "symbol": "C3.Plugins.Sprite.Cnds.CompareFrame",
+    "short_name": "Sprite.Cnds.CompareFrame",
+    "usage_count": 3
+  },
+  {
+    "index": 196,
+    "symbol": "C3.Plugins.Sprite.Acts.StopAnim",
+    "short_name": "Sprite.Acts.StopAnim",
+    "usage_count": 1
+  },
+  {
+    "index": 197,
+    "symbol": "C3.Plugins.Spritefont2.Acts.SetVisible",
+    "short_name": "Spritefont2.Acts.SetVisible",
+    "usage_count": 4
+  },
+  {
+    "index": 198,
+    "symbol": "C3.Plugins.Sprite.Acts.SetY",
+    "short_name": "Sprite.Acts.SetY",
+    "usage_count": 1
+  },
+  {
+    "index": 199,
+    "symbol": "C3.Plugins.System.Cnds.CompareBoolVar",
+    "short_name": "System.Cnds.CompareBoolVar",
+    "usage_count": 1
+  },
+  {
+    "index": 200,
+    "symbol": "C3.Plugins.Arr.Acts.SetX",
+    "short_name": "Arr.Acts.SetX",
+    "usage_count": 3
+  },
+  {
+    "index": 201,
+    "symbol": "C3.Behaviors.Sin.Acts.SetEnabled",
+    "short_name": "Sin.Acts.SetEnabled",
+    "usage_count": 3
+  },
+  {
+    "index": 202,
+    "symbol": "C3.Behaviors.Sin.Acts.SetPeriod",
+    "short_name": "Sin.Acts.SetPeriod",
+    "usage_count": 1
+  },
+  {
+    "index": 203,
+    "symbol": "C3.Plugins.Audio.Acts.FadeVolume",
+    "short_name": "Audio.Acts.FadeVolume",
+    "usage_count": 1
+  },
+  {
+    "index": 204,
+    "symbol": "C3.Plugins.Sprite.Cnds.OnAnimFinished",
+    "short_name": "Sprite.Cnds.OnAnimFinished",
+    "usage_count": 1
+  }
+]

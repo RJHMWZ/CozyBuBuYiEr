@@ -1,0 +1,35 @@
+# 图片资源清单
+
+- `GameFiles/html/18013330/icons/icon-128.png` — 128 × 128, RGBA, 22267 bytes
+- `GameFiles/html/18013330/icons/icon-16.png` — 16 × 16, RGBA, 16505 bytes
+- `GameFiles/html/18013330/icons/icon-256.png` — 256 × 256, RGBA, 28930 bytes
+- `GameFiles/html/18013330/icons/icon-32.png` — 32 × 32, RGBA, 17541 bytes
+- `GameFiles/html/18013330/icons/icon-512.png` — 512 × 512, RGBA, 30345 bytes
+- `GameFiles/html/18013330/icons/icon-64.png` — 64 × 64, RGBA, 19120 bytes
+- `GameFiles/html/18013330/icons/loading-logo.png` — 64 × 64, RGBA, 19120 bytes
+- `GameFiles/html/18013330/images/bg-sheet0.webp` — 320 × 180, RGB, 2188 bytes
+- `GameFiles/html/18013330/images/clock-sheet0.webp` — 64 × 128, RGBA, 2378 bytes
+- `GameFiles/html/18013330/images/cocoamount-sheet0.webp` — 20 × 8, RGBA, 650 bytes
+- `GameFiles/html/18013330/images/cocobar-sheet0.webp` — 20 × 8, RGBA, 590 bytes
+- `GameFiles/html/18013330/images/coin-sheet0.webp` — 64 × 64, RGBA, 1788 bytes
+- `GameFiles/html/18013330/images/expbar-sheet0.webp` — 35 × 4, RGBA, 614 bytes
+- `GameFiles/html/18013330/images/featurekreeplogo-sheet0.webp` — 512 × 512, RGBA, 22754 bytes
+- `GameFiles/html/18013330/images/merchantprogress-sheet0.webp` — 256 × 256, RGBA, 17366 bytes
+- `GameFiles/html/18013330/images/mountains-sheet0.webp` — 310 × 80, RGBA, 2368 bytes
+- `GameFiles/html/18013330/images/node-sheet0.webp` — 128 × 128, RGBA, 6154 bytes
+- `GameFiles/html/18013330/images/nodebg-sheet0.webp` — 64 × 64, RGB, 1814 bytes
+- `GameFiles/html/18013330/images/nodeline-sheet0.webp` — 20 × 4, RGB, 584 bytes
+- `GameFiles/html/18013330/images/nodeprogress-sheet0.webp` — 170 × 16, RGBA, 1338 bytes
+- `GameFiles/html/18013330/images/playersprite-sheet0.webp` — 128 × 256, RGBA, 12010 bytes
+- `GameFiles/html/18013330/images/resourceget-sheet0.webp` — 128 × 128, RGBA, 1410 bytes
+- `GameFiles/html/18013330/images/resourceicon-sheet0.webp` — 64 × 128, RGBA, 3204 bytes
+- `GameFiles/html/18013330/images/sea-sheet0.webp` — 100 × 80, RGB, 2884 bytes
+- `GameFiles/html/18013330/images/seaclouds-sheet0.webp` — 280 × 39, RGBA, 1256 bytes
+- `GameFiles/html/18013330/images/shakeprogress-sheet0.webp` — 20 × 4, RGBA, 592 bytes
+- `GameFiles/html/18013330/images/shared-0-sheet0.webp` — 512 × 1024, RGBA, 65338 bytes
+- `GameFiles/html/18013330/images/shared-0-sheet1.webp` — 256 × 512, RGBA, 43186 bytes
+- `GameFiles/html/18013330/images/shared-0-sheet2.webp` — 64 × 64, RGBA, 1916 bytes
+- `GameFiles/html/18013330/images/skillicon-sheet0.webp` — 512 × 512, RGBA, 58364 bytes
+- `GameFiles/html/18013330/images/tierbar-sheet0.webp` — 200 × 12, RGBA, 1654 bytes
+- `GameFiles/html/18013330/images/treecooldown-sheet0.webp` — 64 × 64, RGBA, 1976 bytes
+- `GameFiles/html/18013330/images/water-sheet0.webp` — 128 × 128, RGBA, 6628 bytes
